@@ -557,7 +557,7 @@ nav.phasenav button .badge-dot {
 }
 
 .book.open .book-desc {
-  max-height: 300px;
+  max-height: 800px;
 }
 
 /* Highlight search match */
