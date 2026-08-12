@@ -11,6 +11,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p0-s0-b0",
+            type: "non-fiction",
             title: "The Pyramid Principle",
             author: "Barbara Minto",
             year: 1987,
@@ -19,6 +20,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s0-b1",
+            type: "non-fiction",
             title: "A Rulebook for Arguments",
             author: "Anthony Weston",
             year: 2008,
@@ -27,6 +29,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s0-b2",
+            type: "non-fiction",
             title: "Clear Thinking",
             author: "Shane Parrish",
             year: 2023,
@@ -35,6 +38,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s0-b3",
+            type: "non-fiction",
             title: "How Not to Be Wrong",
             author: "Jordan Ellenberg",
             year: 2014,
@@ -48,6 +52,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p0-s1-b0",
+            type: "non-fiction",
             title: "On Writing Well",
             author: "William Zinsser",
             year: 1976,
@@ -56,6 +61,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s1-b1",
+            type: "non-fiction",
             title: "Politics and the English Language (esai)",
             author: "George Orwell",
             year: 1946,
@@ -69,6 +75,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p0-s2-b0",
+            type: "non-fiction",
             title: "Made to Stick",
             author: "Chip Heath & Dan Heath",
             year: 2007,
@@ -77,6 +84,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s2-b1",
+            type: "non-fiction",
             title: "The Sense of Style",
             author: "Steven Pinker",
             year: 2014,
@@ -90,6 +98,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p0-s3-b0",
+            type: "non-fiction",
             title: "Speaking Up Without Freaking Out",
             author: "Matt Abrahams",
             year: 2016,
@@ -98,6 +107,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s3-b1",
+            type: "non-fiction",
             title: "Talk Like TED",
             author: "Carmine Gallo",
             year: 2014,
@@ -111,6 +121,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p0-s4-b0",
+            type: "non-fiction",
             title: "How to Win Friends and Influence People",
             author: "Dale Carnegie",
             year: 1936,
@@ -119,6 +130,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s4-b1",
+            type: "non-fiction",
             title: "You're Not Listening",
             author: "Kate Murphy",
             year: 2020,
@@ -127,6 +139,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s4-b2",
+            type: "non-fiction",
             title: "Thank You for Arguing",
             author: "Jay Heinrichs",
             year: 2007,
@@ -135,6 +148,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s4-b3",
+            type: "non-fiction",
             title: "Crucial Conversations",
             author: "Kerry Patterson dkk",
             year: 2002,
@@ -148,6 +162,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p0-s5-b0",
+            type: "non-fiction",
             title: "What Every BODY is Saying",
             author: "Joe Navarro",
             year: 2008,
@@ -161,6 +176,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p0-s6-b0",
+            type: "non-fiction",
             title: "Story",
             author: "Robert McKee",
             year: 1997,
@@ -183,6 +199,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p1-s0-b0",
+            type: "non-fiction",
             title: "A Brief History of Time",
             author: "Stephen Hawking",
             year: 1988,
@@ -191,6 +208,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s0-b1",
+            type: "non-fiction",
             title: "Cosmos",
             author: "Carl Sagan",
             year: 1980,
@@ -199,6 +217,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s0-b2",
+            type: "non-fiction",
             title: "The Big Picture",
             author: "Sean Carroll",
             year: 2016,
@@ -207,6 +226,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s0-b3",
+            type: "non-fiction",
             title: "A Short History of Nearly Everything",
             author: "Bill Bryson",
             year: 2003,
@@ -220,6 +240,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p1-s1-b0",
+            type: "non-fiction",
             title: "The Selfish Gene",
             author: "Richard Dawkins",
             year: 1976,
@@ -228,6 +249,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s1-b1",
+            type: "non-fiction",
             title: "The Third Chimpanzee",
             author: "Jared Diamond",
             year: 1991,
@@ -236,6 +258,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s1-b2",
+            type: "non-fiction",
             title: "The Story of the Human Body",
             author: "Daniel Lieberman",
             year: 2013,
@@ -244,6 +267,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s1-b3",
+            type: "non-fiction",
             title: "Behave",
             author: "Robert Sapolsky",
             year: 2017,
@@ -252,6 +276,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s1-b4",
+            type: "non-fiction",
             title: "The Gene: An Intimate History",
             author: "Siddhartha Mukherjee",
             year: 2016,
@@ -265,6 +290,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p1-s2-b0",
+            type: "non-fiction",
             title: "Incognito",
             author: "David Eagleman",
             year: 2011,
@@ -273,6 +299,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s2-b1",
+            type: "non-fiction",
             title: "The Brain That Changes Itself",
             author: "Norman Doidge",
             year: 2007,
@@ -281,6 +308,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s2-b2",
+            type: "non-fiction",
             title: "The Blank Slate",
             author: "Steven Pinker",
             year: 2002,
@@ -289,6 +317,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s2-b3",
+            type: "non-fiction",
             title: "Attached",
             author: "Amir Levine & Rachel Heller",
             year: 2010,
@@ -297,6 +326,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s2-b4",
+            type: "non-fiction",
             title: "The Moral Animal",
             author: "Robert Wright",
             year: 1994,
@@ -305,6 +335,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s2-b5",
+            type: "non-fiction",
             title: "How Emotions Are Made",
             author: "Lisa Feldman Barrett",
             year: 2017,
@@ -313,6 +344,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s2-b6",
+            type: "non-fiction",
             title: "The Body Keeps the Score",
             author: "Bessel van der Kolk",
             year: 2014,
@@ -326,6 +358,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p1-s3-b0",
+            type: "non-fiction",
             title: "Thinking, Fast and Slow",
             author: "Daniel Kahneman",
             year: 2011,
@@ -334,6 +367,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p1-s3-b1",
+            type: "non-fiction",
             title: "Predictably Irrational",
             author: "Dan Ariely",
             year: 2008,
@@ -356,6 +390,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p2-s0-b0",
+            type: "non-fiction",
             title: "The Language Instinct",
             author: "Steven Pinker",
             year: 1994,
@@ -364,6 +399,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p2-s0-b1",
+            type: "non-fiction",
             title: "Metaphors We Live By",
             author: "George Lakoff & Mark Johnson",
             year: 1980,
@@ -377,14 +413,16 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p2-s1-b0",
+            type: "fiction",
             title: "Sophie's World",
             author: "Jostein Gaarder",
             year: 1991,
             pages: 518,
-            desc: "Novel yang membungkus seluruh sejarah filsafat Barat — dari Socrates sampai Sartre — dalam kisah seorang remaja yang menerima surat misterius berisi pertanyaan filosofis. Cara paling ramah untuk masuk ke dunia filsafat tanpa harus baca teks asli yang berat dulu."
+            desc: "[Fiksi Pendamping] Novel yang membungkus seluruh sejarah filsafat Barat — dari Socrates sampai Sartre — dalam kisah seorang remaja yang menerima surat misterius berisi pertanyaan filosofis. Cara paling ramah untuk masuk ke dunia filsafat tanpa harus baca teks asli yang berat dulu."
           },
           {
             id: "p2-s1-b1",
+            type: "non-fiction",
             title: "The Structure of Scientific Revolutions",
             author: "Thomas Kuhn",
             year: 1962,
@@ -398,6 +436,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p2-s2-b0",
+            type: "non-fiction",
             title: "I Am a Strange Loop",
             author: "Douglas Hofstadter",
             year: 2007,
@@ -411,6 +450,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p2-s3-b0",
+            type: "non-fiction",
             title: "Thinking in Systems",
             author: "Donella Meadows",
             year: 2008,
@@ -433,6 +473,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p3-s0-b0",
+            type: "non-fiction",
             title: "Sapiens",
             author: "Yuval Noah Harari",
             year: 2011,
@@ -441,6 +482,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p3-s0-b1",
+            type: "non-fiction",
             title: "The Dawn of Everything",
             author: "David Graeber & David Wengrow",
             year: 2021,
@@ -449,6 +491,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p3-s0-b2",
+            type: "non-fiction",
             title: "Guns, Germs, and Steel",
             author: "Jared Diamond",
             year: 1997,
@@ -457,6 +500,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p3-s0-b3",
+            type: "non-fiction",
             title: "Nisa",
             author: "Marjorie Shostak",
             year: 1981,
@@ -465,6 +509,16 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p3-s0-b4",
+            type: "fiction",
+            title: "Things Fall Apart",
+            author: "Chinua Achebe",
+            year: 1958,
+            pages: 209,
+            desc: "[Fiksi Pendamping] Mahakarya sastra Afrika karya Chinua Achebe. Mengisahkan kehidupan Okonkwo dan kehancuran gradual struktur masyarakat Igbo di Nigeria akibat datangnya kolonialisme dan misionaris Eropa. Memberikan gambaran naratif konkret atas benturan peradaban."
+          },
+          {
+            id: "p3-s0-b5",
+            type: "non-fiction",
             title: "The Social Construction of Reality",
             author: "Berger & Luckmann",
             year: 1966,
@@ -472,7 +526,8 @@ export const ROADMAP_DATA = [
             desc: "Karya fondasional sosiologi pengetahuan yang menjelaskan bagaimana realitas sosial — institusi, peran, norma — dibangun lewat kebiasaan bersama sampai terasa objektif dan 'taken for granted', padahal hasil konstruksi manusia sendiri. Kunci memahami kenapa 'normal' itu relatif terhadap masyarakat tertentu."
           },
           {
-            id: "p3-s0-b5",
+            id: "p3-s0-b6",
+            type: "non-fiction",
             title: "Bowling Alone",
             author: "Robert Putnam",
             year: 2000,
@@ -495,6 +550,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p4-s0-b0",
+            type: "non-fiction",
             title: "Why Nations Fail",
             author: "Acemoglu & Robinson",
             year: 2012,
@@ -503,6 +559,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p4-s0-b1",
+            type: "non-fiction",
             title: "Debt: The First 5000 Years",
             author: "David Graeber",
             year: 2011,
@@ -511,6 +568,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p4-s0-b2",
+            type: "non-fiction",
             title: "The Rule of Law",
             author: "Tom Bingham",
             year: 2010,
@@ -519,6 +577,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p4-s0-b3",
+            type: "non-fiction",
             title: "On Liberty",
             author: "John Stuart Mill",
             year: 1859,
@@ -532,11 +591,21 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p4-s1-b0",
+            type: "non-fiction",
             title: "Manufacturing Consent",
             author: "Chomsky & Herman",
             year: 1988,
             pages: 412,
             desc: "Noam Chomsky dan Edward Herman membedah model propaganda media massa. Mengungkap bagaimana filter institusional (kepemilikan media, iklan, sumber otoritas, flak, dan ideologi musuh bersama) menyaring berita secara sistematis untuk mendukung agenda elite ekonomi dan politik."
+          },
+          {
+            id: "p4-s1-b1",
+            type: "fiction",
+            title: "1984",
+            author: "George Orwell",
+            year: 1949,
+            pages: 328,
+            desc: "[Fiksi Pendamping] Distopia totaliter di mana kebenaran dikendalikan lewat manipulasi bahasa (Newspeak) dan pengawasan total Big Brother. Orwell mendramatisasi secara nyata apa yang ia tulis di esainya soal bahasa dan propaganda politik."
           }
         ]
       },
@@ -545,6 +614,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p4-s2-b0",
+            type: "non-fiction",
             title: "The World's Religions",
             author: "Huston Smith",
             year: 1991,
@@ -553,6 +623,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p4-s2-b1",
+            type: "non-fiction",
             title: "The Idea of the Holy",
             author: "Rudolf Otto",
             year: 1917,
@@ -575,6 +646,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p5-s0-b0",
+            type: "non-fiction",
             title: "Man's Search for Meaning",
             author: "Viktor Frankl",
             year: 1946,
@@ -583,6 +655,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p5-s0-b1",
+            type: "non-fiction",
             title: "The Denial of Death",
             author: "Ernest Becker",
             year: 1973,
@@ -591,6 +664,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p5-s0-b2",
+            type: "non-fiction",
             title: "Being Mortal",
             author: "Atul Gawande",
             year: 2014,
@@ -599,11 +673,30 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p5-s0-b3",
+            type: "fiction",
+            title: "The Death of Ivan Ilyich",
+            author: "Leo Tolstoy",
+            year: 1886,
+            pages: 104,
+            desc: "[Fiksi Pendamping] Novela pendek tentang pejabat biasa yang menyadari, saat sekarat, bahwa hidupnya yang tampak sukses sebenarnya kosong. Pendamping naratif sempurna untuk Being Mortal dan The Denial of Death."
+          },
+          {
+            id: "p5-s0-b4",
+            type: "non-fiction",
             title: "The Myth of Sisyphus",
             author: "Albert Camus",
             year: 1942,
             pages: 212,
             desc: "Esai filosofis yang membuka dengan klaim terkenal: pertanyaan filosofis paling serius adalah apakah hidup layak dijalani. Camus mengeksplorasi 'absurd' lewat mitos Sisyphus yang dihukum mendorong batu selamanya, dan menyimpulkan kita harus membayangkan Sisyphus bahagia — menerima absurditas tanpa menyerah pada nihilisme."
+          },
+          {
+            id: "p5-s0-b5",
+            type: "fiction",
+            title: "The Stranger",
+            author: "Albert Camus",
+            year: 1942,
+            pages: 123,
+            desc: "[Fiksi Pendamping] Pria menjalani hidup dengan ketidakpedulian emosional, sampai pembunuhan tanpa motif jelas mengantarnya ke pengadilan yang lebih menghukum sikapnya ketimbang tindakannya. Versi naratif langsung dari absurdisme Camus."
           }
         ]
       },
@@ -612,6 +705,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p5-s1-b0",
+            type: "non-fiction",
             title: "Justice",
             author: "Michael Sandel",
             year: 2009,
@@ -620,6 +714,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p5-s1-b1",
+            type: "non-fiction",
             title: "The Analects",
             author: "Confucius",
             year: 1893,
@@ -628,6 +723,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p5-s1-b2",
+            type: "non-fiction",
             title: "The Tao Te Ching",
             author: "Lao Tzu",
             year: -400,
@@ -636,6 +732,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p5-s1-b3",
+            type: "non-fiction",
             title: "Being and Time",
             author: "Martin Heidegger",
             year: 1927,
@@ -658,6 +755,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p6-s0-b0",
+            type: "non-fiction",
             title: "Life 3.0",
             author: "Max Tegmark",
             year: 2017,
@@ -666,6 +764,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p6-s0-b1",
+            type: "non-fiction",
             title: "Superintelligence",
             author: "Nick Bostrom",
             year: 2014,
@@ -674,11 +773,21 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p6-s0-b2",
+            type: "non-fiction",
             title: "Homo Deus",
             author: "Yuval Noah Harari",
             year: 2015,
             pages: 450,
             desc: "Kelanjutan Sapiens yang menoleh ke depan — setelah manusia relatif menaklukkan kelaparan, wabah, dan perang, Harari berspekulasi ke mana ambisi manusia berikutnya: keabadian, kebahagiaan permanen, dan status ketuhanan lewat teknologi. Juga membahas bagaimana dataisme dan algoritma berpotensi menggantikan otoritas manusia."
+          },
+          {
+            id: "p6-s0-b3",
+            type: "fiction",
+            title: "Frankenstein",
+            author: "Mary Shelley",
+            year: 1818,
+            pages: 280,
+            desc: "[Fiksi Pendamping] Cikal bakal fiksi ilmiah modern tentang ilmuwan yang menciptakan entitas hidup baru lalu kehilangan kendali atas ciptaannya. Peringatan etis naratif esensial sebelum mempelajari isu AI superintelligence."
           }
         ]
       },
@@ -687,6 +796,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p6-s1-b0",
+            type: "non-fiction",
             title: "The Uninhabitable Earth",
             author: "David Wallace-Wells",
             year: 2019,
@@ -700,11 +810,21 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p6-s2-b0",
+            type: "non-fiction",
             title: "The Age of Surveillance Capitalism",
             author: "Shoshana Zuboff",
             year: 2019,
             pages: 704,
             desc: "Profesor Harvard Shoshana Zuboff mengungkap kemunculan tatanan ekonomi baru: Kapitalisme Pengawasan. Menguraikan bagaimana raksasa teknologi mengklaim pengalaman pribadi manusia sebagai bahan baku gratis untuk diekstrak menjadi data perilaku dan memodifikasi perilaku manusia secara massal demi keuntungan."
+          },
+          {
+            id: "p6-s2-b1",
+            type: "fiction",
+            title: "Brave New World",
+            author: "Aldous Huxley",
+            year: 1932,
+            pages: 311,
+            desc: "[Fiksi Pendamping] Distopia masa depan di mana kontrol sosial dilakukan bukan lewat penderitaan, melainkan lewat kenikmatan, kepuasan instan, rekayasa genetika, dan konsumerisme massal."
           }
         ]
       },
@@ -713,6 +833,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "p6-s3-b0",
+            type: "non-fiction",
             title: "The Precipice",
             author: "Toby Ord",
             year: 2020,
@@ -735,6 +856,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "plit-s0-b0",
+            type: "fiction",
             title: "War and Peace",
             author: "Leo Tolstoy",
             year: 1869,
@@ -743,14 +865,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "plit-s0-b1",
-            title: "Middlemarch",
-            author: "George Eliot",
-            year: 1871,
-            pages: 880,
-            desc: "Potret mendalam kehidupan sebuah kota kecil Inggris, mengikuti idealisme yang perlahan berbenturan dengan kompromi dan keterbatasan sosial. Dianggap banyak kritikus sebagai novel Inggris paling matang secara psikologis, menunjukkan bagaimana institusi kecil membentuk nasib individu."
-          },
-          {
-            id: "plit-s0-b2",
+            type: "fiction",
             title: "One Hundred Years of Solitude",
             author: "Gabriel García Márquez",
             year: 1967,
@@ -758,7 +873,8 @@ export const ROADMAP_DATA = [
             desc: "Kisah tujuh generasi keluarga Buendía di kota fiktif Macondo, mencampur sejarah Amerika Latin dengan hal-hal ajaib yang dianggap biasa. Karya paling ikonik realisme magis — alegori kolonialisme, perang saudara, dan kesepian sebagai warisan turun-temurun."
           },
           {
-            id: "plit-s0-b3",
+            id: "plit-s0-b2",
+            type: "fiction",
             title: "Don Quixote",
             author: "Miguel de Cervantes",
             year: 1605,
@@ -766,7 +882,8 @@ export const ROADMAP_DATA = [
             desc: "Kisah bangsawan tua yang kehilangan akal karena kebanyakan baca novel ksatria, lalu berkelana meyakini dirinya ksatria sungguhan. Dianggap novel modern pertama, mendramatisasi benturan idealisme/ilusi dengan realitas — jembatan dari dunia mitos ke dunia modern yang skeptis."
           },
           {
-            id: "plit-s0-b4",
+            id: "plit-s0-b3",
+            type: "fiction",
             title: "Beloved",
             author: "Toni Morrison",
             year: 1987,
@@ -774,44 +891,22 @@ export const ROADMAP_DATA = [
             desc: "Kisah mantan budak yang dihantui secara harfiah oleh masa lalunya, mendramatisasi bagaimana trauma sejarah terus hidup lewat memori dan warisan. Pemenang Pulitzer, sering disebut novel Amerika terpenting pasca perang."
           },
           {
-            id: "plit-s0-b5",
+            id: "plit-s0-b4",
+            type: "fiction",
             title: "The Grapes of Wrath",
             author: "John Steinbeck",
             year: 1939,
             pages: 464,
             desc: "Keluarga petani miskin Oklahoma bermigrasi ke California saat Depresi Besar, menghadapi eksploitasi dan kemiskinan sistemik. Steinbeck menulis dengan kemarahan moral jelas terhadap ketimpangan ekonomi — menyambungkan ekonomi politik dengan penderitaan manusia yang sangat konkret."
-          },
-          {
-            id: "plit-s0-b6",
-            title: "Buddenbrooks",
-            author: "Thomas Mann",
-            year: 1901,
-            pages: 731,
-            desc: "Kisah kemunduran bertahap sebuah keluarga pedagang kaya Jerman selama empat generasi, mencerminkan transisi dari nilai borjuis lama ke modernitas individualistis. Ditulis Mann di usia 25 tahun, jadi karya kunci di balik Nobel Sastranya."
-          },
-          {
-            id: "plit-s0-b7",
-            title: "Things Fall Apart",
-            author: "Chinua Achebe",
-            year: 1958,
-            pages: 209,
-            desc: "Mahakarya sastra Afrika karya Chinua Achebe. Mengisahkan kehidupan Okonkwo dan kehancuran gradual struktur masyarakat Igbo di Nigeria akibat datangnya kolonialisme dan misionaris Eropa. Memberikan suara berharga dari sudut pandang masyarakat yang terkolonisasi."
           }
         ]
       },
       {
-        label: "Kekuasaan & Bahasa",
+        label: "Kekuasaan & Politik",
         books: [
           {
             id: "plit-s1-b0",
-            title: "1984",
-            author: "George Orwell",
-            year: 1949,
-            pages: 328,
-            desc: "Distopia totaliter di mana kebenaran dikendalikan lewat manipulasi bahasa (Newspeak) dan pengawasan total. Orwell mendramatisasi apa yang ia tulis di esainya soal bahasa dan politik — 'Big Brother' dan 'doublethink' jadi kosakata umum berkat buku ini."
-          },
-          {
-            id: "plit-s1-b1",
+            type: "fiction",
             title: "Animal Farm",
             author: "George Orwell",
             year: 1945,
@@ -819,7 +914,8 @@ export const ROADMAP_DATA = [
             desc: "Fabel pendek tentang revolusi hewan ternak yang menggulingkan manusia, lalu perlahan pemimpinnya jadi setirani penguasa yang digulingkan. Alegori tajam soal revolusi ideal yang berujung tirani baru berwajah beda — padat dan cepat dibaca."
           },
           {
-            id: "plit-s1-b2",
+            id: "plit-s1-b1",
+            type: "fiction",
             title: "The Trial",
             author: "Franz Kafka",
             year: 1925,
@@ -827,7 +923,8 @@ export const ROADMAP_DATA = [
             desc: "Seorang pria ditangkap dan diadili sistem pengadilan yang tak pernah menjelaskan tuduhannya, mendramatisasi kengerian birokrasi dan kekuasaan tak berwajah. 'Kafkaesque' jadi istilah tersendiri berkat buku ini."
           },
           {
-            id: "plit-s1-b3",
+            id: "plit-s1-b2",
+            type: "fiction",
             title: "The Master and Margarita",
             author: "Mikhail Bulgakov",
             year: 1967,
@@ -841,6 +938,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "plit-s2-b0",
+            type: "fiction",
             title: "Crime and Punishment",
             author: "Fyodor Dostoevsky",
             year: 1866,
@@ -849,6 +947,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "plit-s2-b1",
+            type: "fiction",
             title: "The Brothers Karamazov",
             author: "Fyodor Dostoevsky",
             year: 1880,
@@ -857,6 +956,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "plit-s2-b2",
+            type: "fiction",
             title: "Siddhartha",
             author: "Hermann Hesse",
             year: 1922,
@@ -865,22 +965,7 @@ export const ROADMAP_DATA = [
           },
           {
             id: "plit-s2-b3",
-            title: "The Stranger",
-            author: "Albert Camus",
-            year: 1942,
-            pages: 123,
-            desc: "Pria menjalani hidup dengan ketidakpedulian emosional, sampai pembunuhan tanpa motif jelas mengantarnya ke pengadilan yang lebih menghukum sikapnya ketimbang tindakannya. Versi naratif dari absurdisme Camus — pendek, dingin, mengguncang."
-          },
-          {
-            id: "plit-s2-b4",
-            title: "The Death of Ivan Ilyich",
-            author: "Leo Tolstoy",
-            year: 1886,
-            pages: 104,
-            desc: "Novela pendek tentang pejabat biasa yang menyadari, saat sekarat, bahwa hidupnya yang tampak sukses sebenarnya kosong. Ditulis Tolstoy pasca krisis eksistensial pribadinya — pas dibaca berdampingan dengan Being Mortal dan The Denial of Death."
-          },
-          {
-            id: "plit-s2-b5",
+            type: "fiction",
             title: "Hamlet",
             author: "William Shakespeare",
             year: 1600,
@@ -888,7 +973,8 @@ export const ROADMAP_DATA = [
             desc: "Pangeran Denmark berusaha membalas kematian ayahnya, terjebak keraguan eksistensial yang melumpuhkan tindakan. Monolog 'to be or not to be' jadi salah satu perenungan hidup-mati paling terkenal dalam sastra Barat."
           },
           {
-            id: "plit-s2-b6",
+            id: "plit-s2-b4",
+            type: "fiction",
             title: "Moby-Dick",
             author: "Herman Melville",
             year: 1851,
@@ -896,7 +982,8 @@ export const ROADMAP_DATA = [
             desc: "Kapten Ahab mengejar paus putih raksasa dengan obsesi yang perlahan menghancurkan kapal dan awaknya sendiri. Lebih dari kisah perburuan — alegori obsesi manusia mengejar makna di tengah alam semesta yang acuh."
           },
           {
-            id: "plit-s2-b7",
+            id: "plit-s2-b5",
+            type: "fiction",
             title: "Waiting for Godot",
             author: "Samuel Beckett",
             year: 1953,
@@ -910,30 +997,7 @@ export const ROADMAP_DATA = [
         books: [
           {
             id: "plit-s3-b0",
-            title: "Frankenstein",
-            author: "Mary Shelley",
-            year: 1818,
-            pages: 280,
-            desc: "Ilmuwan menciptakan makhluk hidup lalu meninggalkannya karena ngeri pada ciptaannya sendiri, memicu rangkaian tragedi. Ditulis usia 18 tahun oleh Mary Shelley, cikal bakal fiksi ilmiah modern sekaligus peringatan dini soal tanggung jawab ilmuwan — sangat relevan dibaca berdampingan diskusi AI modern."
-          },
-          {
-            id: "plit-s3-b1",
-            title: "Brave New World",
-            author: "Aldous Huxley",
-            year: 1932,
-            pages: 311,
-            desc: "Distopia di mana kontrol sosial dilakukan bukan lewat represi (seperti 1984) tapi lewat kenyamanan dan kepuasan instan yang membuat orang tak ingin memberontak. Huxley memprediksi banyak fenomena konsumerisme modern jauh sebelum terjadi — dua visi masa depan yang berlawanan tapi sama meresahkan dengan 1984."
-          },
-          {
-            id: "plit-s3-b2",
-            title: "Do Androids Dream of Electric Sheep?",
-            author: "Philip K. Dick",
-            year: 1968,
-            pages: 244,
-            desc: "Pemburu bayaran melacak android buronan di bumi pasca-apokaliptik, mempertanyakan batas manusia dan mesin lewat empati sebagai penanda kemanusiaan. Basis film Blade Runner, tapi novelnya jauh lebih filosofis dan gelap — pertanyaan kesadaran buatan yang relevan jauh sebelum AI jadi topik serius."
-          },
-          {
-            id: "plit-s3-b3",
+            type: "fiction",
             title: "Solaris",
             author: "Stanisław Lem",
             year: 1961,

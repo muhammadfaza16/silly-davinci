@@ -509,6 +509,28 @@ nav.phasenav button .badge-dot {
   flex-wrap: wrap;
 }
 
+.type-badge {
+  font-family: 'Courier Prime', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 1px 6px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.type-badge.non-fiction {
+  color: var(--brass);
+  border: 1px solid rgba(99, 71, 13, 0.35);
+  background: rgba(99, 71, 13, 0.06);
+}
+
+.type-badge.fiction {
+  color: var(--forest);
+  border: 1px solid rgba(56, 84, 40, 0.35);
+  background: rgba(56, 84, 40, 0.06);
+}
+
 .book-meta .dot {
   color: var(--faint);
 }
