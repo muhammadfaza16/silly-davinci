@@ -15,7 +15,7 @@ export const ROADMAP_DATA = [
             author: "Barbara Minto",
             year: 1987,
             pages: 176,
-            desc: "Kerangka berpikir dan menyusun pesan komunikasi terstruktur ala McKinsey. Berfokus pada prinsip Top-Down Thinking (SCQA: Situation, Problem, Question, Answer), di mana kesimpulan/rekomendasi disampaikan di awal (Answer First), diikuti argumen pendukung yang dikelompokkan secara MECE (Mutually Exclusive, Collectively Exhaustive). Menghindari komunikasi muter-muter dan mempercepat pemahaman pendengar."
+            desc: "Metode berpikir dan menulis ala McKinsey: mulai dari kesimpulan, lalu susun argumen pendukung dalam kelompok logis berbentuk piramida. Aslinya ditulis untuk konsultan bisnis, tapi prinsipnya berlaku untuk laporan, presentasi, bahkan cara ngomong sehari-hari — jawab dulu, baru jelaskan kenapa, bukan bangun argumen pelan-pelan sampai kesimpulan muncul di akhir."
           },
           {
             id: "p0-s0-b1",
@@ -23,7 +23,7 @@ export const ROADMAP_DATA = [
             author: "Anthony Weston",
             year: 2008,
             pages: 120,
-            desc: "Panduan praktis logika terapan untuk menyusun argumen yang valid dan bebas dari kesesatan berpikir (logical fallacies). Membahas struktur argumen deduktif, induktif, analogi, otoritas, dan sebab-akibat. Buku ini memberikan dasar kritis agar ide yang disampaikan memiliki konstruksi argumen yang kokoh dan tidak keropos saat diuji."
+            desc: "Buku pegangan singkat berisi aturan praktis menyusun argumen yang valid — cara pakai contoh, analogi, sampai kausalitas — disusun seperti buku tata bahasa tapi untuk logika. Cocok dibaca ulang sebagai referensi cepat, bukan sekali habis, dan membantu mengenali argumen yang lemah baik milik sendiri maupun orang lain."
           },
           {
             id: "p0-s0-b2",
@@ -31,7 +31,7 @@ export const ROADMAP_DATA = [
             author: "Shane Parrish",
             year: 2023,
             pages: 304,
-            desc: "Eksplorasi tentang bagaimana mengenali default mental (emosi, ego, posisi sosial, inersia) yang sering membajak proses berpikir rasional. Parrish memberikan kerangka kerja untuk 'ordinary moments'—keputusan-keputusan kecil harian yang terakumulasi menentukan kualitas hidup. Mengajarkan teknik memperlambat reaksi emosional agar komunikasi didasari pertimbangan yang matang."
+            desc: "Ditulis pendiri Farnam Street, buku ini memetakan 'default' mental — respons otomatis otak (ego, emosi, sosial, inersia) yang sering membajak keputusan sebelum sempat berpikir jernih. Parrish menawarkan sistem konkret mengenali momen itu dan menciptakan jeda sebelum bereaksi; fokusnya menghilangkan penghalang berpikir, bukan menambah pengetahuan."
           }
         ]
       },
@@ -44,7 +44,7 @@ export const ROADMAP_DATA = [
             author: "William Zinsser",
             year: 1976,
             pages: 336,
-            desc: "Buku pegangan klasik tentang penulisan non-fiksi yang jernih dan berdampak. Prinsip utamanya adalah 'Clutter is the disease of writing'—memangkas setiap kata, frasa, dan kata sifat yang tidak memberikan nilai tambah. Mengajarkan kejernihan (clarity), kehangatan (simplicity), dan kepribadian (humanity) dalam menyampaikan pesan, yang langsung berlaku pada cara kita berbicara."
+            desc: "Panduan menulis nonfiksi klasik yang intinya satu: pangkas semua yang tidak perlu. Zinsser menunjukkan lewat contoh nyata bagaimana kalimat berantakan bisa dipangkas jadi tajam tanpa kehilangan makna — prinsip 'clutter is the disease' ini sama persis berlaku ke cara bicara yang efektif."
           },
           {
             id: "p0-s1-b1",
@@ -52,7 +52,7 @@ export const ROADMAP_DATA = [
             author: "Strunk & White",
             year: 1959,
             pages: 105,
-            desc: "Manuskrip ringkas nan legendaris tentang presisi tata bahasa dan gaya bahasa. Menekankan aturan-aturan dasar seperti 'Omit needless words' dan penggunaan kalimat aktif. Mengasah kesadaran struktur kalimat sehingga ide tidak terkubur oleh kerumitan tata bahasa yang tidak perlu."
+            desc: "Buku tipis yang jadi rujukan wajib penulis Amerika selama satu abad, berisi aturan tata bahasa dan gaya yang ringkas dan tegas — terkenal lewat kalimat perintahnya sendiri, 'omit needless words'. Bacaan cepat yang bisa diulang berkali-kali sebagai pengingat disiplin menulis dan berpikir."
           },
           {
             id: "p0-s1-b2",
@@ -60,7 +60,7 @@ export const ROADMAP_DATA = [
             author: "George Orwell",
             year: 1946,
             pages: 14,
-            desc: "Esai kritis Orwell yang membongkar bagaimana bahasa yang kabur, eufemisme, dan klise politik digunakan untuk memanipulasi pikiran dan menyembunyikan kebenaran. Orwell memberikan 6 aturan emas penulisan, menunjukkan bahwa kejernihan bahasa adalah benteng utama pertahanan rasionalitas manusia."
+            desc: "Esai pendek Orwell yang membongkar bagaimana bahasa kabur dan klise dipakai menyembunyikan pikiran yang sebenarnya juga kabur — sekaligus dipakai sengaja dalam propaganda politik. Ia memberi aturan sederhana menulis jernih: hindari metafora usang, jangan pakai kata panjang kalau kata pendek cukup, dan potong kata yang bisa dihilangkan."
           }
         ]
       },
@@ -73,7 +73,7 @@ export const ROADMAP_DATA = [
             author: "Chip Heath & Dan Heath",
             year: 2007,
             pages: 291,
-            desc: "Mengapa sebagian gagasan bertahan dan diingat selamanya, sementara yang lain langsung dilupakan? Buku ini merumuskan kerangka SUCCES (Simple, Unexpected, Concrete, Credible, Emotional, Stories) untuk mengemas pesan agar memiliki daya rekat (stickiness) yang tinggi di benak audiens."
+            desc: "Menjawab kenapa sebagian ide 'nempel' di kepala orang dan sebagian lain langsung dilupakan, lewat kerangka SUCCES (Simple, Unexpected, Concrete, Credible, Emotional, Story). Tiap prinsip dijelaskan lewat studi kasus nyata, dari urban legend sampai kampanye kesehatan publik — buku paling actionable buat siapa pun yang mau idenya diingat, bukan cuma didengar."
           },
           {
             id: "p0-s2-b1",
@@ -81,7 +81,7 @@ export const ROADMAP_DATA = [
             author: "Steven Pinker",
             year: 2014,
             pages: 368,
-            desc: "Panduan menulis berbasis ilmu linguistik dan psikologi kognitif modern. Pinker membongkar 'Curse of Knowledge' (kutukan pengetahuan)—ketidakmampuan pembicara membayangkan rasa bingung orang awam yang belum memiliki latar belakang pemahaman yang sama, serta memberikan cara konkret mengatasinya lewat gaya penulisan klasik."
+            desc: "Pinker mendekati 'menulis jernih' dari sudut pandang linguistik dan psikologi kognitif, menjelaskan kenapa sebagian kalimat mudah dipahami dan sebagian lain bikin pusing meski gramatikal benar. Ia juga membongkar mitos aturan menulis yang sebenarnya tidak berdasar — lebih akademis dari Zinsser, tapi menjelaskan 'kenapa' di balik teknik menulis yang baik."
           },
           {
             id: "p0-s2-b2",
@@ -89,7 +89,7 @@ export const ROADMAP_DATA = [
             author: "Lee LeFever",
             year: 2012,
             pages: 224,
-            desc: "Panduan praktis untuk menjembatani jurang pemahaman (Explanation Scale). Membahas bagaimana mengukur level konteks pendengar, menyusun 'Explanation Package' dengan menggunakan analogi, konteks, dan visualisasi, sehingga ide kompleks dapat dipahami oleh siapa saja tanpa mengurangi esensinya."
+            desc: "Pendiri Common Craft ini menjelaskan penjelasan yang gagal biasanya bukan karena kurang detail, tapi karena tidak dikalibrasi ke apa yang sudah atau belum diketahui pendengar. Ia memberi kerangka praktis: mulai dari 'mengapa ini penting buat kamu' sebelum masuk ke 'bagaimana caranya' — sangat berguna buat siapa pun yang sering menjelaskan hal teknis ke orang awam."
           }
         ]
       },
@@ -102,7 +102,7 @@ export const ROADMAP_DATA = [
             author: "Matt Abrahams",
             year: 2016,
             pages: 226,
-            desc: "Strategi berbasis psikologi kognitif untuk mengatasi kecemasan berbicara mendadak (spontaneous speaking) dan komunikasi impromptu. Memberikan teknik pernapasan, kerangka kerja mental (What? So What? Now What?), serta taktik eliminasi filler words saat harus menyampaikan pendapat secara spontan di depan publik."
+            desc: "Fokus khusus ke spontaneous speaking — situasi harus ngomong terstruktur tanpa waktu menyiapkan naskah. Abrahams menjelaskan kenapa filler word dan grogi muncul (gap antara kecepatan mikir dan bicara), lalu memberi teknik konkret menyusun jawaban instan tanpa muter-muter."
           },
           {
             id: "p0-s3-b1",
@@ -110,7 +110,7 @@ export const ROADMAP_DATA = [
             author: "Carmine Gallo",
             year: 2014,
             pages: 288,
-            desc: "Bedah anatomi dari 500+ presentasi TED terpopuler di dunia. Mengungkap 9 rahasia pementasan ide yang memikat: menggabungkan emosi (storytelling), kebaruan (novelty), dan ingatan jangka panjang (visual & durasi optimum). Buku ini mengajarkan cara menyampaikan gagasan sains dan realitas secara inspiratif."
+            desc: "Menganalisis pola dari ratusan TED Talk paling populer — struktur cerita, penggunaan data, teknik delivery — yang membuat sebagian talk viral sementara yang lain terlupakan. Gallo memecahnya jadi sembilan prinsip yang bisa ditiru siapa pun buat presentasi formal yang sudah dipersiapkan matang."
           }
         ]
       },
@@ -123,7 +123,7 @@ export const ROADMAP_DATA = [
             author: "Dale Carnegie",
             year: 1936,
             pages: 291,
-            desc: "Karya klasik psikologi relasi manusia yang berfokus pada empati mendalam, apresiasi jujur, dan teknik mendengarkan. Mengajarkan cara melihat perspektif orang lain (other-oriented thinking) agar komunikasi tidak berubah menjadi adu argumen egosentris, melainkan membangun kepercayaan dan kolaborasi."
+            desc: "Buku self-help klasik dari 1936 yang prinsipnya bertahan sampai sekarang: tunjukkan minat tulus ke orang lain, dengarkan lebih banyak dari bicara, dan biarkan orang lain merasa penting secara jujur. Berisi banyak anekdot dan aturan praktis membangun relasi tanpa terasa manipulatif kalau diterapkan dengan tulus."
           },
           {
             id: "p0-s4-b1",
@@ -131,7 +131,7 @@ export const ROADMAP_DATA = [
             author: "Kate Murphy",
             year: 2020,
             pages: 304,
-            desc: "Analisis mendalam tentang krisis mendengarkan di era digital. Murphy memaparkan bukti neurosains dan sosiologi bahwa mendengarkan secara aktif (active listening) adalah setengah dari komunikasi efektif. Mengajarkan cara menangkap nuansa implisit, emosi tersirat, dan konteks latar belakang pembicara."
+            desc: "Mengungkap bahwa mendengarkan adalah skill yang perlahan hilang di era digital, dan menjelaskan konsekuensinya — dari hubungan dangkal sampai keputusan salah. Murphy membedakan mendengar secara pasif dengan mendengarkan secara aktif, dan memberi cara melatihnya sebagai bagian tak terpisahkan dari komunikasi efektif."
           },
           {
             id: "p0-s4-b2",
@@ -139,7 +139,7 @@ export const ROADMAP_DATA = [
             author: "Jay Heinrichs",
             year: 2007,
             pages: 368,
-            desc: "Pengantar retorika klasik Aristoteles yang dikemas secara segar dan aplikatif. Membahas 3 pilar persuasi: Ethos (kredibilitas & karakter), Pathos (daya tarik emosional), dan Logos (logika & argumen). Mengajarkan cara mengarahkan perdebatan menuju solusi (persuasi deliberatif) daripada sekadar menang argumen."
+            desc: "Pengantar retorika klasik Aristoteles — ethos (kredibilitas), pathos (emosi), logos (logika) — dikemas dengan gaya modern dan contoh dari politik, iklan, sampai percakapan keluarga. Heinrichs menunjukkan retorika bukan soal manipulasi, tapi seni membujuk secara etis dan efektif."
           },
           {
             id: "p0-s4-b3",
@@ -147,7 +147,7 @@ export const ROADMAP_DATA = [
             author: "Kerry Patterson dkk",
             year: 2002,
             pages: 256,
-            desc: "Panduan menangani percakapan yang bertaruhan tinggi (high stakes), emosi intens, dan perbedaan pendapat yang tajam. Memberikan teknik menciptakan rasa aman (safety), mengendalikan narasi emosional internal (mastering stories), dan mengarahkan percakapan menuju dialog konstruktif tanpa menjadi defensif atau menyerang."
+            desc: "Fokus ke percakapan bertaruhan tinggi — opini berbeda, emosi tinggi, hasil penting — yang biasanya berujung diam atau meledak. Buku ini memberi kerangka konkret menjaga 'ruang aman' percakapan sambil tetap jujur menyampaikan isi pikiran, sangat aplikatif untuk konflik kerja, keluarga, dan negosiasi personal."
           }
         ]
       },
@@ -160,7 +160,7 @@ export const ROADMAP_DATA = [
             author: "Joe Navarro",
             year: 2008,
             pages: 260,
-            desc: "Panduan mantan agen kontra-intelijen FBI dalam membaca sinyal nonverbal dan bahasa tubuh manusia. Berfokus pada respons sistem limbik (Freeze, Flight, Fight) serta indikator kenyamanan (comfort) vs ketidaknyamanan (discomfort) pada kaki, tubuh, dan ekspresi wajah untuk memahami kondisi psikologis lawan bicara."
+            desc: "Ditulis mantan agen kontraintelijen FBI, buku ini mengajarkan membaca bahasa tubuh — dari posisi kaki sampai ekspresi mikro — sebagai sinyal jujur yang sering bertentangan dengan kata-kata. Sekaligus membuat pembaca sadar bahasa tubuhnya sendiri saat berinteraksi, praktis dan penuh contoh visual."
           },
           {
             id: "p0-s5-b1",
@@ -168,7 +168,7 @@ export const ROADMAP_DATA = [
             author: "Amy Cuddy",
             year: 2015,
             pages: 352,
-            desc: "Penelitian tentang bagaimana postur tubuh, state psikologis internal, dan kepatuhan pada nilai-nilai inti membentuk kehadiran (presence) yang otentik. Menjelaskan hubungan dua arah antara fisiologi tubuh dan hormon (kortisol & testosteron), serta cara memproyeksikan kepercayaan diri tanpa merasa sebagai penyusup (imposter syndrome)."
+            desc: "Cuddy berargumen gesture yang meyakinkan bukan soal teknik permukaan (power pose semata), tapi hasil dari state internal — rasa percaya diri dan ketenangan yang otentik. Ia menjelaskan bagaimana tubuh dan pikiran saling memengaruhi dua arah, pelengkap penting untuk Navarro yang lebih fokus membaca orang lain."
           }
         ]
       },
@@ -181,7 +181,7 @@ export const ROADMAP_DATA = [
             author: "Robert McKee",
             year: 1997,
             pages: 466,
-            desc: "Kitab suci struktur naratif dan penulisan skenario dari pakar Hollywood. Menjelaskan mekanisme mendalam di balik konflik, inciting incident, perubahan nilai (value change), dan klimaks. Sangat berguna untuk mengubah data dan informasi abstrak menjadi narasi yang memikat dan memiliki daya gugah tinggi."
+            desc: "Buku tebal soal struktur cerita dari dunia screenwriting Hollywood — arc karakter, konflik, klimaks — yang prinsipnya ternyata berlaku universal buat bikin penjelasan atau presentasi punya 'narrative pull'. McKee menekankan cerita yang baik dibangun dari struktur, bukan cuma inspirasi acak."
           }
         ]
       }
@@ -203,7 +203,7 @@ export const ROADMAP_DATA = [
             author: "Stephen Hawking",
             year: 1988,
             pages: 256,
-            desc: "Penjelasan kosmologi fisik mengenai asal-usul, evolusi, dan takdir alam semesta. Membahas teori Relativitas Umum Einstein, Mekanika Kuantum, teori Big Bang, lubang hitam (black hole), serta panah waktu (arrow of time) untuk membangun kesadaran akan skala kosmis tempat manusia berada."
+            desc: "Pengantar paling ikonik soal kosmologi modern — big bang, black hole, ruang-waktu — ditulis untuk pembaca tanpa latar belakang fisika. Hawking terkenal menghindari rumus matematika demi menjaga buku ini tetap accessible, titik awal baik sebelum masuk ke pertanyaan filosofis yang lebih dalam."
           },
           {
             id: "p1-s0-b1",
@@ -211,7 +211,7 @@ export const ROADMAP_DATA = [
             author: "Carl Sagan",
             year: 1980,
             pages: 365,
-            desc: "Ekspedisi sains dan filosofis merentang 15 miliar tahun sejarah kosmik. Sagan menghubungkan kosmologi, evolusi biologi di Bumi, dan perkembangan peradaban manusia, sambil mengingatkan pentingnya metode ilmiah dan perspektif 'Pale Blue Dot' untuk melihat keberadaan manusia di jagat raya."
+            desc: "Lebih dari sekadar buku sains, ini perjalanan naratif yang menggabungkan astronomi, sejarah, dan filsafat untuk menempatkan manusia dalam konteks kosmik yang sangat besar. Sagan menulis dengan nada puitis yang membuat sains terasa menggugah, bukan kering — buku yang mengubah cara banyak orang memandang posisi mereka di alam semesta."
           },
           {
             id: "p1-s0-b2",
@@ -219,7 +219,7 @@ export const ROADMAP_DATA = [
             author: "Sean Carroll",
             year: 2016,
             pages: 480,
-            desc: "Sintesis ilmiah tentang bagaimana hukum-hukum fisika kuantum dan fisika partikel membangun skala makro: dari kehidupan, kesadaran, hingga makna hidup. Carroll mengenalkan kerangka 'Poetic Naturalism'—pandangan bahwa sains adalah cara memahami realitas fisik, namun manusia berhak menciptakan makna."
+            desc: "Fisikawan Sean Carroll mencoba menyambungkan hukum fisika dasar dengan pertanyaan besar soal makna, moralitas, dan kesadaran dari sudut pandang naturalisme. Buku ini menjembatani sains keras dengan filsafat eksistensial — berat, tapi transisi bagus dari kosmologi ke pertanyaan makna hidup di fase berikutnya."
           }
         ]
       },
@@ -232,7 +232,7 @@ export const ROADMAP_DATA = [
             author: "Richard Dawkins",
             year: 1976,
             pages: 360,
-            desc: "Revolusi pandangan evolusi biologi yang menempatkan gen (bukan individu atau spesies) sebagai unit dasar seleksi alam. Mengapa organisme hanyalah 'survival machines' yang dibangun oleh gen untuk bereplikasi, serta mengenalkan konsep meme sebagai unit replikasi budaya manusia."
+            desc: "Buku yang mengubah cara berpikir tentang evolusi — bukan individu atau spesies yang berjuang bertahan hidup, tapi gen 'egois' yang menggunakan tubuh sebagai kendaraan bertahan. Dawkins juga memperkenalkan konsep meme di sini, jauh sebelum jadi istilah internet — fondasi wajib memahami logika evolusi."
           },
           {
             id: "p1-s1-b1",
@@ -240,7 +240,7 @@ export const ROADMAP_DATA = [
             author: "Jared Diamond",
             year: 1991,
             pages: 360,
-            desc: "Analisis antropologi evolusiner tentang kesamaan genetik 98.6% antara manusia dan simpanse. Diamond meneliti sifat-sifat unik manusia—bahasa, seni, pertanian, namun juga kecenderungan genosida dan perusakan lingkungan—serta bagaimana sifat bawaan tersebut membentuk sejarah peradaban."
+            desc: "Diamond mengeksplorasi kemiripan genetik manusia dengan simpanse (98%) sambil menjelaskan lompatan besar yang membuat manusia sangat berbeda — bahasa, seni, kecanduan zat, sampai kecenderungan menghancurkan lingkungan sendiri. Cara masuk yang baik ke antropologi evolusi, lebih personal dan spekulatif dari Guns, Germs, and Steel."
           },
           {
             id: "p1-s1-b2",
@@ -248,7 +248,7 @@ export const ROADMAP_DATA = [
             author: "Daniel Lieberman",
             year: 2013,
             pages: 460,
-            desc: "Sejarah evolusi anatomi manusia selama jutaan tahun: dari bipedalisme, berburu jarak jauh, hingga revolusi pertanian dan industri. Menjelaskan konsep 'evolutionary mismatch'—kenapa tubuh biologis kita yang didesain untuk zaman Paleolitikum kini menderita penyakit modern akibat lingkungan kontemporer."
+            desc: "Ahli antropologi evolusi Harvard ini menjelaskan bagaimana tubuh manusia berevolusi untuk lingkungan pemburu-pengumpul, dan kenapa banyak penyakit modern (diabetes, obesitas, sakit punggung) adalah 'mismatch' antara tubuh purba dan gaya hidup modern. Berisi banyak insight praktis soal makan, gerak, dan tidur."
           },
           {
             id: "p1-s1-b3",
@@ -256,7 +256,7 @@ export const ROADMAP_DATA = [
             author: "Robert Sapolsky",
             year: 2017,
             pages: 800,
-            desc: "Karya monumental neurobiologi perilaku manusia. Sapolsky mengurai penyebab satu perilaku (baik atau buruk) dari berbagai skala waktu: detik sebelumnya (otak), menit sebelumnya (sensori), jam-hari sebelumnya (hormon), bulan-tahun sebelumnya (neuroplastisitas), hingga sejarah evolusi dan budaya ribuan tahun lalu."
+            desc: "Buku tebal dan ambisius yang menjelaskan perilaku manusia dari berbagai skala waktu sekaligus — apa yang terjadi di otak sedetik sebelum tindakan, sampai bagaimana evolusi membentuknya jutaan tahun lalu. Sapolsky terkenal mampu menjelaskan neuroscience kompleks dengan humor dan bahasa jernih."
           },
           {
             id: "p1-s1-b4",
@@ -264,7 +264,7 @@ export const ROADMAP_DATA = [
             author: "Siddhartha Mukherjee",
             year: 2016,
             pages: 608,
-            desc: "Biografi komprehensif penemuan genetik: dari eksperimen kacang polong Mendel, penemuan heliks ganda DNA oleh Watson & Crick, hingga CRISPR dan penyuntingan gen modern. Menggabungkan sejarah ilmiah dengan pertimbangan etika mendasar mengenai manipulasi kode kehidupan manusia."
+            desc: "Sejarah genetika yang ditulis sangat naratif, dari eksperimen kacang polong Mendel sampai era CRISPR dan rekayasa gen modern, diselingi kisah personal penulis tentang riwayat penyakit mental dalam keluarganya. Memberi konteks sejarah yang hilang kalau langsung loncat ke buku genetika modern."
           }
         ]
       },
@@ -277,7 +277,7 @@ export const ROADMAP_DATA = [
             author: "David Eagleman",
             year: 2011,
             pages: 304,
-            desc: "Penelusuran alam bawah sadar (unconscious brain). Eagleman menunjukkan bahwa sebagian besar keputusan, persepsi, dan perilaku manusia dijalankan oleh sistem saraf di bawah ambang kesadaran (bawaan mesin biologis), mengguncang gagasan konvensional tentang kehendak bebas (free will) dan tanggung jawab hukum."
+            desc: "Eagleman menunjukkan lewat riset neuroscience bahwa sebagian besar keputusan otak diambil di bawah alam sadar — otak 'sadar' hanya melihat hasil akhirnya, seolah dialah yang memutuskan. Buku ini mengguncang asumsi umum soal kehendak bebas dan kontrol diri, ditulis ringan dan penuh contoh kasus nyata."
           },
           {
             id: "p1-s2-b1",
@@ -285,7 +285,7 @@ export const ROADMAP_DATA = [
             author: "Norman Doidge",
             year: 2007,
             pages: 427,
-            desc: "Penemuan neuroplastisitas—kemampuan otak untuk mengubah struktur fisik dan jalurnya berdasarkan pengalaman, latihan, dan trauma. Doidge menyajikan studi kasus medis nyata tentang penyembuhan stroke, gangguan persepsi, dan kemampuan belajar ulang otak sepanjang hayat."
+            desc: "Kumpulan kisah nyata pasien dengan kerusakan otak berat yang pulih lewat neuroplastisitas — kemampuan otak menata ulang dirinya sendiri, jauh melampaui yang dulu dikira mungkin oleh sains medis. Ditulis seperti kumpulan cerita klinis yang mengharukan sekaligus ilmiah."
           },
           {
             id: "p1-s2-b2",
@@ -293,7 +293,7 @@ export const ROADMAP_DATA = [
             author: "Steven Pinker",
             year: 2002,
             pages: 509,
-            desc: "Kritik tajam terhadap dogmatisme 'Tabula Rasa' (bahwa manusia lahir sebagai kertas kosong yang sepenuhnya dibentuk lingkungan). Pinker memaparkan bukti psikologi evolusioner dan genetika bahwa kodrat bawaan manusia (human nature) itu ada, dan memahami interaksinya dengan budaya adalah kunci membina masyarakat adil."
+            desc: "Bantahan panjang terhadap tiga doktrin populer — manusia lahir sebagai kertas kosong, pikiran manusia baik secara alami, dan ada 'ghost in the machine' yang mengendalikan tubuh — dengan bukti bahwa sifat bawaan dan pengalaman selalu berinteraksi. Kontroversial saat terbit karena menantang asumsi ideologis tentang sifat manusia."
           },
           {
             id: "p1-s2-b3",
@@ -301,7 +301,7 @@ export const ROADMAP_DATA = [
             author: "Amir Levine & Rachel Heller",
             year: 2010,
             pages: 304,
-            desc: "Penerapan Teori Kelekatan (Attachment Theory) John Bowlby pada hubungan romantis dewasa. Mengurai 3 gaya kelekatan biologis utama (Anxious, Avoidant, Secure) dan bagaimana cara otak merespons ancaman keintiman, memberi panduan navigasi relasi antarindividu berbasis kebutuhan psikologis dasar."
+            desc: "Menerapkan teori attachment (awalnya untuk bayi-orang tua) ke hubungan romantis orang dewasa, membagi gaya attachment jadi secure, anxious, dan avoidant. Buku ini memberi kerangka konkret memahami pola berulang dalam hubungan — kenapa sebagian orang butuh kedekatan konstan, sebagian lain menjaga jarak."
           },
           {
             id: "p1-s2-b4",
@@ -309,7 +309,7 @@ export const ROADMAP_DATA = [
             author: "Robert Wright",
             year: 1994,
             pages: 466,
-            desc: "Penjelasan psikologi evolusioner tentang akar moralitas, cemburu, status sosial, komitmen, dan altruisme manusia. Wright membongkar bagaimana strategi reproduksi evolusioner membentuk intuisi moral kita, serta implikasinya terhadap etika kehidupan modern."
+            desc: "Menjelaskan moralitas, cemburu, status sosial, dan bahkan perselingkuhan lewat lensa psikologi evolusioner, menggunakan biografi Charles Darwin sendiri sebagai studi kasus. Wright menunjukkan banyak 'dosa' manusia sebenarnya strategi reproduktif yang masuk akal secara evolusi, meski tidak selalu etis di dunia modern."
           }
         ]
       },
@@ -322,7 +322,7 @@ export const ROADMAP_DATA = [
             author: "Daniel Kahneman",
             year: 2011,
             pages: 499,
-            desc: "Sintesis riset pemenang Hadiah Nobel tentang dualitas sistem kognisi manusia: Sistem 1 (otomatis, cepat, emosional) dan Sistem 2 (lambat, analitis, membutuhkan usaha). Menjelaskan puluhan bias kognitif dan heuristik yang membuat penilaian manusia kerap melenceng dari logika matematis."
+            desc: "Karya pemenang Nobel ini membedah dua sistem berpikir manusia — System 1 yang cepat dan intuitif tapi sering keliru, serta System 2 yang lambat dan analitis tapi malas dipakai. Kahneman memaparkan puluhan bias kognitif lewat eksperimen yang sudah jadi rujukan standar psikologi dan ekonomi perilaku."
           },
           {
             id: "p1-s3-b1",
@@ -330,7 +330,7 @@ export const ROADMAP_DATA = [
             author: "Dan Ariely",
             year: 2008,
             pages: 304,
-            desc: "Eksperimen psikologi ekonomi perilaku yang membuktikan bahwa ketidakrasionalan manusia bukanlah kebetulan acak, melainkan terjadi secara sistematis dan berulang. Ariely mengungkap efek jangkar (anchoring), nilai nol (free!), serta norma sosial vs ekonomi yang memicu keputusan konsumsi kita."
+            desc: "Kumpulan eksperimen perilaku ekonomi yang menunjukkan keputusan manusia irasional secara konsisten dan bisa diprediksi, bukan acak. Ariely membahas topik konkret sehari-hari — kenapa 'gratis' begitu menggoda, kenapa harga jangkar memengaruhi persepsi nilai — lebih ringan dan aplikatif dibanding Kahneman."
           }
         ]
       }
@@ -352,7 +352,7 @@ export const ROADMAP_DATA = [
             author: "Steven Pinker",
             year: 1994,
             pages: 494,
-            desc: "Argumen bahwa kemampuan berbahasa manusia bukanlah sekadar produk budaya yang dipelajari, melainkan sebuah organ biologis kompleks (insting) yang terpatri dalam genom manusia, sebagaimana dijelaskan oleh tata bahasa universal (Universal Grammar) Noam Chomsky."
+            desc: "Berargumen bahasa adalah insting biologis bawaan seperti kemampuan melihat, bukan sekadar produk budaya yang dipelajari dari nol. Pinker memakai bukti dari linguistik, perkembangan anak, dan kasus neurologis untuk mendukung klaim ini — fondasi memahami kenapa semua manusia mengembangkan bahasa dengan struktur serupa."
           },
           {
             id: "p2-s0-b1",
@@ -360,7 +360,7 @@ export const ROADMAP_DATA = [
             author: "George Lakoff & Mark Johnson",
             year: 1980,
             pages: 256,
-            desc: "Karya pionir kognitif linguistik yang menunjukkan bahwa metafora bukan sekadar majas sastra, melainkan struktur konseptual dasar yang menentukan cara manusia berpikir, merasakan, dan bertindak (contoh: 'Argumen adalah Perang', 'Waktu adalah Uang')."
+            desc: "Menunjukkan metafora bukan sekadar hiasan bahasa (seperti 'waktu adalah uang'), tapi struktur dasar yang membentuk cara kita berpikir dan bertindak tanpa disadari. Buku pendek tapi berpengaruh besar di linguistik kognitif — setelah membaca ini, sulit tidak memperhatikan metafora tersembunyi di percakapan sehari-hari."
           },
           {
             id: "p2-s0-b2",
@@ -368,7 +368,7 @@ export const ROADMAP_DATA = [
             author: "Jostein Gaarder",
             year: 1991,
             pages: 518,
-            desc: "Pengantar sejarah filsafat Barat yang dibalut dalam novel misteri filosofis. Menelusuri pemikiran pemikir besar dari Pra-Sokrates, Plato, Aristoteles, Abad Pertengahan, Pencerahan (Descartes, Spinoza, Kant), hingga Eksistensialisme dan teori modern tentang realitas."
+            desc: "Novel yang membungkus seluruh sejarah filsafat Barat — dari Socrates sampai Sartre — dalam kisah seorang remaja yang menerima surat misterius berisi pertanyaan filosofis. Cara paling ramah untuk masuk ke dunia filsafat tanpa harus baca teks asli yang berat dulu."
           },
           {
             id: "p2-s0-b3",
@@ -376,7 +376,7 @@ export const ROADMAP_DATA = [
             author: "Thomas Kuhn",
             year: 1962,
             pages: 264,
-            desc: "Buku legendaris sains sosiologi yang memperkenalkan konsep 'Paradigm Shift'. Kuhn membantah bahwa pengetahuan sains berkembang secara akumulatif linear; sains berkembang melalui periode 'Normal Science' yang diinterupsi oleh krisis dan revolusi paradigma baru."
+            desc: "Buku asal istilah 'paradigm shift' — Kuhn berargumen sains tidak berkembang linear dan akumulatif, tapi lewat periode normal science yang tiba-tiba direvolusi ketika anomali menumpuk dan paradigma lama runtuh. Mengubah cara filsafat ilmu memandang bagaimana pengetahuan ilmiah sebenarnya berubah."
           },
           {
             id: "p2-s0-b4",
@@ -384,7 +384,7 @@ export const ROADMAP_DATA = [
             author: "Douglas Hofstadter",
             year: 2007,
             pages: 412,
-            desc: "Eksplorasi tentang hakikat kesadaran dan 'Aku' (self). Hofstadter berargumen bahwa kesadaran muncul ketika sistem simbolik di dalam otak mampu mereferensikan dirinya sendiri dalam sebuah loop rekursif (strange loop), menciptakan ilusi entitas jiwa yang terpisah."
+            desc: "Eksplorasi mendalam soal apa itu kesadaran dan 'aku', lewat konsep loop rekursif — sistem yang mengacu pada dirinya sendiri, seperti gambar tangan yang menggambar tangan yang menggambarnya. Hofstadter menyederhanakan idenya dari buku Gödel, Escher, Bach yang lebih tebal."
           }
         ]
       }
@@ -406,7 +406,7 @@ export const ROADMAP_DATA = [
             author: "Yuval Noah Harari",
             year: 2011,
             pages: 443,
-            desc: "Sejarah makro Homo sapiens yang didorong oleh 3 revolusi besar: Kognitif (kemampuan menciptakan fiksi bersama seperti agama, uang, negara), Pertanian (domestikasi & jebakan pemukiman), dan Ilmiah. Mengurai bagaimana mitos kolektif memungkinkan jutaan asing berkolaborasi."
+            desc: "Sejarah singkat umat manusia yang berargumen kemampuan unik Homo sapiens adalah mempercayai mitos bersama — uang, negara, agama, hak asasi — yang memungkinkan kerja sama dalam skala jutaan orang tak saling kenal. Ditulis sangat readable meski dikritik sejumlah akademisi karena oversimplifikasi."
           },
           {
             id: "p3-s0-b1",
@@ -414,7 +414,7 @@ export const ROADMAP_DATA = [
             author: "David Graeber & David Wengrow",
             year: 2021,
             pages: 704,
-            desc: "Dekonstruksi sejarah antropologi konvensional. Graeber & Wengrow menyajikan bukti arkeologi bahwa masyarakat purba tidak hidup dalam satu pola linear yang seragam, melainkan bereksperimen dengan berbagai bentuk organisasi sosial, kesetaraan, dan kebebasan politik."
+            desc: "Buku tebal yang sengaja menantang narasi linear ala Sapiens soal evolusi peradaban, dengan bukti arkeologi bahwa masyarakat purba jauh lebih beragam dan eksperimental secara politik dari yang diasumsikan. Ditulis antropolog dan arkeolog, penting sebagai penyeimbang narasi tunggal soal asal-usul peradaban."
           },
           {
             id: "p3-s0-b2",
@@ -422,7 +422,7 @@ export const ROADMAP_DATA = [
             author: "Jared Diamond",
             year: 1997,
             pages: 480,
-            desc: "Penjelasan biogeografis mengenai ketimpangan antarperadaban dunia. Diamond membuktikan bahwa dominasi peradaban Eurasia bukan disebabkan oleh keunggulan rasial/intelektual, melainkan faktor keberuntungan geografi: ketersediaan tanaman/hewan domestikasi dan poros benua timur-barat."
+            desc: "Menjawab kenapa sebagian peradaban menaklukkan yang lain, bukan sebaliknya — Diamond berargumen jawabannya geografi dan lingkungan (ketersediaan tanaman-hewan yang bisa didomestikasi, arah benua), bukan superioritas ras atau budaya. Pemenang Pulitzer yang jadi rujukan standar, meski juga banyak didebat akademisi."
           },
           {
             id: "p3-s0-b3",
@@ -430,7 +430,7 @@ export const ROADMAP_DATA = [
             author: "Marjorie Shostak",
             year: 1981,
             pages: 402,
-            desc: "Etnografi intim kehidupan Nisa, seorang wanita dari suku pemburu-ramu !Kung San di Gurun Kalahari. Memberikan gambaran empiris konkret tentang seksualitas, pengasuhan anak, penyembuhan, duka, dan dinamika kesetaraan gender dalam masyarakat skala kecil pra-modern."
+            desc: "Kisah hidup nyata seorang perempuan suku !Kung San di gurun Kalahari, direkam lewat wawancara mendalam oleh seorang antropolog perempuan. Studi kasus konkret dan personal — cinta, seks, kelahiran, kematian — dari cara hidup sangat berbeda, membuka mata bahwa banyak hal yang dianggap 'kodrat manusia' ternyata sangat spesifik budaya."
           },
           {
             id: "p3-s0-b4",
@@ -438,7 +438,7 @@ export const ROADMAP_DATA = [
             author: "Berger & Luckmann",
             year: 1966,
             pages: 240,
-            desc: "Fondasi sosiologi pengetahuan yang menjelaskan dialektika 3 tahap pembuatan realitas sosial: Eksternalisasi (manusia menciptakan institusi/kebiasaan), Objektivasi (institusi itu dianggap sebagai kenyataan objektif terpisah), dan Internalisasi (generasi baru menyerapnya lewat sosialisasi)."
+            desc: "Karya fondasional sosiologi pengetahuan yang menjelaskan bagaimana realitas sosial — institusi, peran, norma — dibangun lewat kebiasaan bersama sampai terasa objektif dan 'taken for granted', padahal hasil konstruksi manusia sendiri. Kunci memahami kenapa 'normal' itu relatif terhadap masyarakat tertentu."
           },
           {
             id: "p3-s0-b5",
@@ -446,7 +446,7 @@ export const ROADMAP_DATA = [
             author: "Robert Putnam",
             year: 2000,
             pages: 544,
-            desc: "Analisis sosiologis mendalam mengenai kemerosotan 'Modal Sosial' (Social Capital) dan ikatan komunitas di masyarakat modern. Putnam menunjukkan bagaimana penurunan partisipasi organisasi warga, perkumpulan, dan interaksi tatap muka mengancam kesehatan demokrasi dan kesejahteraan mental."
+            desc: "Menelusuri penurunan tajam modal sosial dan partisipasi komunitas di Amerika sejak pertengahan abad 20 — orang makin jarang gabung klub, kenal tetangga, atau terlibat organisasi lokal. Putnam mengaitkan tren ini dengan berbagai masalah sosial modern, relevan untuk memahami isolasi sosial di era digital."
           },
           {
             id: "p3-s0-b6",
@@ -454,7 +454,7 @@ export const ROADMAP_DATA = [
             author: "Bill Bryson",
             year: 2003,
             pages: 544,
-            desc: "Eksplorasi populer yang menjembatani sains dasar dan sejarah penemuannya: dari Big Bang, geologi Bumi, evolusi sel, hingga sejarah penemu sains yang eksentrik. Dikemas dengan penyampaian cerdas untuk membangun apresiasi komprehensif atas pengetahuan ilmiah manusia."
+            desc: "Bryson, seorang penulis nonfiksi, merangkum nyaris semua bidang sains besar — fisika, kimia, geologi, biologi — dengan gaya sangat renyah dan penuh anekdot sejarah tentang ilmuwan di baliknya. Jembatan menyenangkan sebelum masuk ke buku sains yang lebih spesifik dan berat."
           }
         ]
       }
@@ -476,7 +476,7 @@ export const ROADMAP_DATA = [
             author: "Acemoglu & Robinson",
             year: 2012,
             pages: 544,
-            desc: "Teori ekonomi politik yang membuktikan bahwa perbedaan kemakmuran dan kemiskinan antarnegara ditentukan oleh sifat institusi mereka: 'Inklusif' (melindungi hak cipta, hukum adil, kesempatan terbuka) vs 'Ekstraktif' (kekuasaan terkonsentrasi untuk mengeruk kekayaan demi segelintir elite)."
+            desc: "Berargumen institusi politik-ekonomi — apakah 'inclusive' (memberi insentif luas) atau 'extractive' (menguntungkan segelintir elite) — adalah penentu utama kemakmuran atau kegagalan sebuah bangsa, bukan geografi atau budaya. Didukung studi kasus historis dari berbagai benua."
           },
           {
             id: "p4-s0-b1",
@@ -484,7 +484,7 @@ export const ROADMAP_DATA = [
             author: "David Graeber",
             year: 2011,
             pages: 544,
-            desc: "Sejarah antropologi uang dan utang yang membongkar mitos ekonomi klasik (bahwa uang lahir dari barter). Graeber menunjukkan bahwa sistem kredit dan utang telah ada ribuan tahun sebelum munculnya koin/uang kertas, serta hubungannya yang erat dengan kekerasan, perbudakan, dan kekuasaan negara."
+            desc: "Menantang narasi standar ekonomi bahwa uang muncul untuk menggantikan sistem barter — Graeber menunjukkan lewat bukti antropologi bahwa utang dan kredit sosial mendahului uang koin, dan sejarah utang selalu terkait erat dengan moralitas dan kekuasaan. Buku tebal dan provokatif yang mengguncang asumsi dasar ekonomi."
           },
           {
             id: "p4-s0-b2",
@@ -492,7 +492,7 @@ export const ROADMAP_DATA = [
             author: "Tom Bingham",
             year: 2010,
             pages: 213,
-            desc: "Uraian jernih dan mendasar dari mantan Ketua Mahkamah Agung Inggris mengenai 8 pilar 'Supremasi Hukum' (Rule of Law). Menjelaskan mengapa hukum harus berlaku setara bagi semua orang, tidak diskriminatif, melindungi hak asasi manusia dasar, dan menjamin akses keadilan yang terjangkau."
+            desc: "Ditulis mantan hakim agung Inggris, buku pendek ini menjelaskan dengan jernih apa sebenarnya makna 'rule of law' — bukan sekadar ada hukum tertulis, tapi delapan prinsip konkret seperti kesetaraan di depan hukum dan pembatasan kekuasaan negara. Sangat accessible untuk pembaca non-hukum."
           }
         ]
       },
@@ -505,7 +505,7 @@ export const ROADMAP_DATA = [
             author: "Huston Smith",
             year: 1991,
             pages: 416,
-            desc: "Studi komparatif paling dihormati mengenai tradisi spiritual besar dunia: Hinduisme, Buddhisme, Konfusianisme, Taoisme, Islam, Yudaisme, Kekristenan, dan Tradisi Primal. Berfokus pada nilai esoteris internal dan pencarian makna kebijaksanaan tertinggi di tiap tradisi."
+            desc: "Overview komparatif agama-agama besar dunia — Hindu, Buddha, Konghucu, Tao, Islam, Yahudi, Kristen — ditulis dengan nada penuh empati, mencoba memahami tiap agama dari dalam sebagaimana penganutnya memahaminya, bukan menghakimi dari luar. Salah satu pengantar studi agama paling dihormati."
           },
           {
             id: "p4-s1-b1",
@@ -513,7 +513,7 @@ export const ROADMAP_DATA = [
             author: "Rudolf Otto",
             year: 1917,
             pages: 232,
-            desc: "Analisis fenomenologi tentang inti pengalaman religius non-rasional. Otto mengenalkan konsep Numinous—pengalaman berjumpa dengan 'Mysterium Tremendum et Fascinans': keagungan yang dahsyat, menakutkan, namun pada saat bersamaan sangat memikat dan mempesona."
+            desc: "Karya fenomenologi agama yang memperkenalkan konsep 'numinous' — pengalaman terhadap yang sakral yang membuat manusia merasa kecil sekaligus terpukau, lepas dari doktrin agama tertentu manapun. Buku berat tapi penting untuk memahami agama 'dari dalam', bukan cuma sebagai fenomena sosial."
           },
           {
             id: "p4-s1-b2",
@@ -521,7 +521,7 @@ export const ROADMAP_DATA = [
             author: "Yuval Noah Harari",
             year: 2015,
             pages: 450,
-            desc: "Analisis prospektif tentang masa depan kemanusiaan di mana ancaman kelaparan, wabah, dan perang telah berhasil dikendalikan. Harari menguraikan pergeseran fokus manusia menuju pencapaian keabadian, kebahagiaan abadi, dan rekayasa menjadi 'Homo Deus' (manusia dewa) berbasis Dataisme dan kecerdasan buatan."
+            desc: "Kelanjutan Sapiens yang menoleh ke depan — setelah manusia relatif menaklukkan kelaparan, wabah, dan perang, Harari berspekulasi ke mana ambisi manusia berikutnya: keabadian, kebahagiaan permanen, dan status ketuhanan lewat teknologi. Juga membahas bagaimana data dan algoritma bisa menggantikan agama sebagai sumber otoritas makna."
           }
         ]
       }
@@ -543,7 +543,7 @@ export const ROADMAP_DATA = [
             author: "Viktor Frankl",
             year: 1946,
             pages: 184,
-            desc: "Kesaksian psikiater penyintas kamp konsentrasi Auschwitz dan pendiri Logoterapi. Frankl menegaskan bahwa dorongan utama manusia bukanlah kenikmatan (Freud) atau kekuasaan (Adler), melainkan pencarian makna hidup—yang dapat ditemukan lewat karya, cinta, dan sikap dalam menghadapi penderitaan yang tak terhindarkan."
+            desc: "Kesaksian seorang psikiater yang bertahan hidup di kamp konsentrasi Nazi, digabung dengan teori logoterapi-nya: manusia bisa bertahan dari penderitaan paling ekstrem sekalipun kalau menemukan makna di baliknya. Salah satu buku paling banyak mengubah hidup pembacanya sepanjang sejarah penerbitan."
           },
           {
             id: "p5-s0-b1",
@@ -551,7 +551,7 @@ export const ROADMAP_DATA = [
             author: "Ernest Becker",
             year: 1973,
             pages: 314,
-            desc: "Karya pemenang Hadiah Pulitzer yang menyatakan bahwa ketakutan akan kematian adalah penggerak utama perilaku dan kebudayaan manusia. Manusia membangun 'Hero Projects' (budaya, agama, karir, seni) sebagai mekanisme pertahanan psikologis untuk mencapai keabadian simbolis."
+            desc: "Berargumen ketakutan akan kematian adalah motivator tersembunyi di balik hampir semua perilaku manusia — ambisi, agama, budaya, bahkan kekejaman — sebagai cara tak sadar melawan kefanaan diri. Pemenang Pulitzer ini jadi dasar Terror Management Theory dalam psikologi sosial modern."
           },
           {
             id: "p5-s0-b2",
@@ -559,7 +559,7 @@ export const ROADMAP_DATA = [
             author: "Atul Gawande",
             year: 2014,
             pages: 282,
-            desc: "Refleksi kritis dokter bedah atas kegagalan dunia medis modern yang terlalu fokus memperpanjang usia biologis namun mengabaikan kualitas hidup dan martabat manusia di akhir hayat. Membahas bagaimana menghadapi penuaan, keterbatasan, dan proses kematian secara bijak."
+            desc: "Dokter bedah ini merefleksikan bagaimana sistem medis modern sering gagal menangani penuaan dan kematian dengan bermartabat, terlalu fokus memperpanjang hidup ketimbang menjaga kualitasnya. Ditulis lewat kisah pasien nyata, termasuk pengalaman pribadi Gawande dengan ayahnya sendiri."
           },
           {
             id: "p5-s0-b3",
@@ -567,7 +567,7 @@ export const ROADMAP_DATA = [
             author: "Albert Camus",
             year: 1942,
             pages: 212,
-            desc: "Esai filsafat Absurdisme. Camus mengartikulasikan 'Absurd'—benturan antara hasrat manusia akan makna mutlak dengan kesenyapan alam semesta yang dingin tanpa jaminan makna. Mengajarkan cara hidup bebas dan penuh semangat seperti Sisyphus yang tetap tersenyum memikul batunya."
+            desc: "Esai filosofis yang membuka dengan klaim terkenal: pertanyaan filosofis paling serius adalah apakah hidup layak dijalani. Camus mengeksplorasi 'absurd' lewat mitos Sisyphus yang dihukum mendorong batu selamanya, dan menyimpulkan kita harus membayangkan Sisyphus bahagia — menerima absurditas tanpa menyerah pada nihilisme."
           }
         ]
       },
@@ -580,7 +580,7 @@ export const ROADMAP_DATA = [
             author: "Michael Sandel",
             year: 2009,
             pages: 308,
-            desc: "Pengantar filsafat moral dan politik lewat bedah dilema etika nyata. Sandel menguji 3 pendekatan keadilan: Utilitarisme (memaksimalkan kebahagiaan terbanyak), Libertarianisme & Kant (kebebasan individu & kewajiban moral), serta Aristoteles (memupuk kebajikan & kebaikan bersama)."
+            desc: "Berdasarkan kuliah paling populer di Harvard, buku ini memandu pembaca lewat dilema moral konkret (trolley problem, pajak, affirmative action) untuk membandingkan berbagai teori etika Barat — utilitarianisme, libertarianisme, Kantian, komunitarianisme. Sandel sengaja tidak memihak satu teori, mengajak pembaca berpikir sendiri."
           },
           {
             id: "p5-s1-b1",
@@ -588,7 +588,7 @@ export const ROADMAP_DATA = [
             author: "Confucius",
             year: 1893,
             pages: 200,
-            desc: "Kumpulan dialog dan ajaran Konfusius mengenai etika personal, keharmonisan sosial, kebajikan (Ren), dan tata krama (Li). Menjadi sampel filosofis etika Timur yang menempatkan keselarasan hubungan sosial dan rasa hormat sebagai fondasi utama peradaban."
+            desc: "Kumpulan ucapan dan dialog Konfusius yang direkam murid-muridnya, berisi ajaran tentang etika, hubungan sosial, dan tata krama sebagai jalan menuju masyarakat harmonis. Berbeda dari filsafat Barat yang sistematis, gaya Konfusius lebih aforistik — representasi penting etika Timur yang menekankan relasi, bukan hak individu."
           },
           {
             id: "p5-s1-b2",
@@ -596,7 +596,7 @@ export const ROADMAP_DATA = [
             author: "Martin Heidegger",
             year: 1927,
             pages: 589,
-            desc: "Mahakarya fenomenologi eksistensial mengenai pertanyaan 'Apa arti Ada?'. Heidegger mendefinisikan keberadaan manusia sebagai Dasein ('Being-in-the-world') dan bagaimana kesadaran akan temporalitas serta kematian (Being-towards-death) menentukan keotentikan hidup manusia."
+            desc: "Karya filsafat paling berat dan berpengaruh abad 20 ini mengeksplorasi apa artinya 'ada' lewat analisis eksistensi manusia, termasuk konsep being-toward-death — kesadaran akan kematian yang justru membuat hidup otentik. Fondasi eksistensialisme yang memengaruhi Sartre, Camus, dan banyak pemikir setelahnya."
           }
         ]
       }
@@ -618,7 +618,7 @@ export const ROADMAP_DATA = [
             author: "Max Tegmark",
             year: 2017,
             pages: 384,
-            desc: "Panduan fisikawan MIT mengenai era Artificial Intelligence. Tegmark mengklasifikasikan kehidupan dalam 3 tahapan: Life 1.0 (biologis), Life 2.0 (budaya), dan Life 3.0 (mampu merancang hardware & software sendiri). Menguraikan berbagai skenario masa depan kecerdasan buatan bagi peradaban."
+            desc: "Fisikawan MIT ini memetakan berbagai skenario masa depan manusia berdampingan dengan kecerdasan buatan super, dari utopia sampai kepunahan, dan mengajak pembaca berpikir aktif menentukan arah mana yang diinginkan. Ditulis accessible, bagus sebagai pengantar sebelum masuk ke Superintelligence yang lebih teknis."
           },
           {
             id: "p6-s0-b1",
@@ -626,7 +626,7 @@ export const ROADMAP_DATA = [
             author: "Nick Bostrom",
             year: 2014,
             pages: 352,
-            desc: "Analisis komprehensif risiko eksistensial dari kecerdasan buatan super (AGI/ASI). Bostrom mengkaji 'Alignment Problem'—bagaimana memastikan tujuan AI super cerdas tetap sejalan dengan kelangsungan hidup dan nilai-nilai kemanusiaan sebelum ledakan kecerdasan terjadi."
+            desc: "Analisis filosofis-teknis serius soal apa yang terjadi kalau kecerdasan buatan melampaui kecerdasan manusia di segala bidang, dan kenapa mengontrolnya jauh lebih sulit dari yang dikira. Buku ini mempopulerkan banyak konsep AI safety yang sekarang jadi bidang riset serius — lebih berat dan pesimistis dibanding Life 3.0."
           },
           {
             id: "p6-s0-b2",
@@ -634,7 +634,268 @@ export const ROADMAP_DATA = [
             author: "Toby Ord",
             year: 2020,
             pages: 480,
-            desc: "Kerangka pemikiran dari peneliti Oxford mengenai risiko eksistensial (X-risk) yang mengancam kepunahan umat manusia atau kehancuran permanen potensi peradaban. Ord menganalisis risiko alami vs risiko buatan manusia (nuklir, biologis, AI) dan kewajiban moral kita menjaga masa depan."
+            desc: "Ord memetakan risiko eksistensial — ancaman yang bisa memusnahkan atau melumpuhkan permanen potensi umat manusia, dari senjata nuklir sampai AI tak terkendali — dan berargumen kita hidup di masa paling berbahaya sekaligus paling menentukan dalam sejarah spesies. Penutup tepat untuk peta realitas dari asal-usul kosmos sampai masa depan manusia."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "phase-lit",
+    tag: "FASE SASTRA",
+    tagClass: "lit",
+    title: "Novel Magnum Opus — Paralel, Tidak Berurutan",
+    note: "Karya sastra kelas dunia yang mendramatisasi tema tiap fase lewat cerita, bukan argumen. Selingi di antara buku nonfiksi, tidak perlu urut.",
+    sections: [
+      {
+        label: "Sosial & Sejarah",
+        books: [
+          {
+            id: "plit-s0-b0",
+            title: "War and Peace",
+            author: "Leo Tolstoy",
+            year: 1869,
+            pages: 1225,
+            desc: "Epik Napoleon-era Rusia yang mengikuti beberapa keluarga bangsawan lewat perang dan damai, mempertanyakan apakah sejarah digerakkan tokoh-tokoh besar atau kekuatan kolektif tak terlihat. Tolstoy menyelipkan esai panjang soal filsafat sejarah di tengah narasi — skalanya nyaris tak tertandingi dalam sastra dunia."
+          },
+          {
+            id: "plit-s0-b1",
+            title: "Middlemarch",
+            author: "George Eliot",
+            year: 1871,
+            pages: 880,
+            desc: "Potret mendalam kehidupan sebuah kota kecil Inggris, mengikuti idealisme yang perlahan berbenturan dengan kompromi dan keterbatasan sosial. Dianggap banyak kritikus sebagai novel Inggris paling matang secara psikologis, menunjukkan bagaimana institusi kecil membentuk nasib individu."
+          },
+          {
+            id: "plit-s0-b2",
+            title: "One Hundred Years of Solitude",
+            author: "Gabriel García Márquez",
+            year: 1967,
+            pages: 417,
+            desc: "Kisah tujuh generasi keluarga Buendía di kota fiktif Macondo, mencampur sejarah Amerika Latin dengan hal-hal ajaib yang dianggap biasa. Karya paling ikonik realisme magis — alegori kolonialisme, perang saudara, dan kesepian sebagai warisan turun-temurun."
+          },
+          {
+            id: "plit-s0-b3",
+            title: "Don Quixote",
+            author: "Miguel de Cervantes",
+            year: 1605,
+            pages: 863,
+            desc: "Kisah bangsawan tua yang kehilangan akal karena kebanyakan baca novel ksatria, lalu berkelana meyakini dirinya ksatria sungguhan. Dianggap novel modern pertama, mendramatisasi benturan idealisme/ilusi dengan realitas — jembatan dari dunia mitos ke dunia modern yang skeptis."
+          },
+          {
+            id: "plit-s0-b4",
+            title: "Beloved",
+            author: "Toni Morrison",
+            year: 1987,
+            pages: 324,
+            desc: "Kisah mantan budak yang dihantui secara harfiah oleh masa lalunya, mendramatisasi bagaimana trauma sejarah terus hidup lewat memori dan warisan. Pemenang Pulitzer, sering disebut novel Amerika terpenting pasca perang."
+          },
+          {
+            id: "plit-s0-b5",
+            title: "The Grapes of Wrath",
+            author: "John Steinbeck",
+            year: 1939,
+            pages: 464,
+            desc: "Keluarga petani miskin Oklahoma bermigrasi ke California saat Depresi Besar, menghadapi eksploitasi dan kemiskinan sistemik. Steinbeck menulis dengan kemarahan moral jelas terhadap ketimpangan ekonomi — menyambungkan ekonomi politik dengan penderitaan manusia yang sangat konkret."
+          },
+          {
+            id: "plit-s0-b6",
+            title: "Buddenbrooks",
+            author: "Thomas Mann",
+            year: 1901,
+            pages: 731,
+            desc: "Kisah kemunduran bertahap sebuah keluarga pedagang kaya Jerman selama empat generasi, mencerminkan transisi dari nilai borjuis lama ke modernitas individualistis. Ditulis Mann di usia 25 tahun, jadi karya kunci di balik Nobel Sastranya."
+          },
+          {
+            id: "plit-s0-b7",
+            title: "Pedro Páramo",
+            author: "Juan Rulfo",
+            year: 1955,
+            pages: 124,
+            desc: "Seorang pria mencari ayahnya yang hilang di kota yang ternyata dihuni arwah-arwah, mencampur dunia hidup dan mati tanpa batas jelas. Novel pendek cikal bakal realisme magis Amerika Latin yang sangat memengaruhi García Márquez."
+          }
+        ]
+      },
+      {
+        label: "Kekuasaan & Bahasa",
+        books: [
+          {
+            id: "plit-s1-b0",
+            title: "1984",
+            author: "George Orwell",
+            year: 1949,
+            pages: 328,
+            desc: "Distopia totaliter di mana kebenaran dikendalikan lewat manipulasi bahasa (Newspeak) dan pengawasan total. Orwell mendramatisasi apa yang ia tulis di esainya soal bahasa dan politik — 'Big Brother' dan 'doublethink' jadi kosakata umum berkat buku ini."
+          },
+          {
+            id: "plit-s1-b1",
+            title: "Animal Farm",
+            author: "George Orwell",
+            year: 1945,
+            pages: 112,
+            desc: "Fabel pendek tentang revolusi hewan ternak yang menggulingkan manusia, lalu perlahan pemimpinnya jadi setirani penguasa yang digulingkan. Alegori tajam soal revolusi ideal yang berujung tirani baru berwajah beda — padat dan cepat dibaca."
+          },
+          {
+            id: "plit-s1-b2",
+            title: "The Trial",
+            author: "Franz Kafka",
+            year: 1925,
+            pages: 255,
+            desc: "Seorang pria ditangkap dan diadili sistem pengadilan yang tak pernah menjelaskan tuduhannya, mendramatisasi kengerian birokrasi dan kekuasaan tak berwajah. 'Kafkaesque' jadi istilah tersendiri berkat buku ini."
+          },
+          {
+            id: "plit-s1-b3",
+            title: "We",
+            author: "Yevgeny Zamyatin",
+            year: 1924,
+            pages: 226,
+            desc: "Distopia awal (mendahului dan menginspirasi 1984 maupun Brave New World) tentang negara totaliter yang menghapus individualitas lewat logika matematis dan transparansi total. Dilarang terbit di Rusia selama puluhan tahun — fondasi genre distopia yang sering terlewat padahal paling berpengaruh."
+          },
+          {
+            id: "plit-s1-b4",
+            title: "Darkness at Noon",
+            author: "Arthur Koestler",
+            year: 1940,
+            pages: 256,
+            desc: "Seorang revolusioner tua diadili oleh rezim yang dulu ia bantu bangun sendiri, mendramatisasi bagaimana ideologi bisa memakan pengikutnya sendiri. Ditulis dari pengalaman langsung Koestler dengan komunisme — pendamping penting 1984 dan Animal Farm."
+          },
+          {
+            id: "plit-s1-b5",
+            title: "The Master and Margarita",
+            author: "Mikhail Bulgakov",
+            year: 1967,
+            pages: 384,
+            desc: "Setan datang ke Moskow era Soviet dan mengacaukan hidup para birokrat ateis, dijalin kisah paralel Pontius Pilatus dan Yesus. Satir liar dan filosofis, ditulis diam-diam era Stalin dan baru terbit setelah kematian penulisnya."
+          }
+        ]
+      },
+      {
+        label: "Eksistensial",
+        books: [
+          {
+            id: "plit-s2-b0",
+            title: "Crime and Punishment",
+            author: "Fyodor Dostoevsky",
+            year: 1866,
+            pages: 671,
+            desc: "Mengikuti mahasiswa miskin yang membunuh untuk membuktikan teorinya soal manusia luar biasa, lalu tersiksa rasa bersalah yang menghancurkannya dari dalam. Salah satu studi psikologis paling intens dalam sastra, dijelajahi dari dalam kepala si pembunuh."
+          },
+          {
+            id: "plit-s2-b1",
+            title: "The Brothers Karamazov",
+            author: "Fyodor Dostoevsky",
+            year: 1880,
+            pages: 824,
+            desc: "Magnum opus Dostoevsky mengikuti tiga bersaudara dengan pandangan hidup berbeda (iman, rasionalitas, hedonisme) di tengah kematian misterius ayah mereka. Membahas problem kejahatan, kebebasan, dan keberadaan Tuhan — paling berat tapi dianggap puncak pencapaiannya."
+          },
+          {
+            id: "plit-s2-b2",
+            title: "Notes from Underground",
+            author: "Fyodor Dostoevsky",
+            year: 1864,
+            pages: 136,
+            desc: "Monolog pria pahit dan terasing yang menolak logika rasionalis soal manusia, membela kebebasan irasional walau merugikan diri sendiri. Sering disebut novel eksistensialis pertama, mendahului Kierkegaard maupun Sartre dalam banyak temanya."
+          },
+          {
+            id: "plit-s2-b3",
+            title: "The Stranger",
+            author: "Albert Camus",
+            year: 1942,
+            pages: 123,
+            desc: "Pria menjalani hidup dengan ketidakpedulian emosional, sampai pembunuhan tanpa motif jelas mengantarnya ke pengadilan yang lebih menghukum sikapnya ketimbang tindakannya. Versi naratif dari absurdisme Camus — pendek, dingin, mengguncang."
+          },
+          {
+            id: "plit-s2-b4",
+            title: "The Death of Ivan Ilyich",
+            author: "Leo Tolstoy",
+            year: 1886,
+            pages: 104,
+            desc: "Novela pendek tentang pejabat biasa yang menyadari, saat sekarat, bahwa hidupnya yang tampak sukses sebenarnya kosong. Ditulis Tolstoy pasca krisis eksistensial pribadinya — pas dibaca berdampingan dengan Being Mortal dan The Denial of Death."
+          },
+          {
+            id: "plit-s2-b5",
+            title: "Hamlet",
+            author: "William Shakespeare",
+            year: 1600,
+            pages: 342,
+            desc: "Pangeran Denmark berusaha membalas kematian ayahnya, terjebak keraguan eksistensial yang melumpuhkan tindakan. Monolog 'to be or not to be' jadi salah satu perenungan hidup-mati paling terkenal dalam sastra Barat."
+          },
+          {
+            id: "plit-s2-b6",
+            title: "King Lear",
+            author: "William Shakespeare",
+            year: 1606,
+            pages: 326,
+            desc: "Raja tua membagi kerajaan berdasarkan siapa paling manis merayunya, lalu menyaksikan keruntuhan totalnya sendiri. Dianggap tragedi paling gelap Shakespeare soal penuaan, kekuasaan, dan keluarga hancur — pertanyaan keadilan di alam semesta yang tampak acuh sangat kental."
+          },
+          {
+            id: "plit-s2-b7",
+            title: "Moby-Dick",
+            author: "Herman Melville",
+            year: 1851,
+            pages: 635,
+            desc: "Kapten Ahab mengejar paus putih raksasa dengan obsesi yang perlahan menghancurkan kapal dan awaknya sendiri. Lebih dari kisah perburuan — alegori obsesi manusia mengejar makna di tengah alam semesta yang acuh."
+          },
+          {
+            id: "plit-s2-b8",
+            title: "Anna Karenina",
+            author: "Leo Tolstoy",
+            year: 1878,
+            pages: 864,
+            desc: "Mengikuti perselingkuhan Anna yang berujung tragedi, dijalin kisah paralel Levin yang mencari makna hidup lewat kerja dan keluarga. Tolstoy mengeksplorasi moralitas personal dan konsekuensi pilihan di tengah tekanan sosial ketat Rusia abad 19."
+          },
+          {
+            id: "plit-s2-b9",
+            title: "The Sound and the Fury",
+            author: "William Faulkner",
+            year: 1929,
+            pages: 326,
+            desc: "Kisah kemunduran keluarga Compson Selatan Amerika, diceritakan lewat empat sudut pandang berbeda termasuk narasi stream-of-consciousness. Salah satu eksperimen struktur naratif paling berani abad 20, menuntut kesabaran tapi memberi pemahaman unik soal waktu dan memori subjektif."
+          },
+          {
+            id: "plit-s2-b10",
+            title: "Waiting for Godot",
+            author: "Samuel Beckett",
+            year: 1953,
+            pages: 109,
+            desc: "Dua pengembara menunggu sosok bernama Godot yang tak pernah datang, mengisi waktu dengan percakapan absurd tanpa tujuan jelas. Drama absurdis paling terkenal, mendramatisasi kekosongan makna dan kebiasaan menunggu sesuatu yang mungkin tak pernah tiba."
+          }
+        ]
+      },
+      {
+        label: "Masa Depan & Teknologi",
+        books: [
+          {
+            id: "plit-s3-b0",
+            title: "Frankenstein",
+            author: "Mary Shelley",
+            year: 1818,
+            pages: 280,
+            desc: "Ilmuwan menciptakan makhluk hidup lalu meninggalkannya karena ngeri pada ciptaannya sendiri, memicu rangkaian tragedi. Ditulis usia 18 tahun oleh Mary Shelley, cikal bakal fiksi ilmiah modern sekaligus peringatan dini soal tanggung jawab ilmuwan — sangat relevan dibaca berdampingan diskusi AI modern."
+          },
+          {
+            id: "plit-s3-b1",
+            title: "Brave New World",
+            author: "Aldous Huxley",
+            year: 1932,
+            pages: 311,
+            desc: "Distopia di mana kontrol sosial dilakukan bukan lewat represi (seperti 1984) tapi lewat kenyamanan dan kepuasan instan yang membuat orang tak ingin memberontak. Huxley memprediksi banyak fenomena konsumerisme modern jauh sebelum terjadi — dua visi masa depan yang berlawanan tapi sama meresahkan dengan 1984."
+          },
+          {
+            id: "plit-s3-b2",
+            title: "Do Androids Dream of Electric Sheep?",
+            author: "Philip K. Dick",
+            year: 1968,
+            pages: 244,
+            desc: "Pemburu bayaran melacak android buronan di bumi pasca-apokaliptik, mempertanyakan batas manusia dan mesin lewat empati sebagai penanda kemanusiaan. Basis film Blade Runner, tapi novelnya jauh lebih filosofis dan gelap — pertanyaan kesadaran buatan yang relevan jauh sebelum AI jadi topik serius."
+          },
+          {
+            id: "plit-s3-b3",
+            title: "Solaris",
+            author: "Stanisław Lem",
+            year: 1961,
+            pages: 204,
+            desc: "Ilmuwan di stasiun luar angkasa menghadapi planet lautan hidup yang memanifestasikan memori dan trauma terdalam mereka, mempertanyakan apakah manusia benar-benar bisa memahami kecerdasan yang benar-benar asing. Filosofis dan mengganggu, berlawanan dengan kebanyakan fiksi ilmiah optimis soal komunikasi antar spesies."
           }
         ]
       }

@@ -10,6 +10,7 @@
   --faint: #706450;
   --oxblood: #6E1E1B;
   --brass: #63470D;
+  --forest: #385428;
   --rule: rgba(32, 24, 14, 0.22);
   --rule-soft: rgba(32, 24, 14, 0.12);
 }
@@ -371,6 +372,11 @@ nav.phasenav button .badge-dot {
 .phase-tag.comm {
   color: var(--brass);
   border-color: var(--brass);
+}
+
+.phase-tag.lit {
+  color: var(--forest);
+  border-color: var(--forest);
 }
 
 .phase-title {
