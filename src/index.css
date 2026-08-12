@@ -575,22 +575,83 @@ nav.phasenav button .badge-dot {
 .book-desc {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.book-desc p {
-  font-size: 14.5px;
-  line-height: 1.68;
-  color: var(--ink-soft);
-  font-style: normal;
-  padding-top: 9px;
-  padding-right: 8px;
-  border-top: 1px dashed var(--rule);
-  margin-top: 9px;
+  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .book.open .book-desc {
-  max-height: 800px;
+  max-height: 1400px;
+}
+
+.desc-container {
+  margin-top: 12px;
+  padding: 14px 16px;
+  background: rgba(44, 36, 24, 0.035);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--oxblood);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.desc-block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.desc-label {
+  font-family: 'Courier Prime', monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brass);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.desc-main-text {
+  font-size: 14.5px;
+  line-height: 1.68;
+  color: var(--ink-soft);
+}
+
+.takeaways-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.takeaways-list li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.takeaway-bullet {
+  color: var(--oxblood);
+  font-size: 11px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.context-block {
+  padding-top: 10px;
+  border-top: 1px dashed var(--rule);
+}
+
+.desc-context-text {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  font-style: italic;
 }
 
 /* Highlight search match */

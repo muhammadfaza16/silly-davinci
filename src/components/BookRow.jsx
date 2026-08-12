@@ -10,6 +10,7 @@ export default function BookRow({
 }) {
   // Utility to highlight search query text if present
   const highlightText = (text) => {
+    if (!text) return '';
     if (!searchQuery || !searchQuery.trim()) return text;
     const query = searchQuery.trim();
     const parts = text.split(new RegExp(`(${query.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')})`, 'gi'));
@@ -85,7 +86,36 @@ export default function BookRow({
         </div>
 
         <div className="book-desc">
-          <p>{highlightText(book.desc)}</p>
+          <div className="desc-container">
+            {/* Ringkasan & Tesis Utama */}
+            <div className="desc-block">
+              <div className="desc-label">Ringkasan & Tesis Utama</div>
+              <p className="desc-main-text">{highlightText(book.desc)}</p>
+            </div>
+
+            {/* Poin Kunci & Ide Inti */}
+            {book.takeaways && book.takeaways.length > 0 && (
+              <div className="desc-block">
+                <div className="desc-label">Poin Kunci & Ide Inti</div>
+                <ul className="takeaways-list">
+                  {book.takeaways.map((item, idx) => (
+                    <li key={idx}>
+                      <span className="takeaway-bullet">✦</span>
+                      <span>{highlightText(item)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Relevansi Kurikulum */}
+            {book.context && (
+              <div className="desc-block context-block">
+                <div className="desc-label">Relevansi dalam Peta Realitas</div>
+                <p className="desc-context-text">{highlightText(book.context)}</p>
+              </div>
+            )}
+          </div>
         </div>
       </span>
     </div>
