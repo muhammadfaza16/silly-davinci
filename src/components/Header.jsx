@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { Search, RotateCcw, ChevronDown, ChevronUp, Download, Upload, CheckCircle2 } from 'lucide-react';
+import React from 'react';
+import { Search, ChevronDown, ChevronUp, Download } from 'lucide-react';
 
 export default function Header({
   totalBooks,
@@ -8,22 +8,11 @@ export default function Header({
   setSearchQuery,
   statusFilter,
   setStatusFilter,
-  onReset,
-  onExpandAll,
-  onCollapseAll,
-  onExport,
-  onImport
+  isAllExpanded,
+  onToggleExpandAll,
+  onExport
 }) {
   const percentage = totalBooks > 0 ? Math.round((doneCount / totalBooks) * 100) : 0;
-  const fileInputRef = useRef(null);
-
-  const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      onImport(file);
-      e.target.value = null;
-    }
-  };
 
   return (
     <header>
@@ -90,31 +79,16 @@ export default function Header({
         </div>
 
         <div className="actions-group">
-          <button className="action-btn" onClick={onExpandAll} title="Buka semua deskripsi">
-            <ChevronDown size={13} /> Buka Semua
-          </button>
-          <button className="action-btn" onClick={onCollapseAll} title="Tutup semua deskripsi">
-            <ChevronUp size={13} /> Tutup Semua
+          <button
+            className="action-btn"
+            onClick={onToggleExpandAll}
+            title={isAllExpanded ? "Tutup semua deskripsi" : "Buka semua deskripsi"}
+          >
+            {isAllExpanded ? <ChevronUp size={13} /> : <ChevronDown size={13} />}
+            {isAllExpanded ? "Tutup Semua" : "Buka Semua"}
           </button>
           <button className="action-btn" onClick={onExport} title="Ekspor data progress">
             <Download size={13} /> Ekspor
-          </button>
-          <button
-            className="action-btn"
-            onClick={() => fileInputRef.current?.click()}
-            title="Impor data progress"
-          >
-            <Upload size={13} /> Impor
-          </button>
-          <input
-            type="file"
-            ref={fileInputRef}
-            style={{ display: 'none' }}
-            accept=".json"
-            onChange={handleFileChange}
-          />
-          <button className="action-btn reset" onClick={onReset} title="Reset progress baca">
-            <RotateCcw size={13} /> Reset
           </button>
         </div>
       </div>

@@ -89,28 +89,23 @@ export default function App() {
     }));
   };
 
-  // Reset all progress
-  const handleReset = () => {
-    if (window.confirm("Apakah kamu yakin ingin mereset semua progress bacaan?")) {
-      const resetState = {};
-      allBookIds.forEach((id) => (resetState[id] = false));
-      setDoneState(resetState);
-      triggerToast("Progress bacaan telah direset.");
+  // Derive whether all descriptions are currently expanded
+  const isAllExpanded = useMemo(() => {
+    if (allBookIds.length === 0) return false;
+    return allBookIds.every((id) => Boolean(openState[id]));
+  }, [allBookIds, openState]);
+
+  // Toggle expand / collapse all
+  const handleToggleExpandAll = () => {
+    if (isAllExpanded) {
+      setOpenState({});
+      triggerToast("Semua deskripsi ditutup.");
+    } else {
+      const nextOpen = {};
+      allBookIds.forEach((id) => (nextOpen[id] = true));
+      setOpenState(nextOpen);
+      triggerToast("Semua deskripsi dibuka.");
     }
-  };
-
-  // Expand all descriptions
-  const handleExpandAll = () => {
-    const nextOpen = {};
-    allBookIds.forEach((id) => (nextOpen[id] = true));
-    setOpenState(nextOpen);
-    triggerToast("Semua deskripsi dibuka.");
-  };
-
-  // Collapse all descriptions
-  const handleCollapseAll = () => {
-    setOpenState({});
-    triggerToast("Semua deskripsi ditutup.");
   };
 
   // Export progress as JSON file
@@ -123,25 +118,6 @@ export default function App() {
     downloadAnchor.click();
     downloadAnchor.remove();
     triggerToast("Progress berhasil di-ekspor.");
-  };
-
-  // Import progress from JSON file
-  const handleImport = (file) => {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      try {
-        const importedData = JSON.parse(e.target.result);
-        if (typeof importedData === 'object' && importedData !== null) {
-          setDoneState(importedData);
-          triggerToast("Progress berhasil di-impor!");
-        } else {
-          alert("Format file JSON tidak valid.");
-        }
-      } catch (err) {
-        alert("Gagal membaca file JSON.");
-      }
-    };
-    reader.readAsText(file);
   };
 
   // Select phase from Nav
@@ -226,11 +202,9 @@ export default function App() {
         setSearchQuery={setSearchQuery}
         statusFilter={statusFilter}
         setStatusFilter={setStatusFilter}
-        onReset={handleReset}
-        onExpandAll={handleExpandAll}
-        onCollapseAll={handleCollapseAll}
+        isAllExpanded={isAllExpanded}
+        onToggleExpandAll={handleToggleExpandAll}
         onExport={handleExport}
-        onImport={handleImport}
       />
 
       <PhaseNav
