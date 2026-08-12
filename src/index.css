@@ -292,6 +292,9 @@ h1 em {
   border: 1px solid var(--rule);
   border-radius: 8px;
   box-shadow: 0 4px 16px -2px rgba(44, 36, 24, 0.08);
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 nav.phasenav {

@@ -155,22 +155,31 @@ export default function App() {
 
   // Scroll listener for Back to Top button & active phase tracking
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowBackToTop(true);
-      } else {
-        setShowBackToTop(false);
-      }
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          if (window.scrollY > 300) {
+            setShowBackToTop((prev) => (prev ? prev : true));
+          } else {
+            setShowBackToTop((prev) => (!prev ? prev : false));
+          }
 
-      // Track active phase element
-      const phaseEls = ROADMAP_DATA.map((p) => document.getElementById(p.id)).filter(Boolean);
-      const scrollPos = window.scrollY + 120;
+          // Track active phase element
+          const phaseEls = ROADMAP_DATA.map((p) => document.getElementById(p.id)).filter(Boolean);
+          const scrollPos = window.scrollY + 140;
 
-      for (let i = phaseEls.length - 1; i >= 0; i--) {
-        if (phaseEls[i].offsetTop <= scrollPos) {
-          setActivePhaseId(ROADMAP_DATA[i].id);
-          break;
-        }
+          for (let i = phaseEls.length - 1; i >= 0; i--) {
+            if (phaseEls[i].offsetTop <= scrollPos) {
+              const targetId = ROADMAP_DATA[i].id;
+              setActivePhaseId((prev) => (prev === targetId ? prev : targetId));
+              break;
+            }
+          }
+          ticking = false;
+        });
+        ticking = true;
       }
     };
 
