@@ -16,12 +16,12 @@ export default function Header({
 
   return (
     <header>
-      <div className="eyebrow">Personal Curriculum · No Category Limits</div>
+      <div className="eyebrow">Kurikulum Literasi Kognitif & Realitas</div>
       <h1>
-        Peta Realitas & <em>Cara Bicara</em>
+        Peta Realitas & <em>Artikulasi Pikiran</em>
       </h1>
       <p className="sub">
-        Roadmap baca terurut: alat komunikasi dulu, baru isi. Tujuh lapisan realitas — dari asal-usul kosmos sampai arah masa depan manusia.
+        Kurikulum membaca terstruktur untuk mengasah ketajaman berpikir, presisi bahasa, serta pemahaman komprehensif atas sains, peradaban, dan kondisi manusia.
       </p>
 
       {/* Progress summary */}

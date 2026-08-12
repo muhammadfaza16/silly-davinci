@@ -87,16 +87,16 @@ export default function BookRow({
 
         <div className="book-desc">
           <div className="desc-container">
-            {/* Ringkasan & Tesis Utama */}
+            {/* Gagasan Utama */}
             <div className="desc-block">
-              <div className="desc-label">Ringkasan & Tesis Utama</div>
+              <div className="desc-label">Gagasan Utama</div>
               <p className="desc-main-text">{highlightText(book.desc)}</p>
             </div>
 
-            {/* Poin Kunci & Ide Inti */}
+            {/* Poin Kunci */}
             {book.takeaways && book.takeaways.length > 0 && (
               <div className="desc-block">
-                <div className="desc-label">Poin Kunci & Ide Inti</div>
+                <div className="desc-label">Poin Kunci</div>
                 <ul className="takeaways-list">
                   {book.takeaways.map((item, idx) => (
                     <li key={idx}>
@@ -108,10 +108,10 @@ export default function BookRow({
               </div>
             )}
 
-            {/* Relevansi Kurikulum */}
+            {/* Konteks Bacaan */}
             {book.context && (
               <div className="desc-block context-block">
-                <div className="desc-label">Relevansi dalam Peta Realitas</div>
+                <div className="desc-label">Konteks Bacaan</div>
                 <p className="desc-context-text">{highlightText(book.context)}</p>
               </div>
             )}

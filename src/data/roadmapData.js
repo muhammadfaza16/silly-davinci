@@ -3,8 +3,8 @@ export const ROADMAP_DATA = [
     id: "phase-0",
     tag: "FASE 0",
     tagClass: "comm",
-    title: "Communication Foundation",
-    note: "Alat berpikir & bicara — dikuasai dulu sebelum masuk isi.",
+    title: "Komunikasi & Kejernihan Berpikir",
+    note: "Disiplin logika, presisi bahasa, dan seni penyampaian gagasan.",
     sections: [
       {
         label: "Kejernihan Berpikir",
@@ -22,7 +22,7 @@ export const ROADMAP_DATA = [
               "Kerangka SCQA: Susun konteks lewat Situation, Complication, Question, dan Answer.",
               "Prinsip MECE: Kelompokkan poin agar Mutually Exclusive (tidak tumpang tindih) dan Collectively Exhaustive (tidak ada yang terlewat)."
             ],
-            context: "Alat komunikasi dasar pertama dalam kurikulum untuk mengeliminasi cara penyampaian yang muter-muter."
+            context: "Fondasi utama untuk mengeliminasi cara penyampaian yang berbelit-belit."
           },
           {
             id: "p0-s0-b1",
@@ -37,7 +37,7 @@ export const ROADMAP_DATA = [
               "Identifikasi Logical Fallacies: Mengenali kesesatan berpikir seperti ad hominem, straw man, dan false dilemma.",
               "Penggunaan Contoh & Analogi yang Valid: Menyajikan bukti yang representatif dan tidak berlebihan."
             ],
-            context: "Fondasi kritis untuk menguji keabsahan argumen sebelum ide diucapkan atau dituliskan."
+            context: "Panduan kritis untuk menguji keabsahan logika argumen."
           },
           {
             id: "p0-s0-b2",
@@ -52,7 +52,7 @@ export const ROADMAP_DATA = [
               "Kekuatan Ordinary Moments: Memperbaiki keputusan-keputusan kecil harian yang menentukan hasil jangka panjang.",
               "Menciptakan Jeda (Margin of Safety): Memperlambat reaksi naluriah agar rasionalitas sempat bekerja."
             ],
-            context: "Menjaga disiplin emosional dan mental saat mengolah gagasan kompleks."
+            context: "Menjaga disiplin mental dan emosional saat mengolah gagasan."
           },
           {
             id: "p0-s0-b3",
@@ -67,7 +67,7 @@ export const ROADMAP_DATA = [
               "Survivor Bias & Linear Regression Paradox: Mengenali kesalahan pengambilan sampel statistik.",
               "Kritik Kuantitatif: Menguji klaim data sebelum menerimanya sebagai kebenaran."
             ],
-            context: "Membangun literasi data dan ketahanan terhadap angka yang dimanipulasi."
+            context: "Membangun literasi data dan ketahanan terhadap manipulasi kuantitatif."
           }
         ]
       },
@@ -122,7 +122,7 @@ export const ROADMAP_DATA = [
               "Mengatasi Curse of Knowledge: Membawa ide abstrak kembali ke realitas konkret.",
               "Emosi & Narasi: Menghubungkan ide dengan empati dan cerita nyata."
             ],
-            context: "Mengemas konsep sains/filsafat tebal agar dapat dipahami dan diingat lawan bicara."
+            context: "Mengemas gagasan kompleks agar dapat dipahami dan diingat lawan bicara."
           },
           {
             id: "p0-s2-b1",
@@ -137,7 +137,7 @@ export const ROADMAP_DATA = [
               "Curse of Knowledge: Ketidakmampuan membayangkan rasa tidak tahu audiens.",
               "Classic Style: Gaya penjelasan yang memperlakukan pembaca sebagai rekan diskusi yang cerdas."
             ],
-            context: "Memahami mekanisme otak audiens saat mencerna struktur kalimat."
+            context: "Memahami mekanisme kognitif audiens saat mencerna informasi."
           }
         ]
       },
@@ -287,8 +287,8 @@ export const ROADMAP_DATA = [
     id: "phase-1",
     tag: "FASE 1",
     tagClass: "",
-    title: "Asal-Usul & Hardware Manusia",
-    note: "Kosmos, evolusi, dan mekanisme biologis-kognitif individu.",
+    title: "Kosmologi & Biologi Manusia",
+    note: "Asal-usul alam semesta, mekanisme evolusi, serta neurosains perilaku.",
     sections: [
       {
         label: "Kosmologi & Sains Dasar",
@@ -557,7 +557,7 @@ export const ROADMAP_DATA = [
             pages: 499,
             desc: "Karya pemenang Nobel ini membedah dua sistem berpikir manusia — System 1 yang cepat dan intuitif tapi sering keliru, serta System 2 yang lambat dan analitis tapi malas dipakai. Kahneman memaparkan puluhan bias kognitif lewat eksperimen yang sudah jadi rujukan standar psikologi dan ekonomi perilaku.",
             takeaways: [
-              "Dualitas System 1 vs System 2: Berpikir cepat intuitif vs analitis lambat.",
+              "Duality System 1 vs System 2: Berpikir cepat intuitif vs analitis lambat.",
               "Puluhan Bias Kognitif: Anchoring, availability heuristic, loss aversion, dan confirmation bias.",
               "WYSIATI (What You See Is All There Is): Kecenderungan membuat keputusan dari data parsial."
             ],
@@ -586,8 +586,8 @@ export const ROADMAP_DATA = [
     id: "phase-2",
     tag: "FASE 2",
     tagClass: "",
-    title: "Pikiran, Makna, & Bahasa",
-    note: "Software di atas hardware — cara pikiran membentuk realitas.",
+    title: "Bahasa, Kognisi, & Sistem",
+    note: "Struktur bahasa, filsafat ilmu, kesadaran, dan pemikiran sistemik.",
     sections: [
       {
         label: "Bahasa & Kognisi",
@@ -634,13 +634,13 @@ export const ROADMAP_DATA = [
             author: "Jostein Gaarder",
             year: 1991,
             pages: 518,
-            desc: "[Fiksi Pendamping] Novel yang membungkus seluruh sejarah filsafat Barat — dari Socrates sampai Sartre — dalam kisah seorang remaja yang menerima surat misterius berisi pertanyaan filosofis. Cara paling ramah untuk masuk ke dunia filsafat tanpa harus baca teks asli yang berat dulu.",
+            desc: "Novel yang membungkus seluruh sejarah filsafat Barat — dari Socrates sampai Sartre — dalam kisah seorang remaja yang menerima surat misterius berisi pertanyaan filosofis. Cara paling ramah untuk masuk ke dunia filsafat tanpa harus baca teks asli yang berat dulu.",
             takeaways: [
               "Survei Filsafat Barat: Menelusuri pemikiran Pra-Sokrates hingga Eksistensialisme.",
               "Pertanyaan Fondasional: Siapa kita dan dari mana dunia berasal?",
               "Pendidikan Filosofis Naratif: Mengemas sejarah ide secara imajinatif."
             ],
-            context: "Gerbang pengantar paling accessible untuk sejarah filsafat."
+            context: "Gerbang pengantar paling ramah untuk sejarah filsafat."
           },
           {
             id: "p2-s1-b1",
@@ -655,7 +655,7 @@ export const ROADMAP_DATA = [
               "Normal Science vs Krisis: Tahapan akumulasi anomali dalam evolusi sains.",
               "Inkomensurabilitas Paradigma: Kesulitan membandingkan dua paradigma yang berbeda."
             ],
-            context: "Karya paling monumental dalam sosiologi dan filsafat sains."
+            context: "Karya monumental dalam sosiologi dan filsafat sains."
           }
         ]
       },
@@ -705,8 +705,8 @@ export const ROADMAP_DATA = [
     id: "phase-3",
     tag: "FASE 3",
     tagClass: "",
-    title: "Dari Individu ke Masyarakat",
-    note: "Bagaimana kelompok, budaya, dan peradaban kebentuk.",
+    title: "Antropologi & Struktur Masyarakat",
+    note: "Evolusi peradaban, sosiologi budaya, dan pembentukan norma publik.",
     sections: [
       {
         label: "Sejarah & Antropologi Budaya",
@@ -778,13 +778,13 @@ export const ROADMAP_DATA = [
             author: "Chinua Achebe",
             year: 1958,
             pages: 209,
-            desc: "[Fiksi Pendamping] Mahakarya sastra Afrika karya Chinua Achebe. Mengisahkan kehidupan Okonkwo dan kehancuran gradual struktur masyarakat Igbo di Nigeria akibat datangnya kolonialisme dan misionaris Eropa. Memberikan gambaran naratif konkret atas benturan peradaban.",
+            desc: "Mahakarya sastra Afrika karya Chinua Achebe. Mengisahkan kehidupan Okonkwo dan kehancuran gradual struktur masyarakat Igbo di Nigeria akibat datangnya kolonialisme dan misionaris Eropa. Memberikan gambaran naratif konkret atas benturan peradaban.",
             takeaways: [
               "Struktur Sosial Igbo Pra-Kolonial: Norma, tradisi, dan dinamika maskulinitas lokal.",
               "Benturan Peradaban & Institusi Asing: Keruntuhan tatanan tradisional akibat kolonialisme.",
               "Tragedi Budaya: Suara otentik masyarakat yang terkolonisasi."
             ],
-            context: "Dramatisasi naratif keruntuhan tatanan budaya lokal."
+            context: "Penggambaran naratif mendalam keruntuhan tatanan budaya lokal."
           },
           {
             id: "p3-s0-b5",
@@ -824,8 +824,8 @@ export const ROADMAP_DATA = [
     id: "phase-4",
     tag: "FASE 4",
     tagClass: "",
-    title: "Kekuasaan, Ekonomi, Kepercayaan",
-    note: "Struktur yang mengatur tatanan hidup manusia skala besar.",
+    title: "Ekonomi Politik, Kekuasaan, & Kepercayaan",
+    note: "Institusi negara, model media massa, dan fenomenologi keagamaan.",
     sections: [
       {
         label: "Ekonomi Politik & Institusi",
@@ -871,7 +871,7 @@ export const ROADMAP_DATA = [
             takeaways: [
               "Delapan Pilar Rule of Law: Keadilan, aksesibilitas, dan kesetaraan di hadapan hukum.",
               "Pembatasan Otoritas Negara: Hukum melindungi individu dari kesewenang-wenangan.",
-              "Perlindungan Hak Asasi Manasar: Hukum sebagai penjamin kebebasan sipil."
+              "Perlindungan Hak Asasi Manusia: Hukum sebagai penjamin kebebasan sipil."
             ],
             context: "Uraian hukum tata negara dan supremasi hukum modern."
           },
@@ -917,13 +917,13 @@ export const ROADMAP_DATA = [
             author: "George Orwell",
             year: 1949,
             pages: 328,
-            desc: "[Fiksi Pendamping] Distopia totaliter di mana kebenaran dikendalikan lewat manipulasi bahasa (Newspeak) dan pengawasan total Big Brother. Orwell mendramatisasi secara nyata apa yang ia tulis di esainya soal bahasa dan propaganda politik.",
+            desc: "Distopia totaliter di mana kebenaran dikendalikan lewat manipulasi bahasa (Newspeak) dan pengawasan total Big Brother. Orwell mendramatisasi secara nyata apa yang ia tulis di esainya soal bahasa dan propaganda politik.",
             takeaways: [
               "Newspeak & Kontrol Pikiran: Membatasi kosa kata untuk membatasi kemampuan berpikir kritis.",
               "Doublethink & Pengawasan Total: Kemampuan mempercayai dua hal bertolak belakang sekaligus.",
               "Manipulasi Sejarah: 'Siapa yang menguasai masa lalu menguasai masa depan'."
             ],
-            context: "Dramatisasi novel distopia totaliter dan kontrol informasi."
+            context: "Penggambaran novel distopia totaliter dan kontrol informasi."
           }
         ]
       },
@@ -968,8 +968,8 @@ export const ROADMAP_DATA = [
     id: "phase-5",
     tag: "FASE 5",
     tagClass: "",
-    title: "Eksistensial & Makna",
-    note: "Manusia berhadapan dengan kebebasan, makna, dan kematian.",
+    title: "Filsafat Eksistensial & Etika",
+    note: "Penelusuran makna hidup, kesadaran mortalitas, dan keadilan moral.",
     sections: [
       {
         label: "Makna & Mortalitas",
@@ -1026,7 +1026,7 @@ export const ROADMAP_DATA = [
             author: "Leo Tolstoy",
             year: 1886,
             pages: 104,
-            desc: "[Fiksi Pendamping] Novela pendek tentang pejabat biasa yang menyadari, saat sekarat, bahwa hidupnya yang tampak sukses sebenarnya kosong. Pendamping naratif sempurna untuk Being Mortal dan The Denial of Death.",
+            desc: "Novela pendek tentang pejabat biasa yang menyadari, saat sekarat, bahwa hidupnya yang tampak sukses sebenarnya kosong. Pendamping naratif sempurna untuk Being Mortal dan The Denial of Death.",
             takeaways: [
               "Kekosongan Hidup Konvensional: Menjelang ajal, status sosial terasa tak bermakna.",
               "Penyesalan Eksistensial: Kesadaran bahwa hidup tidak dijalani secara otentik.",
@@ -1056,7 +1056,7 @@ export const ROADMAP_DATA = [
             author: "Albert Camus",
             year: 1942,
             pages: 123,
-            desc: "[Fiksi Pendamping] Pria menjalani hidup dengan ketidakpedulian emosional, sampai pembunuhan tanpa motif jelas mengantarnya ke pengadilan yang lebih menghukum sikapnya ketimbang tindakannya. Versi naratif langsung dari absurdisme Camus.",
+            desc: "Pria menjalani hidup dengan ketidakpedulian emosional, sampai pembunuhan tanpa motif jelas mengantarnya ke pengadilan yang lebih menghukum sikapnya ketimbang tindakannya. Versi naratif langsung dari absurdisme Camus.",
             takeaways: [
               "Karakter Meursault: Penggambaran naratif individu yang hidup dalam absurdisme.",
               "Ketidakpedulian Alam Semesta: Eksekusi hukuman karena menolak kepura-puraan sosial.",
@@ -1137,8 +1137,8 @@ export const ROADMAP_DATA = [
     id: "phase-6",
     tag: "FASE 6",
     tagClass: "",
-    title: "Arah ke Depan",
-    note: "Teknologi, biosfer, dan risiko eksistensial yang mengubah semua lapisan.",
+    title: "Masa Depan & Risiko Eksistensial",
+    note: "Kecerdasan buatan, krisis biosfer, dan lanskap masyarakat digital.",
     sections: [
       {
         label: "Kecerdasan Buatan & Masa Depan",
@@ -1195,13 +1195,13 @@ export const ROADMAP_DATA = [
             author: "Mary Shelley",
             year: 1818,
             pages: 280,
-            desc: "[Fiksi Pendamping] Cikal bakal fiksi ilmiah modern tentang ilmuwan yang menciptakan entitas hidup baru lalu kehilangan kendali atas ciptaannya. Peringatan etis naratif esensial sebelum mempelajari isu AI superintelligence.",
+            desc: "Cikal bakal fiksi ilmiah modern tentang ilmuwan yang menciptakan entitas hidup baru lalu kehilangan kendali atas ciptaannya. Peringatan etis naratif esensial sebelum mempelajari isu AI superintelligence.",
             takeaways: [
               "Tanggung Jawab Pencipta: Bahaya menciptakan kecerdasan tanpa memikirkan pengasuhannya.",
               "Reaksi Masyarakat Terhadap Yang Asing: Bagaimana penolakan sosial melahirkan kecenderungan destruktif.",
               "Hubungan Pencipta & Ciptaan: Tragedi ego sains yang lepas kontrol."
             ],
-            context: "Cikal bakal novel peringatan etika sains dan ciptaan baru."
+            context: "Novel klasik peringatan etika sains dan ciptaan baru."
           }
         ]
       },
@@ -1250,7 +1250,7 @@ export const ROADMAP_DATA = [
             author: "Aldous Huxley",
             year: 1932,
             pages: 311,
-            desc: "[Fiksi Pendamping] Distopia masa depan di mana kontrol sosial dilakukan bukan lewat penderitaan, melainkan lewat kenikmatan, kepuasan instan, rekayasa genetika, dan konsumerisme massal.",
+            desc: "Distopia masa depan di mana kontrol sosial dilakukan bukan lewat penderitaan, melainkan lewat kenikmatan, kepuasan instan, rekayasa genetika, dan konsumerisme massal.",
             takeaways: [
               "Kontrol Lewat Kenikmatan: Menghilangkan kebebasan dengan memberikan kepuasan instan.",
               "Rekayasa Genetika & Kasta: Pengondisian sosial sejak dalam tabung reaksi.",
@@ -1276,7 +1276,7 @@ export const ROADMAP_DATA = [
               "Tanggung Jawab Antar-Generasi: Kewajiban moral menjaga potensi masa depan peradaban.",
               "Grand Strategy Untuk Kemanusiaan: Langkah konkret mengamankan keberlangsungan spesies."
             ],
-            context: "Penutup evaluasi risiko eksistensial kelangsungan peradaban manusia."
+            context: "Evaluasi risiko eksistensial kelangsungan peradaban manusia."
           }
         ]
       }
@@ -1286,8 +1286,8 @@ export const ROADMAP_DATA = [
     id: "phase-lit",
     tag: "FASE SASTRA",
     tagClass: "lit",
-    title: "Novel Magnum Opus — Paralel, Tidak Berurutan",
-    note: "Karya sastra kelas dunia yang mendramatisasi tema tiap fase lewat cerita, bukan argumen. Selingi di antara buku nonfiksi, tidak perlu urut.",
+    title: "Karya Sastra Klasik",
+    note: "Magnum opus sastra dunia yang mendramatisasi realitas dan dinamika kemanusiaan.",
     sections: [
       {
         label: "Sosial & Sejarah",
