@@ -53,13 +53,13 @@ export default function BookRow({
           <div>
             <div className="book-title">{highlightText(book.title)}</div>
             <div className="book-meta">
-              <span className={`type-badge ${book.type || 'non-fiction'}`}>
-                {book.type === 'fiction' ? 'Fiksi' : 'Non-Fiksi'}
-              </span>
-              <span className="dot">·</span>
               <span>{highlightText(book.author)}</span>
               <span className="dot">·</span>
               <span>{book.year}</span>
+              <span className="dot">·</span>
+              <span className={`type-badge ${book.type || 'non-fiction'}`}>
+                {book.type === 'fiction' ? 'Fiksi' : 'Non-Fiksi'}
+              </span>
               <span className="dot">·</span>
               <span>{book.pages} hlm</span>
             </div>
