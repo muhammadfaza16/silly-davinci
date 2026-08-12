@@ -32,6 +32,14 @@ export const ROADMAP_DATA = [
             year: 2023,
             pages: 304,
             desc: "Ditulis pendiri Farnam Street, buku ini memetakan 'default' mental — respons otomatis otak (ego, emosi, sosial, inersia) yang sering membajak keputusan sebelum sempat berpikir jernih. Parrish menawarkan sistem konkret mengenali momen itu dan menciptakan jeda sebelum bereaksi; fokusnya menghilangkan penghalang berpikir, bukan menambah pengetahuan."
+          },
+          {
+            id: "p0-s0-b3",
+            title: "How Not to Be Wrong",
+            author: "Jordan Ellenberg",
+            year: 2014,
+            pages: 480,
+            desc: "Matematikawan Jordan Ellenberg menunjukkan bahwa matematika bukanlah hafalan rumus kering, melainkan perpanjangan dari akal sehat. Buku ini mengajarkan cara berpikir kuantitatif — mengenali pemikiran statistik yang salah, memahami probabilitas, dan tidak gampang terkecoh oleh angka dan grafik manipulatif di media."
           }
         ]
       },
@@ -48,14 +56,6 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p0-s1-b1",
-            title: "The Elements of Style",
-            author: "Strunk & White",
-            year: 1959,
-            pages: 105,
-            desc: "Buku tipis yang jadi rujukan wajib penulis Amerika selama satu abad, berisi aturan tata bahasa dan gaya yang ringkas dan tegas — terkenal lewat kalimat perintahnya sendiri, 'omit needless words'. Bacaan cepat yang bisa diulang berkali-kali sebagai pengingat disiplin menulis dan berpikir."
-          },
-          {
-            id: "p0-s1-b2",
             title: "Politics and the English Language (esai)",
             author: "George Orwell",
             year: 1946,
@@ -82,14 +82,6 @@ export const ROADMAP_DATA = [
             year: 2014,
             pages: 368,
             desc: "Pinker mendekati 'menulis jernih' dari sudut pandang linguistik dan psikologi kognitif, menjelaskan kenapa sebagian kalimat mudah dipahami dan sebagian lain bikin pusing meski gramatikal benar. Ia juga membongkar mitos aturan menulis yang sebenarnya tidak berdasar — lebih akademis dari Zinsser, tapi menjelaskan 'kenapa' di balik teknik menulis yang baik."
-          },
-          {
-            id: "p0-s2-b2",
-            title: "The Art of Explanation",
-            author: "Lee LeFever",
-            year: 2012,
-            pages: 224,
-            desc: "Pendiri Common Craft ini menjelaskan penjelasan yang gagal biasanya bukan karena kurang detail, tapi karena tidak dikalibrasi ke apa yang sudah atau belum diketahui pendengar. Ia memberi kerangka praktis: mulai dari 'mengapa ini penting buat kamu' sebelum masuk ke 'bagaimana caranya' — sangat berguna buat siapa pun yang sering menjelaskan hal teknis ke orang awam."
           }
         ]
       },
@@ -161,14 +153,6 @@ export const ROADMAP_DATA = [
             year: 2008,
             pages: 260,
             desc: "Ditulis mantan agen kontraintelijen FBI, buku ini mengajarkan membaca bahasa tubuh — dari posisi kaki sampai ekspresi mikro — sebagai sinyal jujur yang sering bertentangan dengan kata-kata. Sekaligus membuat pembaca sadar bahasa tubuhnya sendiri saat berinteraksi, praktis dan penuh contoh visual."
-          },
-          {
-            id: "p0-s5-b1",
-            title: "Presence",
-            author: "Amy Cuddy",
-            year: 2015,
-            pages: 352,
-            desc: "Cuddy berargumen gesture yang meyakinkan bukan soal teknik permukaan (power pose semata), tapi hasil dari state internal — rasa percaya diri dan ketenangan yang otentik. Ia menjelaskan bagaimana tubuh dan pikiran saling memengaruhi dua arah, pelengkap penting untuk Navarro yang lebih fokus membaca orang lain."
           }
         ]
       },
@@ -195,7 +179,7 @@ export const ROADMAP_DATA = [
     note: "Kosmos, evolusi, dan mekanisme biologis-kognitif individu.",
     sections: [
       {
-        label: "Kosmologi",
+        label: "Kosmologi & Sains Dasar",
         books: [
           {
             id: "p1-s0-b0",
@@ -220,6 +204,14 @@ export const ROADMAP_DATA = [
             year: 2016,
             pages: 480,
             desc: "Fisikawan Sean Carroll mencoba menyambungkan hukum fisika dasar dengan pertanyaan besar soal makna, moralitas, dan kesadaran dari sudut pandang naturalisme. Buku ini menjembatani sains keras dengan filsafat eksistensial — berat, tapi transisi bagus dari kosmologi ke pertanyaan makna hidup di fase berikutnya."
+          },
+          {
+            id: "p1-s0-b3",
+            title: "A Short History of Nearly Everything",
+            author: "Bill Bryson",
+            year: 2003,
+            pages: 544,
+            desc: "Bryson merangkum nyaris semua bidang sains besar — fisika, kimia, geologi, biologi — dengan gaya sangat renyah dan penuh anekdot sejarah tentang ilmuwan di baliknya. Jembatan menyenangkan untuk membangun apresiasi sains secara komprehensif."
           }
         ]
       },
@@ -310,6 +302,22 @@ export const ROADMAP_DATA = [
             year: 1994,
             pages: 466,
             desc: "Menjelaskan moralitas, cemburu, status sosial, dan bahkan perselingkuhan lewat lensa psikologi evolusioner, menggunakan biografi Charles Darwin sendiri sebagai studi kasus. Wright menunjukkan banyak 'dosa' manusia sebenarnya strategi reproduktif yang masuk akal secara evolusi, meski tidak selalu etis di dunia modern."
+          },
+          {
+            id: "p1-s2-b5",
+            title: "How Emotions Are Made",
+            author: "Lisa Feldman Barrett",
+            year: 2017,
+            pages: 448,
+            desc: "Pakar neurosains Lisa Feldman Barrett membongkar mitos emosi klasik. Ia membuktikan emosi bukanlah reaksi bawaan otomatis yang terpicu secara universal, melainkan konstruksi otak berdasarkan prediksi, pengalaman masa lalu, dan konsep budaya. Mengubah pemahaman mendasar kita tentang regulasi emosi."
+          },
+          {
+            id: "p1-s2-b6",
+            title: "The Body Keeps the Score",
+            author: "Bessel van der Kolk",
+            year: 2014,
+            pages: 464,
+            desc: "Pakar trauma terkemuka Bessel van der Kolk menjelaskan bagaimana pengalaman trauma secara harfiah mengubah jalur fisik otak dan saraf tubuh. Mengungkap hubungan antara pikiran, tubuh, trauma, dan proses penyembuhan yang melampaui sekadar terapi wicara."
           }
         ]
       },
@@ -344,7 +352,7 @@ export const ROADMAP_DATA = [
     note: "Software di atas hardware — cara pikiran membentuk realitas.",
     sections: [
       {
-        label: "Bahasa & Epistemologi",
+        label: "Bahasa & Kognisi",
         books: [
           {
             id: "p2-s0-b0",
@@ -361,9 +369,14 @@ export const ROADMAP_DATA = [
             year: 1980,
             pages: 256,
             desc: "Menunjukkan metafora bukan sekadar hiasan bahasa (seperti 'waktu adalah uang'), tapi struktur dasar yang membentuk cara kita berpikir dan bertindak tanpa disadari. Buku pendek tapi berpengaruh besar di linguistik kognitif — setelah membaca ini, sulit tidak memperhatikan metafora tersembunyi di percakapan sehari-hari."
-          },
+          }
+        ]
+      },
+      {
+        label: "Filsafat & Epistemologi",
+        books: [
           {
-            id: "p2-s0-b2",
+            id: "p2-s1-b0",
             title: "Sophie's World",
             author: "Jostein Gaarder",
             year: 1991,
@@ -371,20 +384,38 @@ export const ROADMAP_DATA = [
             desc: "Novel yang membungkus seluruh sejarah filsafat Barat — dari Socrates sampai Sartre — dalam kisah seorang remaja yang menerima surat misterius berisi pertanyaan filosofis. Cara paling ramah untuk masuk ke dunia filsafat tanpa harus baca teks asli yang berat dulu."
           },
           {
-            id: "p2-s0-b3",
+            id: "p2-s1-b1",
             title: "The Structure of Scientific Revolutions",
             author: "Thomas Kuhn",
             year: 1962,
             pages: 264,
             desc: "Buku asal istilah 'paradigm shift' — Kuhn berargumen sains tidak berkembang linear dan akumulatif, tapi lewat periode normal science yang tiba-tiba direvolusi ketika anomali menumpuk dan paradigma lama runtuh. Mengubah cara filsafat ilmu memandang bagaimana pengetahuan ilmiah sebenarnya berubah."
-          },
+          }
+        ]
+      },
+      {
+        label: "Kesadaran & Pikiran",
+        books: [
           {
-            id: "p2-s0-b4",
+            id: "p2-s2-b0",
             title: "I Am a Strange Loop",
             author: "Douglas Hofstadter",
             year: 2007,
             pages: 412,
             desc: "Eksplorasi mendalam soal apa itu kesadaran dan 'aku', lewat konsep loop rekursif — sistem yang mengacu pada dirinya sendiri, seperti gambar tangan yang menggambar tangan yang menggambarnya. Hofstadter menyederhanakan idenya dari buku Gödel, Escher, Bach yang lebih tebal."
+          }
+        ]
+      },
+      {
+        label: "Sistem & Kompleksitas",
+        books: [
+          {
+            id: "p2-s3-b0",
+            title: "Thinking in Systems",
+            author: "Donella Meadows",
+            year: 2008,
+            pages: 240,
+            desc: "Panduan esensial berpikir sistemik dari pelopor pemodelan kompleksitas Donella Meadows. Mengajarkan cara melihat dunia bukan sebagai rantai sebab-akibat linear, melainkan sebagai jaringan interaktif berisi feedback loops, akumulasi stok, dan leverage points untuk memecahkan masalah kompleks."
           }
         ]
       }
@@ -447,14 +478,6 @@ export const ROADMAP_DATA = [
             year: 2000,
             pages: 544,
             desc: "Menelusuri penurunan tajam modal sosial dan partisipasi komunitas di Amerika sejak pertengahan abad 20 — orang makin jarang gabung klub, kenal tetangga, atau terlibat organisasi lokal. Putnam mengaitkan tren ini dengan berbagai masalah sosial modern, relevan untuk memahami isolasi sosial di era digital."
-          },
-          {
-            id: "p3-s0-b6",
-            title: "A Short History of Nearly Everything",
-            author: "Bill Bryson",
-            year: 2003,
-            pages: 544,
-            desc: "Bryson, seorang penulis nonfiksi, merangkum nyaris semua bidang sains besar — fisika, kimia, geologi, biologi — dengan gaya sangat renyah dan penuh anekdot sejarah tentang ilmuwan di baliknya. Jembatan menyenangkan sebelum masuk ke buku sains yang lebih spesifik dan berat."
           }
         ]
       }
@@ -493,6 +516,27 @@ export const ROADMAP_DATA = [
             year: 2010,
             pages: 213,
             desc: "Ditulis mantan hakim agung Inggris, buku pendek ini menjelaskan dengan jernih apa sebenarnya makna 'rule of law' — bukan sekadar ada hukum tertulis, tapi delapan prinsip konkret seperti kesetaraan di depan hukum dan pembatasan kekuasaan negara. Sangat accessible untuk pembaca non-hukum."
+          },
+          {
+            id: "p4-s0-b3",
+            title: "On Liberty",
+            author: "John Stuart Mill",
+            year: 1859,
+            pages: 128,
+            desc: "Manuskrip klasik filosofis politik kebebasan individu. Mill merumuskan 'Harm Principle'—bahwa satu-satunya alasan yang sah bagi masyarakat atau negara untuk membatasi kebebasan seorang individu adalah untuk mencegah bahaya bagi orang lain. Fondasi penting memahami hak asasi dan batas kekuasaan negara."
+          }
+        ]
+      },
+      {
+        label: "Media & Propaganda",
+        books: [
+          {
+            id: "p4-s1-b0",
+            title: "Manufacturing Consent",
+            author: "Chomsky & Herman",
+            year: 1988,
+            pages: 412,
+            desc: "Noam Chomsky dan Edward Herman membedah model propaganda media massa. Mengungkap bagaimana filter institusional (kepemilikan media, iklan, sumber otoritas, flak, dan ideologi musuh bersama) menyaring berita secara sistematis untuk mendukung agenda elite ekonomi dan politik."
           }
         ]
       },
@@ -500,7 +544,7 @@ export const ROADMAP_DATA = [
         label: "Agama & Kepercayaan Komparatif",
         books: [
           {
-            id: "p4-s1-b0",
+            id: "p4-s2-b0",
             title: "The World's Religions",
             author: "Huston Smith",
             year: 1991,
@@ -508,20 +552,12 @@ export const ROADMAP_DATA = [
             desc: "Overview komparatif agama-agama besar dunia — Hindu, Buddha, Konghucu, Tao, Islam, Yahudi, Kristen — ditulis dengan nada penuh empati, mencoba memahami tiap agama dari dalam sebagaimana penganutnya memahaminya, bukan menghakimi dari luar. Salah satu pengantar studi agama paling dihormati."
           },
           {
-            id: "p4-s1-b1",
+            id: "p4-s2-b1",
             title: "The Idea of the Holy",
             author: "Rudolf Otto",
             year: 1917,
             pages: 232,
             desc: "Karya fenomenologi agama yang memperkenalkan konsep 'numinous' — pengalaman terhadap yang sakral yang membuat manusia merasa kecil sekaligus terpukau, lepas dari doktrin agama tertentu manapun. Buku berat tapi penting untuk memahami agama 'dari dalam', bukan cuma sebagai fenomena sosial."
-          },
-          {
-            id: "p4-s1-b2",
-            title: "Homo Deus",
-            author: "Yuval Noah Harari",
-            year: 2015,
-            pages: 450,
-            desc: "Kelanjutan Sapiens yang menoleh ke depan — setelah manusia relatif menaklukkan kelaparan, wabah, dan perang, Harari berspekulasi ke mana ambisi manusia berikutnya: keabadian, kebahagiaan permanen, dan status ketuhanan lewat teknologi. Juga membahas bagaimana data dan algoritma bisa menggantikan agama sebagai sumber otoritas makna."
           }
         ]
       }
@@ -572,7 +608,7 @@ export const ROADMAP_DATA = [
         ]
       },
       {
-        label: "Etika Komparatif",
+        label: "Etika Komparatif & Filsafat Timur",
         books: [
           {
             id: "p5-s1-b0",
@@ -592,6 +628,14 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p5-s1-b2",
+            title: "The Tao Te Ching",
+            author: "Lao Tzu",
+            year: -400,
+            pages: 96,
+            desc: "Kitab suci Taoisme yang terdiri dari 81 puisi filosofis ringkas. Menawarkan pandangan etika dan kebijaksanaan Timur tentang keselarasan dengan alam (*Tao*), prinsip tindakan tanpa keterpaksaan (*Wu Wei*), kerendahan hati, dan keseimbangan alami."
+          },
+          {
+            id: "p5-s1-b3",
             title: "Being and Time",
             author: "Martin Heidegger",
             year: 1927,
@@ -607,10 +651,10 @@ export const ROADMAP_DATA = [
     tag: "FASE 6",
     tagClass: "",
     title: "Arah ke Depan",
-    note: "Teknologi dan risiko eksistensial yang mengubah semua lapisan.",
+    note: "Teknologi, biosfer, dan risiko eksistensial yang mengubah semua lapisan.",
     sections: [
       {
-        label: "Masa Depan & Risiko",
+        label: "Kecerdasan Buatan & Masa Depan",
         books: [
           {
             id: "p6-s0-b0",
@@ -630,6 +674,45 @@ export const ROADMAP_DATA = [
           },
           {
             id: "p6-s0-b2",
+            title: "Homo Deus",
+            author: "Yuval Noah Harari",
+            year: 2015,
+            pages: 450,
+            desc: "Kelanjutan Sapiens yang menoleh ke depan — setelah manusia relatif menaklukkan kelaparan, wabah, dan perang, Harari berspekulasi ke mana ambisi manusia berikutnya: keabadian, kebahagiaan permanen, dan status ketuhanan lewat teknologi. Juga membahas bagaimana dataisme dan algoritma berpotensi menggantikan otoritas manusia."
+          }
+        ]
+      },
+      {
+        label: "Iklim & Biosfer",
+        books: [
+          {
+            id: "p6-s1-b0",
+            title: "The Uninhabitable Earth",
+            author: "David Wallace-Wells",
+            year: 2019,
+            pages: 320,
+            desc: "Jurnalis David Wallace-Wells memaparkan realitas keras perubahan iklim secara mendalam dan mendesak. Melampaui isu kenaikan permukaan laut, buku ini memetakan dampak berantai iklim terhadap gelombang panas, krisis pangan, bencana ekonomi, konflik, dan geopolitik global dalam beberapa dekade mendatang."
+          }
+        ]
+      },
+      {
+        label: "Teknologi & Masyarakat Digital",
+        books: [
+          {
+            id: "p6-s2-b0",
+            title: "The Age of Surveillance Capitalism",
+            author: "Shoshana Zuboff",
+            year: 2019,
+            pages: 704,
+            desc: "Profesor Harvard Shoshana Zuboff mengungkap kemunculan tatanan ekonomi baru: Kapitalisme Pengawasan. Menguraikan bagaimana raksasa teknologi mengklaim pengalaman pribadi manusia sebagai bahan baku gratis untuk diekstrak menjadi data perilaku dan memodifikasi perilaku manusia secara massal demi keuntungan."
+          }
+        ]
+      },
+      {
+        label: "Risiko Eksistensial",
+        books: [
+          {
+            id: "p6-s3-b0",
             title: "The Precipice",
             author: "Toby Ord",
             year: 2020,
@@ -708,11 +791,11 @@ export const ROADMAP_DATA = [
           },
           {
             id: "plit-s0-b7",
-            title: "Pedro Páramo",
-            author: "Juan Rulfo",
-            year: 1955,
-            pages: 124,
-            desc: "Seorang pria mencari ayahnya yang hilang di kota yang ternyata dihuni arwah-arwah, mencampur dunia hidup dan mati tanpa batas jelas. Novel pendek cikal bakal realisme magis Amerika Latin yang sangat memengaruhi García Márquez."
+            title: "Things Fall Apart",
+            author: "Chinua Achebe",
+            year: 1958,
+            pages: 209,
+            desc: "Mahakarya sastra Afrika karya Chinua Achebe. Mengisahkan kehidupan Okonkwo dan kehancuran gradual struktur masyarakat Igbo di Nigeria akibat datangnya kolonialisme dan misionaris Eropa. Memberikan suara berharga dari sudut pandang masyarakat yang terkolonisasi."
           }
         ]
       },
@@ -745,22 +828,6 @@ export const ROADMAP_DATA = [
           },
           {
             id: "plit-s1-b3",
-            title: "We",
-            author: "Yevgeny Zamyatin",
-            year: 1924,
-            pages: 226,
-            desc: "Distopia awal (mendahului dan menginspirasi 1984 maupun Brave New World) tentang negara totaliter yang menghapus individualitas lewat logika matematis dan transparansi total. Dilarang terbit di Rusia selama puluhan tahun — fondasi genre distopia yang sering terlewat padahal paling berpengaruh."
-          },
-          {
-            id: "plit-s1-b4",
-            title: "Darkness at Noon",
-            author: "Arthur Koestler",
-            year: 1940,
-            pages: 256,
-            desc: "Seorang revolusioner tua diadili oleh rezim yang dulu ia bantu bangun sendiri, mendramatisasi bagaimana ideologi bisa memakan pengikutnya sendiri. Ditulis dari pengalaman langsung Koestler dengan komunisme — pendamping penting 1984 dan Animal Farm."
-          },
-          {
-            id: "plit-s1-b5",
             title: "The Master and Margarita",
             author: "Mikhail Bulgakov",
             year: 1967,
@@ -790,11 +857,11 @@ export const ROADMAP_DATA = [
           },
           {
             id: "plit-s2-b2",
-            title: "Notes from Underground",
-            author: "Fyodor Dostoevsky",
-            year: 1864,
-            pages: 136,
-            desc: "Monolog pria pahit dan terasing yang menolak logika rasionalis soal manusia, membela kebebasan irasional walau merugikan diri sendiri. Sering disebut novel eksistensialis pertama, mendahului Kierkegaard maupun Sartre dalam banyak temanya."
+            title: "Siddhartha",
+            author: "Hermann Hesse",
+            year: 1922,
+            pages: 152,
+            desc: "Novel puitis pemenang Nobel Hermann Hesse tentang perjalanan spiritual seorang pria India pada zaman Buddha. Menelusuri pencarian pencerahan lewat petapaan, kenikmatan duniawi, penderitaan, hingga menemukan kedamaian sejati di tepi sungai."
           },
           {
             id: "plit-s2-b3",
@@ -822,14 +889,6 @@ export const ROADMAP_DATA = [
           },
           {
             id: "plit-s2-b6",
-            title: "King Lear",
-            author: "William Shakespeare",
-            year: 1606,
-            pages: 326,
-            desc: "Raja tua membagi kerajaan berdasarkan siapa paling manis merayunya, lalu menyaksikan keruntuhan totalnya sendiri. Dianggap tragedi paling gelap Shakespeare soal penuaan, kekuasaan, dan keluarga hancur — pertanyaan keadilan di alam semesta yang tampak acuh sangat kental."
-          },
-          {
-            id: "plit-s2-b7",
             title: "Moby-Dick",
             author: "Herman Melville",
             year: 1851,
@@ -837,23 +896,7 @@ export const ROADMAP_DATA = [
             desc: "Kapten Ahab mengejar paus putih raksasa dengan obsesi yang perlahan menghancurkan kapal dan awaknya sendiri. Lebih dari kisah perburuan — alegori obsesi manusia mengejar makna di tengah alam semesta yang acuh."
           },
           {
-            id: "plit-s2-b8",
-            title: "Anna Karenina",
-            author: "Leo Tolstoy",
-            year: 1878,
-            pages: 864,
-            desc: "Mengikuti perselingkuhan Anna yang berujung tragedi, dijalin kisah paralel Levin yang mencari makna hidup lewat kerja dan keluarga. Tolstoy mengeksplorasi moralitas personal dan konsekuensi pilihan di tengah tekanan sosial ketat Rusia abad 19."
-          },
-          {
-            id: "plit-s2-b9",
-            title: "The Sound and the Fury",
-            author: "William Faulkner",
-            year: 1929,
-            pages: 326,
-            desc: "Kisah kemunduran keluarga Compson Selatan Amerika, diceritakan lewat empat sudut pandang berbeda termasuk narasi stream-of-consciousness. Salah satu eksperimen struktur naratif paling berani abad 20, menuntut kesabaran tapi memberi pemahaman unik soal waktu dan memori subjektif."
-          },
-          {
-            id: "plit-s2-b10",
+            id: "plit-s2-b7",
             title: "Waiting for Godot",
             author: "Samuel Beckett",
             year: 1953,
