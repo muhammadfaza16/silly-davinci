@@ -57,11 +57,11 @@ export default function BookRow({
               <span className="dot">·</span>
               <span>{book.year}</span>
               <span className="dot">·</span>
-              <span className={`type-badge ${book.type || 'non-fiction'}`}>
+              <span>{book.pages} hlm</span>
+              <span className="dot">·</span>
+              <span className={`type-text ${book.type || 'non-fiction'}`}>
                 {book.type === 'fiction' ? 'Fiksi' : 'Non-Fiksi'}
               </span>
-              <span className="dot">·</span>
-              <span>{book.pages} hlm</span>
             </div>
           </div>
 
