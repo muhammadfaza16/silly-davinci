@@ -583,14 +583,15 @@ nav.phasenav button .badge-dot {
 }
 
 .desc-container {
-  margin-top: 12px;
-  padding: 14px 16px;
-  background: rgba(44, 36, 24, 0.035);
-  border: 1px solid var(--rule);
-  border-left: 3px solid var(--oxblood);
+  margin-top: 10px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 1px dashed var(--rule);
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
 }
 
 .desc-block {
