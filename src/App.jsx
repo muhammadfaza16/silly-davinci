@@ -23,7 +23,7 @@ export default function App() {
   const [openState, setOpenState] = useState({});
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState('all'); // 'all' | 'unread' | 'done'
-  const [activePhaseId, setActivePhaseId] = useState('phase-0');
+  const [activePhaseId, setActivePhaseId] = useState(() => ROADMAP_DATA[0]?.id || 'katalog-master');
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [toastMessage, setToastMessage] = useState(null);
 
