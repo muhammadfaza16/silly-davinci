@@ -22,7 +22,8 @@ export const ROADMAP_DATA = [
               "Perjalanan Spiritual Pierre Bezukhov: Dari pemuda borjuis yang canggung dan pencari kebenaran melalui Fremasonry, menuju pemahaman kesederhanaan hidup sejati pasca-penawanan perang dan pertemuan dengan petani Karataev.",
               "Dinamika Perang vs Kedamaian: Kontras tajam antara kecemasan dan absurditas medan tempur Austerlitz/Borodino dengan intrik, romansa, dan pesta dansa kebangsawanan di Saint Petersburg."
             ],
-            "context": "Epik paling monumental dalam sastra peradaban dunia yang meletakkan tolok ukur tertinggi bagi realisme sejarah dan filsafat eksistensi manusia."
+            "context": "Epik paling monumental dalam sastra peradaban dunia yang meletakkan tolok ukur tertinggi bagi realisme sejarah dan filsafat eksistensi manusia.",
+            "category": "Epik Sejarah"
           },
           {
             "id": "m-2",
@@ -37,7 +38,8 @@ export const ROADMAP_DATA = [
               "Paralelisme Karakter Anna & Levin: Anna mewakili destruksi akibat nafsu dan eksklusi sosial; Levin mewakili penebusan diri melalui integritas moral, keluarga, dan kerja tanah.",
               "Kritik Institusi Kebangsawanan: Menelanjangi kepalsuan elit perkotaan Rusia yang memaafkan kebohongan diskret tetapi menghukum kejujuran cinta emosional."
             ],
-            "context": "Mahakarya realisme psikologis dan studi paling tajam tentang dinamika pernikahan, moralitas sosial, dan pencarian iman."
+            "context": "Mahakarya realisme psikologis dan studi paling tajam tentang dinamika pernikahan, moralitas sosial, dan pencarian iman.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-3",
@@ -52,7 +54,8 @@ export const ROADMAP_DATA = [
               "Isolasi Emosional Borjuis: Kepalsuan simpati keluarga dan rekan kerja yang hanya memikirkan warisan dan posisi jabatan pasca-kematian Ivan.",
               "Penebusan Eksistensial di Detik Akhir: Kesadaran bahwa hanya belas kasih tulus dari pelayan muda Gerasim yang memiliki bobot kemanusiaan sejati."
             ],
-            "context": "Karya sastra paling ringkas namun destruktif dalam menelanjangi ilusi kenyamanan materialis dan kepalsuan hidup borjuis."
+            "context": "Karya sastra paling ringkas namun destruktif dalam menelanjangi ilusi kenyamanan materialis dan kepalsuan hidup borjuis.",
+            "category": "Fiksi Eksistensial"
           },
           {
             "id": "m-4",
@@ -67,7 +70,8 @@ export const ROADMAP_DATA = [
               "Jika Tuhan Tidak Ada, Apakah Semua Boleh?: Dilema moral intelektual Ivan Karamazov yang menyadari bahwa rasionalisme tanpa hukum transendental berujung pada nihilisme dan kegilaan.",
               "Kasih Eksistensial & Penebusan Alyosha: Peran Alyosha sebagai manifestasi moralitas aktif yang menjawab keputusasaan rasional lewat belas kasih konkret."
             ],
-            "context": "Mahakarya terbesar sastra dunia yang mengkonfrontasi masalah kejahatan, penderitaan anak-anak, kebebasan kehendak, dan keberadaan Tuhan."
+            "context": "Mahakarya terbesar sastra dunia yang mengkonfrontasi masalah kejahatan, penderitaan anak-anak, kebebasan kehendak, dan keberadaan Tuhan.",
+            "category": "Filsafat & Sastra"
           },
           {
             "id": "m-5",
@@ -82,7 +86,8 @@ export const ROADMAP_DATA = [
               "Interogasi Psikologis Porfiry Petrovich: Pertarungan intelek tanpa kekerasan antara detektif yang memahami psikologi kejahatan dan Raskolnikov yang menyembunyikan guilt.",
               "Penebusan Dosa Lewat Cinta Sonya Marmeladova: Kehancuran ego intelektual dan penerimaan penderitaan di Siberia sebagai jalur pemulihan kemanusiaan."
             ],
-            "context": "Penyelidikan psikologis paling intens dalam sastra dunia tentang guilt, rasionalisasi ideologis, dan pemulihan nurani."
+            "context": "Penyelidikan psikologis paling intens dalam sastra dunia tentang guilt, rasionalisasi ideologis, dan pemulihan nurani.",
+            "category": "Psikologi & Sastra"
           },
           {
             "id": "m-6",
@@ -97,7 +102,8 @@ export const ROADMAP_DATA = [
               "Unreliable Narrator & Paradoks Kesadaran: Kesadaran diri yang terlalu tinggi tanpa tindakan nyata melahirkan rasa dengki, kelumpuhan kehendak, dan alienasi sosial.",
               "Keinginan untuk Bebas dari Determinisme: Manusia akan selalu merusak tatanan sempurna hanya demi mempertahankan kebebasan irasionalnya."
             ],
-            "context": "Pintu masuk paling fundamental menuju eksistensialisme modern yang meruntuhkan ilusi pencerahan rasionalisme murni."
+            "context": "Pintu masuk paling fundamental menuju eksistensialisme modern yang meruntuhkan ilusi pencerahan rasionalisme murni.",
+            "category": "Fiksi Eksistensial"
           },
           {
             "id": "m-7",
@@ -112,7 +118,8 @@ export const ROADMAP_DATA = [
               "Dua Wajah Hasrat Manusia (Myshkin vs Rogozhin): Kontras antara kasih spiritual tak bersyarat Myshkin dan kepemilikan obsesif destruktif Rogozhin terhadap Nastasya Filippovna.",
               "Kerapuhan Estetika & Cinta: Eksplorasi ungkapan ikonik 'Keindahan akan menyelamatkan dunia' di tengah dunia yang menghancurkan keindahan itu sendiri."
             ],
-            "context": "Studi psikologis paling tragis tentang paradoks kepolosan spiritual ketika berhadapan dengan korupsi морал dunia nyata."
+            "context": "Studi psikologis paling tragis tentang paradoks kepolosan spiritual ketika berhadapan dengan korupsi морал dunia nyata.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-8",
@@ -127,7 +134,8 @@ export const ROADMAP_DATA = [
               "Karakter Nikolai Stavrogin: Personifikasi kehampaan moral total — pria yang memiliki segalanya tetapi kehilangan kompas kebaikan sehingga melakukan kejahatan demi membunuh kejenuhan.",
               "Prediksi Sastra Totalitarianisme Abad ke-20: Dostoevsky dengan akurat memprediksi bahwa gagasan radikal yang melepaskan moralitas akan melahirkan kediktatoran teror berdarah."
             ],
-            "context": "Diagnostik politik paling mengerikan dan akurat tentang genesis radikalisme ideologis dan terorisme modern."
+            "context": "Diagnostik politik paling mengerikan dan akurat tentang genesis radikalisme ideologis dan terorisme modern.",
+            "category": "Novel Politik"
           },
           {
             "id": "m-9",
@@ -142,7 +150,8 @@ export const ROADMAP_DATA = [
               "Elevasi Keseharian Menjadi Epik Kosmik: Perjalanan biasa Leopold Bloom membeli ginjal babi dan berjalan di Dublin disepadankan dengan epik pahlawan Yunani kuno.",
               "Kebebasan Bahasa & Eksperimentasi Gaya: Setiap bab menggunakan gaya linguistik berbeda — dari parodi koran, prosa Victorian, hingga monolog Molly Bloom tanpa tanda baca sepanjang 40 halaman."
             ],
-            "context": "Novel paling eksperimental dan berpengaruh abad ke-20 yang mendefinisikan ulang seluruh kemungkinan struktur novel modern."
+            "context": "Novel paling eksperimental dan berpengaruh abad ke-20 yang mendefinisikan ulang seluruh kemungkinan struktur novel modern.",
+            "category": "Modernisme"
           },
           {
             "id": "m-10",
@@ -157,7 +166,8 @@ export const ROADMAP_DATA = [
               "Perkembangan Bahasa Seiring Kematangan Kognitif: Gaya penulisan Joyce berkembang dari bahasa bayi yang sederhana di awal bab menjadi prosa estetika tinggi yang rumit di akhir.",
               "Teori Estetika St. Thomas Aquinas Terapan: Perumusan teori seni tentang kejelasan (*claritas*), harmoni (*konsonansi*), dan keindahan (*integritas*)."
             ],
-            "context": "Bildungsroman klasik tentang pencarian otentisitas seniman dan pelepasan dari belenggu tradisi ortodoks."
+            "context": "Bildungsroman klasik tentang pencarian otentisitas seniman dan pelepasan dari belenggu tradisi ortodoks.",
+            "category": "Modernisme"
           },
           {
             "id": "m-11",
@@ -172,7 +182,8 @@ export const ROADMAP_DATA = [
               "Subjektivitas Waktu & Perubahan Karakter: Bagaimana waktu mengubah bentuk fisik, status sosial, dan makna cinta manusia secara perlahan namun pasti.",
               "Seni sebagai Penakluk Waktu: Hanya melalui reka cipta seni dan penulisan memori manusia dapat merebut kembali waktu yang telah sirna dari kematian."
             ],
-            "context": "Eksplorasi memori, waktu, dan kesadaran paling ekstensif dan mendalam yang pernah ditulis dalam sejarah peradaban."
+            "context": "Eksplorasi memori, waktu, dan kesadaran paling ekstensif dan mendalam yang pernah ditulis dalam sejarah peradaban.",
+            "category": "Modernisme"
           },
           {
             "id": "m-12",
@@ -187,7 +198,8 @@ export const ROADMAP_DATA = [
               "Siklus Kesepian & Repetisi Nama: Trauma sejarah dan kesalahan generasi berulang secara melingkar karena keluarga Buendía tidak mampu belajar dari masa lalu.",
               "Alegori Amerika Latin: Dari isolasi utopia awal, masuknya agama dan perang politik partisan, hingga pemusnahan buruh oleh kapitalisme asing."
             ],
-            "context": "Puncak mahakarya realisme magis Amerika Latin yang mengubah pemetaan sastra dunia abad ke-20."
+            "context": "Puncak mahakarya realisme magis Amerika Latin yang mengubah pemetaan sastra dunia abad ke-20.",
+            "category": "Realisme Magis"
           },
           {
             "id": "m-13",
@@ -202,7 +214,8 @@ export const ROADMAP_DATA = [
               "Ketahanan Waktu vs Penuaan Tubuh: Perjuangan mempertahankan api asmara ketika tubuh fisik manusia telah digerogoti oleh usia tua dan ketidakberdayaan.",
               "Pilihan Antara Keamanan Pragmatis & Obsesi Romantis: Kontras pernikahan stabil Fermina-Urbino berbasis keteraturan sosial dengan cinta obsesif Florentino."
             ],
-            "context": "Studi komprehensif paling kaya dan puitis tentang berbagai dimensi cinta manusia dari masa muda hingga kemunduran fisik."
+            "context": "Studi komprehensif paling kaya dan puitis tentang berbagai dimensi cinta manusia dari masa muda hingga kemunduran fisik.",
+            "category": "Realisme Magis"
           },
           {
             "id": "m-14",
@@ -217,7 +230,8 @@ export const ROADMAP_DATA = [
               "Peran Narasi Fiksi dalam Membentuk Kognisi: Bagaimana teks dan mitos yang dibaca dapat sepenuhnya mendikte cara seseorang mempersepsikan realitas fisik.",
               "Cikal Bakal Metafiksi Modern: Penggunaan narator ganda, pembacaan buku di dalam buku, dan pembongkaran ilusi fiksi sastra."
             ],
-            "context": "Novel modern pertama di dunia yang menandai transisi peradaban dari mitos abad pertengahan menuju skeptisisme era modern."
+            "context": "Novel modern pertama di dunia yang menandai transisi peradaban dari mitos abad pertengahan menuju skeptisisme era modern.",
+            "category": "Satire Klasik"
           },
           {
             "id": "m-15",
@@ -232,7 +246,8 @@ export const ROADMAP_DATA = [
               "Paus Putih sebagai Simbol Absurditas Kosmik: Moby Dick mewakili alam yang acak, mahakuasa, dan tidak peduli terhadap moralitas atau kehendak manusia.",
               "Encyclopedia Industri Penangkapan Paus: Cetakan rinci Melville tentang taksonomi paus, teknologi perkapalan, dan metafora eksistensial pekerjaan laut."
             ],
-            "context": "Epik alegoris terbesar sastra Amerika tentang batas kehendak manusia saat berhadapan dengan kekejaman kosmos."
+            "context": "Epik alegoris terbesar sastra Amerika tentang batas kehendak manusia saat berhadapan dengan kekejaman kosmos.",
+            "category": "Sastra Epik"
           },
           {
             "id": "m-16",
@@ -247,7 +262,8 @@ export const ROADMAP_DATA = [
               "Web of Society (Jaringan Sosial): Setiap tindakan individu—sekecil apapun—memiliki efek berantai yang terhubung dengan tatanan sosial politik kota.",
               "Empati Kritis tanpa Peradilan Moral: Kemampuan luar biasa George Eliot memahami motif terdalam dari karakter yang paling cacat sekalipun."
             ],
-            "context": "Mahakarya puncak realisme Victorian Inggris yang dipuji Virginia Woolf sebagai 'satu dari sedikit novel dewasa yang ditulis untuk orang dewasa.'"
+            "context": "Mahakarya puncak realisme Victorian Inggris yang dipuji Virginia Woolf sebagai 'satu dari sedikit novel dewasa yang ditulis untuk orang dewasa.'",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-17",
@@ -262,7 +278,8 @@ export const ROADMAP_DATA = [
               "Konsep *Nostos* (Kerinduan Rumah): Perjalanan fisik sebagai metafora pencarian kembali identitas diri, tempat asal, dan keharmonisan keluarga.",
               "Etika *Xenia* (Keramahan Terhadap Tamu): Hukum moral Yunani kuno yang menghukum pelamar jahat karena melanggar kehormatan tuan rumah."
             ],
-            "context": "Epik pahlawan paling mendasar dalam tradisi sastra Barat yang membentuk arsitektur narasi perjalanan (*journey*) peradaban manusia."
+            "context": "Epik pahlawan paling mendasar dalam tradisi sastra Barat yang membentuk arsitektur narasi perjalanan (*journey*) peradaban manusia.",
+            "category": "Puisi Epik"
           },
           {
             "id": "m-18",
@@ -277,7 +294,8 @@ export const ROADMAP_DATA = [
               "Konsep *Kleos* (Keabadian Nama Lewat Kematian): Pilihan tragis Achilles antara hidup panjang yang tidak dikenal atau mati muda di medan tempur demi kejayaan abadi.",
               "Empati di Tengah Perang: Momen puitis ketika King Priam memohon mayat anaknya Hector kepada Achilles — memperlihatkan persamaan penderitaan manusiawi kedua pihak."
             ],
-            "context": "Fondasi utama sastra Yunani kuno yang membedah tragisme perang, kehormatan pahlawan, dan kepastian takdir mortalitas."
+            "context": "Fondasi utama sastra Yunani kuno yang membedah tragisme perang, kehormatan pahlawan, dan kepastian takdir mortalitas.",
+            "category": "Puisi Epik"
           },
           {
             "id": "m-19",
@@ -292,7 +310,8 @@ export const ROADMAP_DATA = [
               "Korupsi Moral Kerajaan (*Something is rotten in the state of Denmark*): Bagaimana kejahatan di puncak kekuasaan membusukkan seluruh tatanan sosial.",
               "Teater di Dalam Teater (*The Mousetrap*): Penggunaan seni ilusi untuk memancing dan menguji kejujuran nurani para penguasa."
             ],
-            "context": "Tragedi paling terkenal dalam sejarah teater peradaban yang memetakan kecemasan, keraguan, dan kedalaman kesadaran manusia modern."
+            "context": "Tragedi paling terkenal dalam sejarah teater peradaban yang memetakan kecemasan, keraguan, dan kedalaman kesadaran manusia modern.",
+            "category": "Drama Tragedi"
           },
           {
             "id": "m-20",
@@ -307,7 +326,8 @@ export const ROADMAP_DATA = [
               "Kemanusiaan Telanjang (*Unaccommodated Man*): Penelanjangan Lear dari seluruh atribut mahkota dan pakaian hingga menyadari bahwa manusia tanpa status hanyalah 'hewan berkaki dua yang malang.'",
               "Kekejaman Dunia & Ketiadaan Keadilan Ilahi: Tragedi di mana kebaikan (Cordelia) tidak selalu diselamatkan, memaksa manusia menghadapi penderitaan secara murni."
             ],
-            "context": "Eksplorasi paling kelam dan destruktif Shakespeare tentang kegilaan kekuasaan, pengkhianatan keluarga, dan kondisi penelanjangan manusia."
+            "context": "Eksplorasi paling kelam dan destruktif Shakespeare tentang kegilaan kekuasaan, pengkhianatan keluarga, dan kondisi penelanjangan manusia.",
+            "category": "Drama Tragedi"
           },
           {
             "id": "m-21",
@@ -322,7 +342,8 @@ export const ROADMAP_DATA = [
               "Rasa Bersalah & Visualisasi Halusinasi: Penampakan hantu Banquo dan fenomena Lady Macbeth yang terus mencuci tangannya dari darah yang tak terlihat.",
               "Ramalan & Self-Fulfilling Prophecy: Paradoks apakah takdir telah ditentukan atau dibentuk oleh tindakan manusia yang terobsesi pada ramalan."
             ],
-            "context": "Studi psikologis tercepat, paling gelap, dan paling intensif tentang psikopatologi kekuasaan dan korupsi jiwa akibat rasa bersalah."
+            "context": "Studi psikologis tercepat, paling gelap, dan paling intensif tentang psikopatologi kekuasaan dan korupsi jiwa akibat rasa bersalah.",
+            "category": "Drama Tragedi"
           },
           {
             "id": "m-22",
@@ -337,7 +358,8 @@ export const ROADMAP_DATA = [
               "Rasisme Implisit & Rasa Tidak Aman Sosial: Kerapuhan Othello yang merasa sebagai 'outsider' di Venesia dimanfaatkan Iago untuk merusak rasa percaya dirinya.",
               "Tragedi Kehancuran Kepolosan: Pembunuhan Desdemona yang murni oleh Othello yang terperangkap dalam ilusi kebohongan Iago."
             ],
-            "context": "Mahakarya teater tentang kecemburuan, rasisme implisit, dan kerentanan emosional manusia di hadapan manipulasi licik."
+            "context": "Mahakarya teater tentang kecemburuan, rasisme implisit, dan kerentanan emosional manusia di hadapan manipulasi licik.",
+            "category": "Drama Tragedi"
           },
           {
             "id": "m-23",
@@ -352,7 +374,8 @@ export const ROADMAP_DATA = [
               "Manipulasi Realitas (*Doublethink*): Kemampuan memegang dua kepercayaan yang saling bertentangan secara bersamaan dan mempercayai keduanya demi patuh pada Partai.",
               "Kekuasaan Murni tanpa Kompromi: Siksaan O'Brien membuktikan bahwa Partai tidak menginginkan martir — Partai menginginkan penundukan jiwa mutlak."
             ],
-            "context": "Manual diagnostik paling penting abad ke-20 untuk mengenali teknik propaganda, rekayasa bahasa, dan pengawasan otoriter."
+            "context": "Manual diagnostik paling penting abad ke-20 untuk mengenali teknik propaganda, rekayasa bahasa, dan pengawasan otoriter.",
+            "category": "Fiksi Eksistensial"
           },
           {
             "id": "m-24",
@@ -367,7 +390,8 @@ export const ROADMAP_DATA = [
               "Manipulasi Slogan oleh Propaganda (Squealer): Penggunaan retorika dan pengubahan sejarah untuk membenarkan hak istimewa elit babi.",
               "Kepasrahan & Apatisme Massa (Boxer): Kesetiaan buta kuda Boxer yang bekerja keras tanpa berpikir kritis hanya memfasilitasi eksploitasi dirinya."
             ],
-            "context": "Alegori satire politik paling tajam tentang bagaimana revolusi rakyat dapat dibajak oleh totalitarianisme baru."
+            "context": "Alegori satire politik paling tajam tentang bagaimana revolusi rakyat dapat dibajak oleh totalitarianisme baru.",
+            "category": "Fiksi Eksistensial"
           },
           {
             "id": "m-25",
@@ -382,7 +406,8 @@ export const ROADMAP_DATA = [
               "Komodifikasi Kebahagiaan: Penghapusan rasa sakit, seni tinggi, dan kebenaran demi stabilitas sosial yang dangkal.",
               "Sosok John sang Perawan (The Savage): Benturan antara nilai-nilai kemanusiaan klasik Shakespeare yang penuh penderitaan dengan kebahagiaan buatan dunia modern."
             ],
-            "context": "Diagnostik mahakarya tentang bahaya teknokrasi, konsumerisme radikal, dan penghapusan kedalaman jiwa demi kenyamanan."
+            "context": "Diagnostik mahakarya tentang bahaya teknokrasi, konsumerisme radikal, dan penghapusan kedalaman jiwa demi kenyamanan.",
+            "category": "Fiksi Eksistensial"
           },
           {
             "id": "m-26",
@@ -397,7 +422,8 @@ export const ROADMAP_DATA = [
               "Empati Kognitif: Pengajaran Atticus bahwa lo tidak akan pernah memahami seseorang sampai lo masuk ke dalam kulitnya dan berjalan dengannya.",
               "Simbol Burung Mockingbird: Menembak burung mockingbird adalah dosa karena mereka tidak merusak apapun — mereka hanya bernyanyi indah untuk manusia."
             ],
-            "context": "Novel klasik Amerika paling dicintai tentang pertumbuhan etika, pembrantasan prasangka rasial, dan keberanian moral."
+            "context": "Novel klasik Amerika paling dicintai tentang pertumbuhan etika, pembrantasan prasangka rasial, dan keberanian moral.",
+            "category": "Fiksi Eksistensial"
           },
           {
             "id": "m-27",
@@ -412,7 +438,8 @@ export const ROADMAP_DATA = [
               "Kekosongan Moral Kelas Atas Tradisional: Kebebalan Tom dan Daisy yang merusak hidup orang lain lalu berlindung di balik uang mereka yang melimpah.",
               "Lampu Hijau & Kerinduan pada Masa Lalu: Metafora lampu hijau di ujung dermaga sebagai kerinduan manusia pada masa lalu yang tak pernah bisa diulang."
             ],
-            "context": "Potret paling sempurna dan puitis tentang dekadensi moral, kemewahan, dan pembongkaran ilusi impian Amerika."
+            "context": "Potret paling sempurna dan puitis tentang dekadensi moral, kemewahan, dan pembongkaran ilusi impian Amerika.",
+            "category": "Fiksi Distopia"
           },
           {
             "id": "m-28",
@@ -427,7 +454,8 @@ export const ROADMAP_DATA = [
               "Konsep *Rememory*: Memori kelam sejarah yang terus ada di tempat-tempat fisik dan dapat mendatangi orang yang tidak mengalaminya langsung.",
               "Pentingnya Pemulihan Komunitas: Pembebasan Sethe dari arwah Beloved hanya bisa terjadi melalui dukungan kolektif wanita-wanita sekitar."
             ],
-            "context": "Novel pemenang Pulitzer Prize yang diakui sebagai salah satu pencapaian terbesar sastra Amerika dalam membedah warisan trauma perbudakan."
+            "context": "Novel pemenang Pulitzer Prize yang diakui sebagai salah satu pencapaian terbesar sastra Amerika dalam membedah warisan trauma perbudakan.",
+            "category": "Satire Politik"
           },
           {
             "id": "m-29",
@@ -442,7 +470,8 @@ export const ROADMAP_DATA = [
               "Mitos Terbang sebagai Pembebasan Spiritual: Penggunaan folklore Afro-Amerika tentang penerbangan sebagai alegori pembebasan dari penindasan.",
               "Kritik Eksploitasi Antar-Anggota Keluarga: Hubungan antara Macon Sr. yang kapitalis keras dengan saudarinya Pilate yang hidup bersahaja dan spiritual."
             ],
-            "context": "Epik pencarian identitas dan spiritualitas Afro-Amerika yang kaya akan folklore dan kedalaman sejarah."
+            "context": "Epik pencarian identitas dan spiritualitas Afro-Amerika yang kaya akan folklore dan kedalaman sejarah.",
+            "category": "Fiksi Distopia"
           },
           {
             "id": "m-30",
@@ -457,7 +486,8 @@ export const ROADMAP_DATA = [
               "Kekuasaan Despotik *Cacique*: Bagaimana keserakahan dan dendam satu tuan tanah (Pedro Páramo) dapat mematikan seluruh kehidupan ekonomi dan jiwa desa.",
               "Cikal Bakal Realisme Magis: Penggunaan alur waktu non-linear dan narasi suara arwah yang menginspirasi Gabriel García Márquez menulis *Sapiens* sastra Latin."
             ],
-            "context": "Novella Meksiko paling berpengaruh yang meletakkan fondasi bagi gerakan Realisme Magis sastra dunia."
+            "context": "Novella Meksiko paling berpengaruh yang meletakkan fondasi bagi gerakan Realisme Magis sastra dunia.",
+            "category": "Fiksi Distopia"
           },
           {
             "id": "m-31",
@@ -472,7 +502,8 @@ export const ROADMAP_DATA = [
               "Rasa Bersalah Eksistensial (*Guilt Without Crime*): Pengadilan tidak menciptakan rasa bersalah; pengadilan memanfaatkan keraguan internal manusia tentang dirinya sendiri.",
               "Alegori Sebelum Pintu Hukum (*Before the Law*): Kisah tentang pria desa yang menghabiskan seumur hidup menunggu diizinkan masuk ke Pintu Hukum yang sebenarnya diciptakan hanya untuknya."
             ],
-            "context": "Dramatisasi paling tajam tentang kecemasan, alienasi birokrasi, dan ketidakberdayaan manusia modern di hadapan otoritas tak terlihat."
+            "context": "Dramatisasi paling tajam tentang kecemasan, alienasi birokrasi, dan ketidakberdayaan manusia modern di hadapan otoritas tak terlihat.",
+            "category": "Fiksi Sains Klasik"
           },
           {
             "id": "m-32",
@@ -487,7 +518,8 @@ export const ROADMAP_DATA = [
               "Alienasi Pekerjaan & Tubuh: Perubahan serangga sebagai manifestasi fisik dari rasa keterasingan Gregor terhadap pekerjaannya yang mekanis.",
               "Transformasi Kejam Jiwa Keluarga: Bagaimana keluarga Gregor perlahan bernapas lega dan kembali bahagia pasca-kematian serangga Gregor."
             ],
-            "context": "Novella eksistensial paling terkenal dalam sastra modern yang membedah alienasi kerja dan kerapuhan ikatan keluarga."
+            "context": "Novella eksistensial paling terkenal dalam sastra modern yang membedah alienasi kerja dan kerapuhan ikatan keluarga.",
+            "category": "Fiksi Absurdis"
           },
           {
             "id": "m-33",
@@ -502,7 +534,8 @@ export const ROADMAP_DATA = [
               "Birokrasi Licin & Informasi Labirin: Pejabat Istana tidak pernah menolak K. secara langsung, melainkan menguburnya dalam proses administrasi tanpa akhir.",
               "Keterasingan Orang Luar (*Outsider*): Ketidakmampuan K. untuk diterima oleh masyarakat desa yang telah terbiasa patuh secara buta pada Istana."
             ],
-            "context": "Eksplorasi Kafka yang paling mendalam tentang kerinduan manusia akan legitimasi dan kepastian di dunia yang tidak responsif."
+            "context": "Eksplorasi Kafka yang paling mendalam tentang kerinduan manusia akan legitimasi dan kepastian di dunia yang tidak responsif.",
+            "category": "Fiksi Absurdis"
           },
           {
             "id": "m-34",
@@ -517,7 +550,8 @@ export const ROADMAP_DATA = [
               "Satire Absurditas Birokrasi Soviet: Bulgakov menggunakan sihir Iblis untuk menelanjangi keserakahan, kemunafikan, dan ketakutan para pejabat ateis Soviet.",
               "Penakut Adalah Dosa Terbesar: Paralelisme antara ketakutan Pontius Pilatus menghukum Kristus dengan ketakutan para intelektual Moscow melawan rezim Stalin."
             ],
-            "context": "Satire supernatural terbesar sastra Soviet abad ke-20 yang ditulis secara rahasia di tengah teror Stalinis."
+            "context": "Satire supernatural terbesar sastra Soviet abad ke-20 yang ditulis secara rahasia di tengah teror Stalinis.",
+            "category": "Fiksi Absurdis"
           },
           {
             "id": "m-35",
@@ -532,7 +566,8 @@ export const ROADMAP_DATA = [
               "Seni sebagai Benteng Kebebasan Jiwa: Puisi-puisi Zhivago (terlampir di akhir novel) menunjukkan bahwa keindahan pribadi tidak dapat didekte politik.",
               "Tragedi Cinta di Tengah Perang: Hubungan Zhivago dan Lara yang hancur bukan karena kesalahan mereka, tetapi oleh kejamnya arus politik zaman."
             ],
-            "context": "Novel pemenang Nobel Prize yang diselundupkan keluar Uni Soviet dan menjadi simbol kebebasan sastra individual."
+            "context": "Novel pemenang Nobel Prize yang diselundupkan keluar Uni Soviet dan menjadi simbol kebebasan sastra individual.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-36",
@@ -547,7 +582,8 @@ export const ROADMAP_DATA = [
               "Garis Antara Baik & Jahat: 'Garis yang memisahkan kebaikan dan kejahatan melintas tepat di tengah setiap hati manusia' — bukan antar partai atau kelas.",
               "Kekuatan Kesaksian Jujur: Kehancuran ilusi politik rezim raksasa ketika dihadapkan pada fakta-fakta historis kesaksian korban."
             ],
-            "context": "Dokumen non-fiksi paling berpengaruh dalam sejarah politik modern yang meruntuhkan legitimasi moral Uni Soviet di mata intelektual dunia."
+            "context": "Dokumen non-fiksi paling berpengaruh dalam sejarah politik modern yang meruntuhkan legitimasi moral Uni Soviet di mata intelektual dunia.",
+            "category": "Sejarah & Memoar"
           },
           {
             "id": "m-37",
@@ -562,7 +598,8 @@ export const ROADMAP_DATA = [
               "Skala Waktu Tahanan: Dalam dunia Gulag, satu hari yang sukses adalah hari di mana lo tidak sakit, tidak dimasukkan sel isolasi, dan mendapat sup hangat ekstra.",
               "Kritik Sistemik lewat Keseharian: Solzhenitsyn tidak perlu berpidato politis — detail 14 jam kerja keras sudah cukup menelanjangi kekejaman sistem."
             ],
-            "context": "Karya fiksi pertama yang diizinkan terbit di Uni Soviet (era Khrushchev) yang membuka mata publik tentang realitas kamp Gulag."
+            "context": "Karya fiksi pertama yang diizinkan terbit di Uni Soviet (era Khrushchev) yang membuka mata publik tentang realitas kamp Gulag.",
+            "category": "Sastra Modern"
           },
           {
             "id": "m-38",
@@ -577,7 +614,8 @@ export const ROADMAP_DATA = [
               "Kemunduran Bertahap Generasi Borjuis: Dari kakek yang praktis dan kuat, menuju anak yang kaku, hingga cucu yang rentan dan seniman muda yang sakit-sakitan.",
               "Perubahan Struktur Ekonomi Jerman: Transisi dari perdagangan Hanseatik tradisional menuju kapitalisme keuangan modern yang lebih kejam."
             ],
-            "context": "Novel perdana Thomas Mann yang ditulis pada usia 25 tahun dan menjadi alasan utama penganugerahan Nobel Prize Sastra padanya."
+            "context": "Novel perdana Thomas Mann yang ditulis pada usia 25 tahun dan menjadi alasan utama penganugerahan Nobel Prize Sastra padanya.",
+            "category": "Realisme Sosial"
           },
           {
             "id": "m-39",
@@ -592,7 +630,8 @@ export const ROADMAP_DATA = [
               "Perubahan Persepsi Waktu: Waktu di 'dunia atas' (sanatorium) berjalan lambat dan melar dibandingkan waktu di 'dunia bawah' (kehidupan praktis).",
               "Penyakit sebagai Metamorfosis Intelektual: Sakit fisik melepaskan Castorp dari ekspektasi borjuis dan memaksanya mendalami filsafat, biologi, dan musik."
             ],
-            "context": "Novel ide-ide (*Ideenroman*) terpenting peradaban Eropa yang mendiagnosis krisis spiritual sebelum meletusnya Perang Dunia I."
+            "context": "Novel ide-ide (*Ideenroman*) terpenting peradaban Eropa yang mendiagnosis krisis spiritual sebelum meletusnya Perang Dunia I.",
+            "category": "Sastra Modern"
           },
           {
             "id": "m-40",
@@ -607,7 +646,8 @@ export const ROADMAP_DATA = [
               "Kerapuhan Martabat Seniman: Bagaimana reputasi moral bertahun-tahun dapat runtuh dalam waktu singkat akibat obsesi estetika tak terkontrol.",
               "Venesia sebagai Simbol Keindahan & Pembusukan: Kota air yang megah namun berbau kolera sebagai metafora kemerosotan kebudayaan borjuis Eropa."
             ],
-            "context": "Novella estetika dan psikologis paling dipuji Thomas Mann tentang bahaya obsesi keindahan murni."
+            "context": "Novella estetika dan psikologis paling dipuji Thomas Mann tentang bahaya obsesi keindahan murni.",
+            "category": "Fiksi Kolonial"
           },
           {
             "id": "m-41",
@@ -622,7 +662,8 @@ export const ROADMAP_DATA = [
               "Tragedi Beban Masa Lalu Selatan Amerika: Quentin dihancurkan oleh ketidakmampuannya menerima kehancuran nilai-nilai lama kebangsawanan Selatan.",
               "Integritas & Ketahanan Dilsey: Di tengah kebusukan moral keluarga Compson, pelayan Dilsey mewakili satu-satunya imannya yang tegar dan stabil."
             ],
-            "context": "Puncak eksperimentasi teknik narasi sastra Amerika yang mengubah cara penulisan struktur novel modern."
+            "context": "Puncak eksperimentasi teknik narasi sastra Amerika yang mengubah cara penulisan struktur novel modern.",
+            "category": "Sastra Modern"
           },
           {
             "id": "m-42",
@@ -637,7 +678,8 @@ export const ROADMAP_DATA = [
               "Kata vs Realitas Pengalaman: Monolog Addie Bundren yang menyatakan bahwa 'kata-kata hanyalah bentuk kosong' yang tak mampu menampung realitas hidup.",
               "Absurditas Keteguhan Jiwa: Perjalanan tragis yang diwarnai peti mati tenggelam, kaki patah disemen, dan kebakaran lumbung."
             ],
-            "context": "Studi narasi eksperimental paling unik tentang kesedihan, motif rahasia keluarga, dan eksistensi masyarakat miskin Selatan."
+            "context": "Studi narasi eksperimental paling unik tentang kesedihan, motif rahasia keluarga, dan eksistensi masyarakat miskin Selatan.",
+            "category": "Novel Perang"
           },
           {
             "id": "m-43",
@@ -652,7 +694,8 @@ export const ROADMAP_DATA = [
               "Ketidakmungkinan Rekonstruksi Sejarah yang Utuh: Sejarah bukan fakta dingin, melainkan reka ulang narasi yang terus berubah tergantung siapa yang menceritakan.",
               "Mitos dan Tragedi Selatan Amerika: Perkebunan Sutpen sebagai metafora masyarakat Selatan yang dibangun di atas perbudakan dan ditakdirkan hancur."
             ],
-            "context": "Karya terbesar Faulkner yang diakui sebagai mahakarya sastra Gothic Selatan Amerika tentang dosa sejarah rasial."
+            "context": "Karya terbesar Faulkner yang diakui sebagai mahakarya sastra Gothic Selatan Amerika tentang dosa sejarah rasial.",
+            "category": "Realisme Sosial"
           },
           {
             "id": "m-44",
@@ -667,7 +710,8 @@ export const ROADMAP_DATA = [
               "Kritik Kapitalisme Pertanian: Steinbeck menelanjangi kepalsuan sistem yang menghancurkan dan membakar makanan demi menjaga harga saat rakyat kelaparan.",
               "Dignitas Manusia di Tengah Kemiskinan Ekstrem: Ketahanan fisik dan kebaikan hati orang-orang miskin yang saling menolong di kamp-kamp pengungsian."
             ],
-            "context": "Novel protes sosial Amerika paling legendaris yang memenangkan Pulitzer Prize dan memicu reformasi hak-hak buruh tani."
+            "context": "Novel protes sosial Amerika paling legendaris yang memenangkan Pulitzer Prize dan memicu reformasi hak-hak buruh tani.",
+            "category": "Sastra Klasik"
           },
           {
             "id": "m-45",
@@ -682,7 +726,8 @@ export const ROADMAP_DATA = [
               "Personifikasi Kejahatan Murni (Cathy Ames): Karakter Cathy sebagai pemicu destruksi yang tidak memiliki empati atau kompas moral sejak lahir.",
               "Hubungan Orang Tua & Anak: Dampak penolakan cinta orang tua yang memicu cemburu dan persaingan berdarah antar-saudara."
             ],
-            "context": "Magnum opus John Steinbeck yang ia anggap sebagai puncak dari seluruh pencapaian karier kepenulisannya."
+            "context": "Magnum opus John Steinbeck yang ia anggap sebagai puncak dari seluruh pencapaian karier kepenulisannya.",
+            "category": "Realisme Sosial"
           },
           {
             "id": "m-46",
@@ -697,7 +742,8 @@ export const ROADMAP_DATA = [
               "Absurditas & Komersialisasi Perang: Karakter Milo Minderbinder yang menjalankan pasar gelap di tengah perang hingga meledakkan pangkalan sendiri demi keuntungan saham.",
               "Kegilaan sebagai Respons Rasional: Di dalam dunia perang yang gila, menjadi gila adalah satu-satunya tindakan yang masuk akal."
             ],
-            "context": "Satire perang dan birokrasi paling terkenal dalam bahasa Inggris yang menyumbangkan istilah baru ke dalam kamus dunia."
+            "context": "Satire perang dan birokrasi paling terkenal dalam bahasa Inggris yang menyumbangkan istilah baru ke dalam kamus dunia.",
+            "category": "Satire & Sci-Fi"
           },
           {
             "id": "m-47",
@@ -712,7 +758,8 @@ export const ROADMAP_DATA = [
               "Perspektif Waktu Tralfamadore: Alien melihat seluruh momen waktu sekaligus (masa lalu, kini, nanti) seperti pemandangan gunung yang abadi.",
               "Kritik Mitos Kepahlawanan Perang: Vonnegut memberi sub-judul *The Children's Crusade* untuk mengingatkan bahwa perang sebenarnya dikirimkan oleh anak-anak muda yang tidak tahu apa-apa."
             ],
-            "context": "Novel anti-perang sci-fi paling unik abad ke-20 yang mengolah trauma nyata pengeboman Dresden lewat humor satire."
+            "context": "Novel anti-perang sci-fi paling unik abad ke-20 yang mengolah trauma nyata pengeboman Dresden lewat humor satire.",
+            "category": "Satire & Sci-Fi"
           },
           {
             "id": "m-48",
@@ -727,7 +774,8 @@ export const ROADMAP_DATA = [
               "Penelanjangan Mitos *Wild West*: McCarthy menghancurkan ilusi romantisme koboi Amerika dan memperlihatkan pembantaian genosida yang brutal dan berdarah.",
               "Prosa Epik Alkitabiah: Gaya penulisan McCarthy yang megah, tanpa tanda kutip, dan sarat dengan ritme Alkitab King James."
             ],
-            "context": "Masterpiece sastra neo-western dan eksplorasi paling dalam tentang kekerasan primal dalam sejarah peradaban Amerika."
+            "context": "Masterpiece sastra neo-western dan eksplorasi paling dalam tentang kekerasan primal dalam sejarah peradaban Amerika.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-49",
@@ -742,7 +790,8 @@ export const ROADMAP_DATA = [
               "Cinta Kasih Orang Tua sebagai Kebajikan Terakhir: Hubungan suci ayah yang hidup hanya demi melindungi anaknya di tengah alam yang mati total.",
               "Prosa Minimalis & Gelap: Dialog singkat tanpa tanda baca yang mencerminkan dunia yang telah kehilangan kelimpahan bahasa."
             ],
-            "context": "Novel post-apocalyptic paling menyentuh dan puitis yang memenangkan Pulitzer Prize untuk Fiksi."
+            "context": "Novel post-apocalyptic paling menyentuh dan puitis yang memenangkan Pulitzer Prize untuk Fiksi.",
+            "category": "Realisme Sosial"
           },
           {
             "id": "m-50",
@@ -757,7 +806,8 @@ export const ROADMAP_DATA = [
               "Pencapaian Bahasa Inggris Luar Biasa: Nabokov (seorang imigran Rusia) menciptakan salah satu gaya prosa bahasa Inggris paling kaya dan bernuansa dalam sejarah.",
               "Tragedi Perusakan Kepolosan: Di balik permainan kata yang jenius, novel ini adalah kisah tragis anak perempuan yang dirampas masa kecilnya."
             ],
-            "context": "Puncak keahlian gaya prosa bahasa Inggris dalam sastra dunia dan studi kasus paling terkenal tentang narator yang manipulatif."
+            "context": "Puncak keahlian gaya prosa bahasa Inggris dalam sastra dunia dan studi kasus paling terkenal tentang narator yang manipulatif.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-51",
@@ -772,7 +822,8 @@ export const ROADMAP_DATA = [
               "Solipsisme & Kerapuhan Pikiran: Eksplorasi batas antara kejeniusan sastra dan kegilaan paranoia.",
               "Permainan Puzzle Pasca-Modern: Pembaca diajak menjadi detektif untuk memisahkan kenyataan dari ilusi ciptaan Kinbote."
             ],
-            "context": "Salah satu novel metafiksi pasca-modern paling jenius dan inovatif yang pernah ditulis dalam sastra abad ke-20."
+            "context": "Salah satu novel metafiksi pasca-modern paling jenius dan inovatif yang pernah ditulis dalam sastra abad ke-20.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-52",
@@ -787,7 +838,8 @@ export const ROADMAP_DATA = [
               "Kritik terhadap Kiri & Kanan Ideologis: Pembongkaran kepalsuan pimpinan universitas kulit hitam, rasisme Selatan, dan pemanfaatan oleh partai politik radikal (*Brotherhood*).",
               "Pencarian Autentisitas dari Bawah Tanah: Keputusan narator hidup di ruangan bawah tanah yang diterangi 1.369 lampu sebelum keluar membawa kesadaran baru."
             ],
-            "context": "Novel paling seminal dalam sejarah sastra Amerika tentang eksistensi rasial, identitas individual, dan struktur sosial."
+            "context": "Novel paling seminal dalam sejarah sastra Amerika tentang eksistensi rasial, identitas individual, dan struktur sosial.",
+            "category": "Fiksi Sejarah"
           },
           {
             "id": "m-53",
@@ -802,7 +854,8 @@ export const ROADMAP_DATA = [
               "Absurditas Hukum & Peradilan: Pengadilan moralitas masyarakat yang lebih peduli pada fakta bahwa Meursault tidak menangis di pemakaman ibunya daripada motif pembunuhan itu sendiri.",
               "Kedamaian dalam Keheningan Semesta: Momen di sel eksekusi ketika Meursault membuka jiwanya pada 'keheningan alam semesta yang tidak peduli' dan merasa bahagia."
             ],
-            "context": "Karya fiksi utama yang memperkenalkan filosofi Absurdisme Camus dan menjadi salah satu novel paling banyak dibaca abad ke-20."
+            "context": "Karya fiksi utama yang memperkenalkan filosofi Absurdisme Camus dan menjadi salah satu novel paling banyak dibaca abad ke-20.",
+            "category": "Satire & Realisme Magis"
           },
           {
             "id": "m-54",
@@ -817,7 +870,8 @@ export const ROADMAP_DATA = [
               "Solidaritas dalam Absurditas: Wabah sebagai metafora penderitaan acak dan absurditas keberadaan — jawaban manusia bukanlah keputusasaan, melainkan kerja sama kolektif.",
               "Alegori Perlawanan terhadap Fasisme: Wabah sampar sebagai simbol pendudukan Fasisme Nazi di Eropa dan pengingat bahwa 'bakteri wabah tidak pernah benar-benar mati.'"
             ],
-            "context": "Novel eksistensial tentang solidaritas, integritas moral, dan ketahanan kemanusiaan di tengah krisis wabah atau penindasan."
+            "context": "Novel eksistensial tentang solidaritas, integritas moral, dan ketahanan kemanusiaan di tengah krisis wabah atau penindasan.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-55",
@@ -832,7 +886,8 @@ export const ROADMAP_DATA = [
               "Pembongkaran Egoisme Altrusistis: Bagaimana tindakan 'kebaikan' sering kali dilakukan hanya untuk memberi kepuasan ego dan rasa superioritas atas orang lain.",
               "Kejatuhan Tanpa Penebusan: Pengakuan bahwa tidak ada manusia yang benar-benar bersih dari rasa bersalah di dunia tanpa hukum ilahi yang jelas."
             ],
-            "context": "Monolog eksplorasi moralitas paling sinis, tajam, dan introspektif yang ditulis oleh Camus."
+            "context": "Monolog eksplorasi moralitas paling sinis, tajam, dan introspektif yang ditulis oleh Camus.",
+            "category": "Realisme Magis"
           },
           {
             "id": "m-56",
@@ -847,7 +902,8 @@ export const ROADMAP_DATA = [
               "Kontingensi Radikal Realitas: Dunia fisik tidak peduli pada kerangka logika manusia — segala sesuatu 'berada di sana' begitu saja secara berlebihan (*superfluous*).",
               "Pembongkaran *Bad Faith* (*Mauvaise Foi*): Kritik terhadap borjuis kota (*salauds*) yang berpura-pura bahwa keberadaan mereka penting dan memiliki legitimasi alami."
             ],
-            "context": "Novel manifes filosofis utama eksistensialisme ateistik Jean-Paul Sartre yang mendefinisikan krisis keberadaan modern."
+            "context": "Novel manifes filosofis utama eksistensialisme ateistik Jean-Paul Sartre yang mendefinisikan krisis keberadaan modern.",
+            "category": "Modernisme"
           },
           {
             "id": "m-57",
@@ -862,7 +918,8 @@ export const ROADMAP_DATA = [
               "Teater Magis & Pembelajaran Tertawa: Humor dan ketawa sebagai instrumen spiritual untuk tidak menganggap diri sendiri atau penderitaan hidup terlalu serius.",
               "Kritik Konformitas Borjuis: Keterasingan intelektual di tengah masyarakat konsumtif yang mengejar kenyamanan dangkal."
             ],
-            "context": "Novel krisis identitas dan pemulihan psikologis paling terkenal karya Hermann Hesse yang menginspirasi gerakan kontra-kebudayaan."
+            "context": "Novel krisis identitas dan pemulihan psikologis paling terkenal karya Hermann Hesse yang menginspirasi gerakan kontra-kebudayaan.",
+            "category": "Modernisme"
           },
           {
             "id": "m-58",
@@ -877,7 +934,8 @@ export const ROADMAP_DATA = [
               "Pentingnya Mengarungi Kesalahan Duniawi: Kebijaksanaan Siddhartha membutuhkan pengalaman langsung akan dosa, kekayaan, dan sakit hati untuk menjadi utuh.",
               "Sungai sebagai Simbol Kesatuan Waktu: Suara sungai yang mengajarkan bahwa masa lalu, kini, dan masa depan adalah satu kesatuan abadi di mana segalanya terhubung."
             ],
-            "context": "Kisah pencarian kebijaksanaan spiritual timur paling populer dan berpengaruh yang ditulis oleh sastrawan Jerman pemenang Nobel."
+            "context": "Kisah pencarian kebijaksanaan spiritual timur paling populer dan berpengaruh yang ditulis oleh sastrawan Jerman pemenang Nobel.",
+            "category": "Realisme Sosial"
           },
           {
             "id": "m-59",
@@ -892,7 +950,8 @@ export const ROADMAP_DATA = [
               "Tragedi Penolakan & Kebutuhan Empati: Makhluk Frankenstein pada dasarnya tidak jahat — kejahatannya lahir dari penolakan, kesepian, dan kekejaman manusia.",
               "Monster Sejati dalam Narasi: Pertanyaan filosofis apakah monster sejati adalah makhluk ciptaan yang cacat atau Victor yang tidak bertanggung jawab."
             ],
-            "context": "Novel sains fiksi modern pertama dalam sejarah yang menggabungkan elemen Gothic dengan pertanyaan etika sains."
+            "context": "Novel sains fiksi modern pertama dalam sejarah yang menggabungkan elemen Gothic dengan pertanyaan etika sains.",
+            "category": "Modernisme"
           },
           {
             "id": "m-60",
@@ -907,7 +966,8 @@ export const ROADMAP_DATA = [
               "Dendam Lintas Generasi: Kebencian dan rasa hinaan sosial yang mereplikasi diri dan merusak anak-anak generasi berikutnya.",
               "Atmosfer Padang Moor sebagai Elemen Jiwa: Lanskap alam Yorkshire yang keras dan badai sebagai cermin gejolak emosional para karakter."
             ],
-            "context": "Mahakarya sastra Victorian berpola emosi liar, Gothic, dan struktur narasi berlapis yang tak tertandingi."
+            "context": "Mahakarya sastra Victorian berpola emosi liar, Gothic, dan struktur narasi berlapis yang tak tertandingi.",
+            "category": "Sastra Gotik"
           },
           {
             "id": "m-61",
@@ -922,7 +982,8 @@ export const ROADMAP_DATA = [
               "Kesetaraan Jiwa Radikal: Deklarasi ikonik Jane bahwa jiwanya setara dengan Rochester terlepas dari perbedaan kelas, gender, atau kekayaan fisik.",
               "Tropes *Madwoman in the Attic*: Simbolis Bertha Mason sebagai cermin amarah dan penindasan terhadap kebebasan wanita era Victorian."
             ],
-            "context": "Pionir novel kesadaran individualis feminis Victorian yang menggabungkan elemen Gothic dengan pertumbuhan moral."
+            "context": "Pionir novel kesadaran individualis feminis Victorian yang menggabungkan elemen Gothic dengan pertumbuhan moral.",
+            "category": "Sastra Gotik"
           },
           {
             "id": "m-62",
@@ -937,7 +998,8 @@ export const ROADMAP_DATA = [
               "Ekonomi & Realitas Pernikahan Wanita: Kebutuhan pragmatis wanita era Regency untuk menikah demi keamanan finansial (karakter Charlotte Lucas) vs pernikahan berbasis rasa hormat murni (Elizabeth).",
               "Wit & Satire Sosial Jane Austen: Ironi puitis yang menelanjangi kepalsuan elit kebangsawanan (Lady Catherine) dan kegilaan kebanggaan kelas."
             ],
-            "context": "Komedi karakter dan satire sosial paling dicintai dalam sastra Inggris yang menetapkan standar tinggi bagi fiksi hubungan manusia."
+            "context": "Komedi karakter dan satire sosial paling dicintai dalam sastra Inggris yang menetapkan standar tinggi bagi fiksi hubungan manusia.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-63",
@@ -952,7 +1014,8 @@ export const ROADMAP_DATA = [
               "Kematangan Jiwa Lewat Kegagalan: Perkembangan karakter Emma dari gadis yang sok mengontrol menjadi wanita yang rendah hati dan berempati.",
               "Konstruksi Plot & Clues yang Sempurna: Keahlian Austen menyelipkan petunjuk-petunjuk rahasia (*Frank Churchill & Jane Fairfax*) yang baru disadari saat pembacaan ulang."
             ],
-            "context": "Puncak keahlian konstruksi plot, kontrol perspektif narator, dan pengembangan karakter Jane Austen."
+            "context": "Puncak keahlian konstruksi plot, kontrol perspektif narator, dan pengembangan karakter Jane Austen.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-64",
@@ -967,7 +1030,8 @@ export const ROADMAP_DATA = [
               "Penebusan Pip dari Kesombongan Sosial: Perjalanan kesadaran Pip ketika menemukan penyokongnya adalah narapidana Magwitch yang dulu ia tolong.",
               "Karakter-karakter Ikonik: Eksplorasi keputusasaan Miss Havisham yang membeku dalam gaun pengantin tua dan manipulasi Estella."
             ],
-            "context": "Salah satu novel Bildungsroman paling sempurna Charles Dickens tentang bahaya kesombongan kelas dan pemulihan nilai-nilai kemanusiaan."
+            "context": "Salah satu novel Bildungsroman paling sempurna Charles Dickens tentang bahaya kesombongan kelas dan pemulihan nilai-nilai kemanusiaan.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-65",
@@ -982,7 +1046,8 @@ export const ROADMAP_DATA = [
               "Metafora Kabut London (*London Fog*): Kabut sebagai simbol korupsi, kebutuhan sosial, dan ketidakmampuan masyarakat melihat penderitaan orang miskin (anak jalanan Jo).",
               "Struktur Dua Narator Unik: Kombinasi narator serba tahu yang sinis dengan narasi pribadi Esther Summerson yang hangat."
             ],
-            "context": "Kritik institusional Dickens yang paling tajam, luas, dan kompleks tentang kebobrokan hukum dan sosial Inggris."
+            "context": "Kritik institusional Dickens yang paling tajam, luas, dan kompleks tentang kebobrokan hukum dan sosial Inggris.",
+            "category": "Realisme Sosial"
           },
           {
             "id": "m-66",
@@ -997,7 +1062,8 @@ export const ROADMAP_DATA = [
               "Galeri Karakter Unik Peradaban: Karakter Mr. Micawber yang selalu optimis di tengah utang, dan Uriah Heep yang berpura-pura rendah hati demi manipulasi.",
               "Kematangan Jiwa Lewat Ketekunan: Pembentukan karakter David dari kepolosan masa muda menuju pemahaman kedalaman emosional."
             ],
-            "context": "Novel favorit Dickens sendiri yang kaya akan pengalaman personal dan kehangatan kemanusiaan."
+            "context": "Novel favorit Dickens sendiri yang kaya akan pengalaman personal dan kehangatan kemanusiaan.",
+            "category": "Bildungsroman"
           },
           {
             "id": "m-67",
@@ -1012,7 +1078,8 @@ export const ROADMAP_DATA = [
               "Realisme Tajam tanpa Peradilan Moral: Flaubert menggambarkan kemerosotan Emma dengan kejelasan obyektif seperti ilmuwan tanpa menghakimi secara teologis.",
               "Pencapaian Gaya Bahasa (*Le Mot Juste*): Keahlian Flaubert menghabiskan waktu berhari-hari hanya untuk menemukan satu kata yang paling tepat."
             ],
-            "context": "Karya pembuka realisme modern yang mengubah standar penulisan fiksi dan memicu tuntutan hukum atas tuduhan pelanggaran moralitas di Prancis."
+            "context": "Karya pembuka realisme modern yang mengubah standar penulisan fiksi dan memicu tuntutan hukum atas tuduhan pelanggaran moralitas di Prancis.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-68",
@@ -1027,7 +1094,8 @@ export const ROADMAP_DATA = [
               "Kritik Kemiskinan & Ketidakadilan Sosial: Hugo menelanjangi bagaimana kemiskinan membusukkan pria, menghancurkan wanita (Fantine), dan merusak anak-anak (Cosette).",
               "Semangat Barikade Revolusi 1832: Potret heroik idealisme pemuda Prancis (Marius & Enjolras) yang berjuang demi kebebasan dan keadilan rakyat."
             ],
-            "context": "Epik kemanusiaan dan keadilan sosial terbesar peradaban Prancis yang membela hak-hak kaum terpinggirkan (*the les misérables*)."
+            "context": "Epik kemanusiaan dan keadilan sosial terbesar peradaban Prancis yang membela hak-hak kaum terpinggirkan (*the les misérables*).",
+            "category": "Epik Sejarah"
           },
           {
             "id": "m-69",
@@ -1042,7 +1110,8 @@ export const ROADMAP_DATA = [
               "Ketahanan Jiwa di Penjara Isolasi: Pembelajaran ilmu pengetahuan dan ketahanan mental Dantès dari Biarawan Faria di dalam sel gelap.",
               "Kesimpulan Eksistensial (*Wait and Hope*): Kebijaksanaan tertinggi manusia terkandung dalam dua kata: Menunggu dan Berharap."
             ],
-            "context": "Novel petualangan balas dendam dan keadilan paling epik dan populer dalam sejarah sastra peradaban dunia."
+            "context": "Novel petualangan balas dendam dan keadilan paling epik dan populer dalam sejarah sastra peradaban dunia.",
+            "category": "Novel Petualangan"
           },
           {
             "id": "m-70",
@@ -1057,7 +1126,8 @@ export const ROADMAP_DATA = [
               "Siklus Kekerasan Revolusi: Kekejaman murni rezim aristokrat tua yang melahirkan dendam monster brutal (Madame Defarge) yang membalas dendam tanpa diskriminasi.",
               "Pengorbanan Diri Tertinggi (*Sydney Carton*): Penebusan hidup yang sia-sia melalui tindakan kasih tertinggi di tiang eksekusi."
             ],
-            "context": "Novel sejarah paling dramatis Charles Dickens yang menggambarkan gejolak emosional dan bahaya teror politik Revolusi Prancis."
+            "context": "Novel sejarah paling dramatis Charles Dickens yang menggambarkan gejolak emosional dan bahaya teror politik Revolusi Prancis.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-71",
@@ -1072,7 +1142,8 @@ export const ROADMAP_DATA = [
               "Absurditas Kekejaman Manusia & Bencana Alam: Penggambaran perang dan fanatisme agama sebagai bukti nyata bahwa dunia tidak diatur oleh harmoni sempurna.",
               "Kesimpulan Pragmatis (*Il faut cultiver notre jardin*): Manusia harus berhenti berdebat filosofi abstrak yang sia-sia dan fokus pada kerja nyata yang berguna bagi komunitasnya."
             ],
-            "context": "Satire Pencerahan Prancis paling tajam terhadap filosofi teologi abstrak dan fanatisme dogma."
+            "context": "Satire Pencerahan Prancis paling tajam terhadap filosofi teologi abstrak dan fanatisme dogma.",
+            "category": "Satire Filosofis"
           },
           {
             "id": "m-72",
@@ -1087,7 +1158,8 @@ export const ROADMAP_DATA = [
               "Peta Moral Abad Pertengahan: Klasifikasi dosa dari nafsu fisik, kekerasan, hingga pengkhianatan mendalam sebagai dosa terburuk.",
               "Perjalanan Jiwa Menuju Cahaya Ilahi: Penyelamatan jiwa dari kegelapan dosa menuju pemahaman Cinta yang menggerakkan matahari dan bintang-bintang (*L'amor che move il sole e l'altre stelle*)."
             ],
-            "context": "Puncak pencapaian puisi teologis, estetika, dan bahasa Italia Abad Pertengahan yang meletakkan peta moral peradaban Barat."
+            "context": "Puncak pencapaian puisi teologis, estetika, dan bahasa Italia Abad Pertengahan yang meletakkan peta moral peradaban Barat.",
+            "category": "Puisi Epik"
           },
           {
             "id": "m-73",
@@ -1102,7 +1174,8 @@ export const ROADMAP_DATA = [
               "Tanggung Jawab Kehendak Bebas Manusia: Adam dan Hawa diciptakan 'cukup kuat untuk bertahan, namun bebas untuk jatuh' — kehendak bebas sebagai fondasi etika.",
               "Penebusan & Pengetahuan Pasca-Kejatuhan: Dunia baru di luar Eden yang harus diarungi manusia dengan integritas dan kerja keras."
             ],
-            "context": "Epik puisi teologis terbesar dalam bahasa Inggris yang mendefinisikan estetika Kristen dan psikologi pemberontakan."
+            "context": "Epik puisi teologis terbesar dalam bahasa Inggris yang mendefinisikan estetika Kristen dan psikologi pemberontakan.",
+            "category": "Puisi Epik"
           },
           {
             "id": "m-74",
@@ -1117,7 +1190,8 @@ export const ROADMAP_DATA = [
               "Satire Korupsi Agama & Kebebasan Wanita: Humor tajam Chaucer menelanjangi keserakahan penjual surat pengampunan dosa (*Pardoner*) dan keteguhan independensi Wife of Bath.",
               "Fondasi Bahasa Inggris Modern (*Middle English*): Pembuktian bahwa bahasa Inggris rakyat layak menjadi medium sastra tinggi menggantikan bahasa Latin/Prancis."
             ],
-            "context": "Foundational text sastra Inggris pertama dan studi sosiologi paling kaya tentang masyarakat Abad Pertengahan."
+            "context": "Foundational text sastra Inggris pertama dan studi sosiologi paling kaya tentang masyarakat Abad Pertengahan.",
+            "category": "Sastra Pertengahan"
           },
           {
             "id": "m-75",
@@ -1132,7 +1206,8 @@ export const ROADMAP_DATA = [
               "Karakter Mephistopheles sebagai Roh Penolak: Iblis bukan sekadar kejahatan murni, melainkan kekuatan dorongan skeptisisme yang memicu manusia untuk terus bergerak.",
               "Penebusan Lewat Usaha Pencarian Tanpa Henti (*Streben*): Manusia yang terus berjuang dan berusaha tidak akan pernah bisa dihancurkan secara mutlak oleh Iblis."
             ],
-            "context": "Mahakarya terbesar sastra Jerman yang mendefinisikan jiwa dan ambisi pencarian manusia modern (*Faustian Bargain*)."
+            "context": "Mahakarya terbesar sastra Jerman yang mendefinisikan jiwa dan ambisi pencarian manusia modern (*Faustian Bargain*).",
+            "category": "Drama Tragedi"
           },
           {
             "id": "m-76",
@@ -1147,7 +1222,8 @@ export const ROADMAP_DATA = [
               "Bahaya Sensitivitas Jiwa yang Uncontrolled: Bagaimana estetika romantis yang berlebihan tanpa penyeimbang pragmatis dapat memicu kehancuran diri.",
               "Fenomena Budaya *Werther Effect*: Dampak luar biasa novel ini di Eropa yang memicu gelombang pakaian gaya Werther dan tren bunuh diri di kalangan pemuda."
             ],
-            "context": "Novel romantis Jerman yang melambungkan nama Goethe muda dan menjadi simbol gerakan Romantisisme Eropa."
+            "context": "Novel romantis Jerman yang melambungkan nama Goethe muda dan menjadi simbol gerakan Romantisisme Eropa.",
+            "category": "Sastra Romantisisme"
           },
           {
             "id": "m-77",
@@ -1162,7 +1238,8 @@ export const ROADMAP_DATA = [
               "Intrik & Psikologi Istana Heian: Penggambaran terperinci tentang persaingan para istri istana, ritual puitis, dan dinamika kekuasaan aristokrasi kuno Jepang.",
               "Cikal Bakal Formats Novel Panjang: Pengolahan alur waktu berpuluh-puluh tahun, puluhan karakter kompleks, dan kontinuitas tematis yang belum pernah ada sebelumnya."
             ],
-            "context": "Novel pertama di dunia dari abad ke-11 Jepang yang meletakkan fondasi tertinggi bagi estetika dan sastra Asia Timur."
+            "context": "Novel pertama di dunia dari abad ke-11 Jepang yang meletakkan fondasi tertinggi bagi estetika dan sastra Asia Timur.",
+            "category": "Realisme Klasik"
           },
           {
             "id": "m-78",
@@ -1177,7 +1254,8 @@ export const ROADMAP_DATA = [
               "Filosofi Taois & Buddhis tentang Kekosongan (*Emptiness vs Form*): Realitas kemewahan materi hanyalah ilusi keindahan sementara yang akan kembali menjadi kehampaan.",
               "Studi Sosiologi Budaya Dinasti Qing: Detail luar biasa tentang pengobatan tradisional, arsitektur taman, ritual teh, puisi, dan hirarki pelayan Tiongkok."
             ],
-            "context": "Puncak pencapaian novel klasik Tiongkok yang melahirkan disiplin ilmu khusus (*Redology*) untuk mengkaji kedalaman karyanya."
+            "context": "Puncak pencapaian novel klasik Tiongkok yang melahirkan disiplin ilmu khusus (*Redology*) untuk mengkaji kedalaman karyanya.",
+            "category": "Sastra Klasik"
           },
           {
             "id": "m-79",
@@ -1192,7 +1270,8 @@ export const ROADMAP_DATA = [
               "Penjinakan Pikiran Liar (*Mind Monkey*): Perjalanan menaklukkan siluman sebagai proses pembersihan dosa dan pencapaian pencerahan spiritual.",
               "Sintesis Mitologi Tiongkok: Penggabungan cerita rakyat, ajaran Buddhis, filsafat Taois, dan birokrasi Langit Konfusianis dalam satu epik besar."
             ],
-            "context": "Epik mitologi dan alegori spiritual paling populer dan paling banyak diadaptasi dalam budaya Asia Timur."
+            "context": "Epik mitologi dan alegori spiritual paling populer dan paling banyak diadaptasi dalam budaya Asia Timur.",
+            "category": "Fabel & Mitos"
           },
           {
             "id": "m-80",
@@ -1207,7 +1286,8 @@ export const ROADMAP_DATA = [
               "Manual Strategi Politik & Militer: Pelajaran diplomasi, taktik manipulasi psikologis perang (seperti taktik Kota Kosong Zhuge Liang), dan pembentukan aliansi.",
               "Konsep Kesetiaan (*Yi*) vs Realpolitik: Pertentangan antara etika kesetiaan persaudaraan pohon persik dengan kelicikan pragmatis kekuasaan."
             ],
-            "context": "Epik sejarah dan strategi militer paling legendaris yang membentuk pola pikir kepemimpinan dan diplomasi Asia Timur."
+            "context": "Epik sejarah dan strategi militer paling legendaris yang membentuk pola pikir kepemimpinan dan diplomasi Asia Timur.",
+            "category": "Epik Sejarah"
           },
           {
             "id": "m-81",
@@ -1222,7 +1302,8 @@ export const ROADMAP_DATA = [
               "Transformasi Lewat Persahabatan: Bagaimana kelembutan Enkidu mendewasakan Gilgamesh dari tiran yang kejam menjadi raja yang bijaksana.",
               "Mitos Air Bah Tertua: Sumber asal-usul cerita nabi dan bencana air bah yang memengaruhi mitologi Alkitab dan Mesopotamia."
             ],
-            "context": "Teks sastra tertua peradaban manusia (Mesopotamia) yang membedah tema universal mortalitas, kesepian, dan pencarian makna."
+            "context": "Teks sastra tertua peradaban manusia (Mesopotamia) yang membedah tema universal mortalitas, kesepian, dan pencarian makna.",
+            "category": "Puisi Epik"
           },
           {
             "id": "m-82",
@@ -1237,7 +1318,8 @@ export const ROADMAP_DATA = [
               "Keharmonisan Sosial Berbasis Ritual & Hierarki: Tatanan masyarakat yang stabil dibangun dari perbaikan diri individu dan penghormatan dalam keluarga.",
               "Kepemimpinan Teladan Moral: Penguasa memimpin bukan lewat paksaan kekerasan, melainkan lewat teladan kebaikan yang menginspirasi rakyat."
             ],
-            "context": "Teks fondasi utama etika, kepemimpinan, dan filsafat sosial yang membentuk peradaban Tiongkok, Korea, Jepang, dan Vietnam selama ribuan tahun."
+            "context": "Teks fondasi utama etika, kepemimpinan, dan filsafat sosial yang membentuk peradaban Tiongkok, Korea, Jepang, dan Vietnam selama ribuan tahun.",
+            "category": "Filsafat Timur"
           },
           {
             "id": "m-83",
@@ -1252,7 +1334,8 @@ export const ROADMAP_DATA = [
               "Dualitas *Yin & Yang*: Segala sesuatu mengandung benih dari kebalikannya; kelemahan adalah sumber kekuatan, keheningan adalah sumber gerak.",
               "Kepemimpinan Tersembunyi: Penguasa terbaik adalah penguasa yang ketika pekerjaannya selesai, rakyatnya berkata 'Kita melakukan ini secara alami sendiri.'"
             ],
-            "context": "Teks filosofis metafisika dan kepemimpinan alamiah paling berpengaruh dari Tiongkok yang menawarkan tandingan terhadap hirarki Konfusianisme."
+            "context": "Teks filosofis metafisika dan kepemimpinan alamiah paling berpengaruh dari Tiongkok yang menawarkan tandingan terhadap hirarki Konfusianisme.",
+            "category": "Filsafat Timur"
           },
           {
             "id": "m-84",
@@ -1267,7 +1350,8 @@ export const ROADMAP_DATA = [
               "Hakikat Jiwa yang Abadi (*Atman*): Tubuh fisik bisa mati dan hancur, namun jiwa sejati tidak pernah dilahirkan dan tidak pernah mati.",
               "Tiga Jalur Pencerahan: Pengetahuan (*Jnana*), Aksi (*Karma*), dan Pengabdian Kasih (*Bhakti*)."
             ],
-            "context": "Distilasi spiritual dan filosofis tertinggi peradaban Hindu klasik yang memengaruhi tokoh-tokoh dunia seperti Gandhi dan Oppenheimer."
+            "context": "Distilasi spiritual dan filosofis tertinggi peradaban Hindu klasik yang memengaruhi tokoh-tokoh dunia seperti Gandhi dan Oppenheimer.",
+            "category": "Sastra & Teologi"
           },
           {
             "id": "m-85",
@@ -1282,7 +1366,8 @@ export const ROADMAP_DATA = [
               "Hukum Karma & Ketidakberdayaan Takdir: Setiap tindakan politik dan personal melahirkan konsekuensi balasan yang tak terelakkan.",
               "Perang sebagai Kehancuran Bersama: Kemenangan Pandawa di medan perang dibayar dengan kehancuran total seluruh keluarga dan kedamaian."
             ],
-            "context": "Epik raksasa kebudayaan India yang menjadi ensiklopedia etika, politik, mitologi, dan filsafat peradaban."
+            "context": "Epik raksasa kebudayaan India yang menjadi ensiklopedia etika, politik, mitologi, dan filsafat peradaban.",
+            "category": "Puisi Epik"
           },
           {
             "id": "m-86",
@@ -1297,7 +1382,8 @@ export const ROADMAP_DATA = [
               "Kesetiaan & Pengabdian Murni (*Hanuman*): Pengorbanan tanpa batas demi kebenaran dan kasih persahabatan.",
               "Kemenangan *Dharma* atas *Adharma*: Kemenangan tatanan kebajikan etis atas kesombongan egoistik Ravana."
             ],
-            "context": "Epik fondasi nilai etika, kesetiaan, dan budaya masyarakat India serta Asia Tenggara (termasuk tradisi wayang Nusantara)."
+            "context": "Epik fondasi nilai etika, kesetiaan, dan budaya masyarakat India serta Asia Tenggara (termasuk tradisi wayang Nusantara).",
+            "category": "Puisi Epik"
           },
           {
             "id": "m-87",
@@ -1312,7 +1398,8 @@ export const ROADMAP_DATA = [
               "Kesadaran Kematian (*Memento Mori*): Mengingat bahwa hidup ini singkat agar tidak membuang waktu untuk emosi picik, kemarahan, atau narsisisme.",
               "Perspektif Kosmik & Pengabdian Publik: Menjalankan tugas sebagai warga dunia (*cosmopolitan*) dengan kewajiban membantu sesama manusia."
             ],
-            "context": "Buku filsafat Stoikisme praktis paling populer sepanjang masa yang ditulis oleh orang paling berkuasa di dunia pada zamannya."
+            "context": "Buku filsafat Stoikisme praktis paling populer sepanjang masa yang ditulis oleh orang paling berkuasa di dunia pada zamannya.",
+            "category": "Filsafat Stoisisme"
           },
           {
             "id": "m-88",
@@ -1327,7 +1414,8 @@ export const ROADMAP_DATA = [
               "Alegori Gua: Manusia awam seperti tahanan yang melihat bayangan di dinding gua dan menganggapnya realitas — tugas filsuf adalah keluar melihat matahari kebenaran murni.",
               "Raja Filsuf (*Philosopher-King*): Tatanan politik terbaik hanya tercapai jika penguasa adalah filsuf yang mengerti Kebajikan atau filsuf menjadi penguasa."
             ],
-            "context": "Starting point filsafat politik, etika, dan epistemologi peradaban Barat yang meletakkan kerangka berpikir seluruh studi filsafat."
+            "context": "Starting point filsafat politik, etika, dan epistemologi peradaban Barat yang meletakkan kerangka berpikir seluruh studi filsafat.",
+            "category": "Filsafat Politik"
           },
           {
             "id": "m-89",
@@ -1342,7 +1430,8 @@ export const ROADMAP_DATA = [
               "Mitos Manusia Androgynous Aristophanes: Cerita alegoris bahwa manusia dulunya bertubuh ganda lalu dibelah dua oleh dewa, sehingga kita seumur hidup mencari 'separuh jiwa' kita.",
               "Cinta sebagai Dorongan Menciptakan Kebajikan: Cinta sejati melahirkan karya seni, hukum, dan kebijaksanaan bagi peradaban."
             ],
-            "context": "Teks filosofis paling puitis dan indah karya Plato tentang psikologi dan kesadaran spiritual cinta."
+            "context": "Teks filosofis paling puitis dan indah karya Plato tentang psikologi dan kesadaran spiritual cinta.",
+            "category": "Filsafat Etika"
           },
           {
             "id": "m-90",
@@ -1357,7 +1446,8 @@ export const ROADMAP_DATA = [
               "Doktrin Titik Tengah (*Golden Mean*): Kebajikan etis adalah titik tengah yang seimbang antara dua ekstrem cacat (misal: Keberanian adalah titik tengah antara Penakut dan Kepatirasa/Nekat).",
               "Karakter Dibentuk Lewat Habituasi: Kita menjadi orang baik bukan dengan menghafal teori etika, melainkan dengan membiasakan tindakan baik secara rutin."
             ],
-            "context": "Foundational text etika kebajikan (*virtue ethics*) peradaban Barat yang mendominasi pemikiran etika hingga era modern."
+            "context": "Foundational text etika kebajikan (*virtue ethics*) peradaban Barat yang mendominasi pemikiran etika hingga era modern.",
+            "category": "Filsafat Etika"
           },
           {
             "id": "m-91",
@@ -1372,7 +1462,8 @@ export const ROADMAP_DATA = [
               "Konsep *Hamartia* (Kesalahan Fatal): Kehancuran pahlawan tragedi bukan karena ia jahat murni, melainkan karena kesalahan penilaian atau cacat karakter tertentu.",
               "Prinsip *Mimesis* (Peniruan Realitas): Seni bukan sekadar meniru kenyataan, melainkan merekonstruksi peristiwa yang *mungkin terjadi* sesuai hukum probabilitas."
             ],
-            "context": "Buku teori sastra, seni, dan struktur narasi drama paling fundamental yang menjadi panduan penulisan hingga industri perfilman modern."
+            "context": "Buku teori sastra, seni, dan struktur narasi drama paling fundamental yang menjadi panduan penulisan hingga industri perfilman modern.",
+            "category": "Filsafat Estetika"
           },
           {
             "id": "m-92",
@@ -1387,7 +1478,8 @@ export const ROADMAP_DATA = [
               "Kehendak untuk Berkuasa (*Will to Power*): Dorongan esensial dasar dari seluruh kehidupan dan pemikiran bukanlah bertahan hidup, melainkan memperluas dan menguasai realitas.",
               "Perspektivisme Epistemologis: Tidak ada fakta murni, yang ada hanyalah penafsiran dari berbagai sudut pandang (*There are no facts, only interpretations*)."
             ],
-            "context": "Dekonstruksi radikal Nietzsche terhadap dogmatisme filsafat Barat yang meletakkan dasar bagi pemikiran pasca-modern."
+            "context": "Dekonstruksi radikal Nietzsche terhadap dogmatisme filsafat Barat yang meletakkan dasar bagi pemikiran pasca-modern.",
+            "category": "Filsafat Moral"
           },
           {
             "id": "m-93",
@@ -1402,7 +1494,8 @@ export const ROADMAP_DATA = [
               "Konsep *Übermensch* (Manusia Unggul): Manusia yang melampaui moralitas massa dan berani menciptakan nilai-nilai baru yang melayani kehidupan.",
               "Prinsip *Amor Fati* & Eternal Recurrence: Mencintai takdir sendiri hingga lo siap menyetujui untuk mengulang kembali seluruh detik hidupmu secara identik berulang kali."
             ],
-            "context": "Karya filosofis paling puitis, eksperimental, dan berpengaruh dari Nietzsche yang mengguncang pemikiran abad ke-20."
+            "context": "Karya filosofis paling puitis, eksperimental, dan berpengaruh dari Nietzsche yang mengguncang pemikiran abad ke-20.",
+            "category": "Filsafat Eksistensial"
           },
           {
             "id": "m-94",
@@ -1417,7 +1510,8 @@ export const ROADMAP_DATA = [
               "Psikologi *Ressentiment*: Dengki dan rasa tidak mampu kelas terindas yang membalikkan nilai-nilai sejarah — menjadikan kelemahan sebagai 'kebaikan' moral.",
               "Genesis Rasa Bersalah & Nurani: Asal-usul rasa bersalah dari hubungan utang-piutang ekonomis kuno yang diinternalisasi ke dalam jiwa."
             ],
-            "context": "Dekonstruksi historis dan psikologis paling tajam tentang bagaimana nilai-nilai moralitas Barat terbentuk."
+            "context": "Dekonstruksi historis dan psikologis paling tajam tentang bagaimana nilai-nilai moralitas Barat terbentuk.",
+            "category": "Filsafat Moral"
           },
           {
             "id": "m-95",
@@ -1432,7 +1526,8 @@ export const ROADMAP_DATA = [
               "Knight of Faith vs Tragic Hero: Pahlawan tragedi (seperti Agamemnon) berkorban demi norma moral publik; Knight of Faith (Abraham) bertindak dalam isolasi mutlak dengan Tuhan.",
               "Absurditas Iman: Kepercayaan mutlak bahwa bagi Tuhan segala sesuatu mungkin terjadi, bahkan ketika rasio mengatakan itu mustahil."
             ],
-            "context": "Fondasi utama eksistensialisme religius yang membedah batas-batas rasionalitas murni di hadapan keputusan individu."
+            "context": "Fondasi utama eksistensialisme religius yang membedah batas-batas rasionalitas murni di hadapan keputusan individu.",
+            "category": "Filsafat Eksistensial"
           },
           {
             "id": "m-96",
@@ -1447,7 +1542,8 @@ export const ROADMAP_DATA = [
               "Autentisitas & *Being-towards-death*: Manusia mencapai hidup autentik hanya ketika berani menghadapi kepastian kematian sendiri, bukannya melarikan diri ke dalam obrolan pasif masyarakat (*Das Man*).",
               "Waktu sebagai Kerangka Hakiki Keberadaan: Masa lalu, kini, dan masa depan adalah dimensi dasar yang membentuk seluruh struktur kesadaran Dasein."
             ],
-            "context": "Mahakarya fenomenologi dan ontologi paling berpengaruh abad ke-20 yang mengubah arah studi filsafat eksistensial dan hermeneutika."
+            "context": "Mahakarya fenomenologi dan ontologi paling berpengaruh abad ke-20 yang mengubah arah studi filsafat eksistensial dan hermeneutika.",
+            "category": "Ontologi & Eksistensialisme"
           },
           {
             "id": "m-97",
@@ -1462,7 +1558,8 @@ export const ROADMAP_DATA = [
               "Pemberontakan Eksistensial: Hidup sepenuhnya, bebas, dan passionate dengan kesadaran penuh bahwa dunia ini absurd tanpa ilusi janji akhirat.",
               "One Must Imagine Sisyphus Happy: Sisyphus adalah pahlawan absurd karena ia sadar akan hukumannya, menolak keputusasaan, dan menemukan makna dalam perjuangan itu sendiri."
             ],
-            "context": "Teks landasan utama filosofi Absurdisme Camus yang menawarkan jawaban atas nihilisme tanpa lari ke ilusi teologis."
+            "context": "Teks landasan utama filosofi Absurdisme Camus yang menawarkan jawaban atas nihilisme tanpa lari ke ilusi teologis.",
+            "category": "Filsafat Eksistensial"
           },
           {
             "id": "m-98",
@@ -1477,7 +1574,8 @@ export const ROADMAP_DATA = [
               "Kebebasan Terakhir Manusia: Segala sesuatu dapat dirampas dari manusia kecuali satu hal: kebebasan untuk memilih sikap dalam menghadapi situasi apapun.",
               "Tiga Sumber Makna Hidup: Lewat menciptakan karya/pekerjaan, lewat mengalami keindahan/cinta, dan lewat sikap berani dalam menghadapi penderitaan tak terelakkan."
             ],
-            "context": "Buku kesaksian psikiatri dan keabadian jiwa manusia paling berpengaruh yang telah memberi inspirasi jutaan pembaca di seluruh dunia."
+            "context": "Buku kesaksian psikiatri dan keabadian jiwa manusia paling berpengaruh yang telah memberi inspirasi jutaan pembaca di seluruh dunia.",
+            "category": "Psikologi Eksistensial"
           },
           {
             "id": "m-99",
@@ -1492,7 +1590,8 @@ export const ROADMAP_DATA = [
               "Dualitas Eksistensial Manusia: Manusia adalah pencipta dengan imajinasi kosmik tak terbatas yang terperangkap dalam tubuh fisik yang pasti membusuk dan mati.",
               "Neurosis sebagai Kegagalan Ilusi: Ketakutan dan neurosis timbul ketika ilusi keabadian seseorang hancur dan ia bertatap muka dengan realitas mortalitas murni."
             ],
-            "context": "Mahakarya pemenang Pulitzer Prize yang menggabungkan psikoanalisis Freud, sosiologi, dan eksistensialisme tentang motivasi utama kebudayaan."
+            "context": "Mahakarya pemenang Pulitzer Prize yang menggabungkan psikoanalisis Freud, sosiologi, dan eksistensialisme tentang motivasi utama kebudayaan.",
+            "category": "Psikologi Eksistensial"
           },
           {
             "id": "m-100",
@@ -1507,7 +1606,8 @@ export const ROADMAP_DATA = [
               "Kontrak Sosial & Sovereign Mutlak: Rakyat menyerahkan hak mengatur diri sendiri kepada Leviathan demi jaminan kedamaian dan perlindungan hukum.",
               "Legitimasi Kekuasaan Berbasis Efektivitas: Negara ada bukan karena hak ilahi raja, melainkan karena gunanya dalam mencegah kekacauan internal."
             ],
-            "context": "Foundational text filsafat politik modern dan teori Kontrak Sosial yang mendasari pembentukan konsep negara modern."
+            "context": "Foundational text filsafat politik modern dan teori Kontrak Sosial yang mendasari pembentukan konsep negara modern.",
+            "category": "Filsafat Politik"
           },
           {
             "id": "m-101",
@@ -1522,7 +1622,8 @@ export const ROADMAP_DATA = [
               "Mekanisme *Invisible Hand*: Pengejaran kepentingan diri individual di dalam pasar bebas secara tidak sengaja menghasilkan kebaikan dan kelimpahan publik.",
               "Kritik Terhadap Merkantilisme & Monopoli: Smith membela persaingan sehat dan memperingatkan bahaya perkongkolan pengusaha untuk memanipulasi harga."
             ],
-            "context": "Buku fondasi utama ilmu ekonomi modern yang menandai lahirnya era kapitalisme industri."
+            "context": "Buku fondasi utama ilmu ekonomi modern yang menandai lahirnya era kapitalisme industri.",
+            "category": "Ekonomi Politik"
           },
           {
             "id": "m-102",
@@ -1537,7 +1638,8 @@ export const ROADMAP_DATA = [
               "Fetisisme Komoditas (*Commodity Fetishism*): Hubungan sosial antar-manusia yang tersembunyi dan berubah menjadi seolah-olah hubungan antar-benda/uang di pasar.",
               "Kontradiksi Internal Akumulasi Modal: Kecenderungan penurunan tingkat keuntungan dan konsentrasi modal yang memicu krisis ekonomi."
             ],
-            "context": "Karya analisis ekonomi paling berpengaruh dalam gerakan sosialisme ilmiah dan kritik kapitalisme global."
+            "context": "Karya analisis ekonomi paling berpengaruh dalam gerakan sosialisme ilmiah dan kritik kapitalisme global.",
+            "category": "Ekonomi Politik"
           },
           {
             "id": "m-103",
@@ -1552,7 +1654,8 @@ export const ROADMAP_DATA = [
               "Dinamika Transformatif Kapitalisme: Kapitalisme menghancurkan tatanan feodal kuno dan menciptakan dunia yang saling terhubung secara global.",
               "Materialisme Historis: Cara manusia memproduksi kebutuhan fisiknya (*base*) menentukan struktur hukum, politik, dan agama (*superstructure*)."
             ],
-            "context": "Pamflet politik paling radikal abad ke-19 yang menggerakkan revolusi politik dan perubahan tatanan dunia abad ke-20."
+            "context": "Pamflet politik paling radikal abad ke-19 yang menggerakkan revolusi politik dan perubahan tatanan dunia abad ke-20.",
+            "category": "Teori Politik"
           },
           {
             "id": "m-104",
@@ -1567,7 +1670,8 @@ export const ROADMAP_DATA = [
               "Nenek Moyang Bersama (*Common Descent*): Kehidupan di bumi adalah satu pohon silsilah raksasa yang terhubung secara historis biologis.",
               "Perubahan Paradigma Biologi: Menggantikan pandangan penciptaan statis dengan pemahaman dinamika perubahan biologis yang konstan."
             ],
-            "context": "Mahakarya sains yang meruntuhkan dogmatisme antroposentris dan meletakkan dasar bagi biologi modern."
+            "context": "Mahakarya sains yang meruntuhkan dogmatisme antroposentris dan meletakkan dasar bagi biologi modern.",
+            "category": "Sains Evolusi"
           },
           {
             "id": "m-105",
@@ -1582,7 +1686,8 @@ export const ROADMAP_DATA = [
               "Penjelasan Biologis Altruisme: Perilaku pengorbanan diri organisme dijelaskan lewat persentase kebagiaaan gen bersama (*kin selection*).",
               "Konsep *Meme*: Replikasi informasi budaya (gagasan, lagu, pakaian, agama) yang menyebar dan melestarikan diri seperti gen biologis."
             ],
-            "context": "Revolusi pemahaman sains evolusi modern dan pengenalan pertama istilah *meme* dalam wacana intelektual publik."
+            "context": "Revolusi pemahaman sains evolusi modern dan pengenalan pertama istilah *meme* dalam wacana intelektual publik.",
+            "category": "Biologi Evolusioner"
           },
           {
             "id": "m-106",
@@ -1597,7 +1702,8 @@ export const ROADMAP_DATA = [
               "Radiasi Hawking & Lubang Hitam: Lubang hitam bukan penyedot mutlak — mereka memancarkan radiasi dan perlahan menguap.",
               "Panah Waktu (*Arrow of Time*): Mengapa waktu bergerak searah dari masa lalu menuju masa depan selaras dengan hukum entropi."
             ],
-            "context": "Buku kosmologi populer paling sukses dan laris sepanjang masa yang mendemokrasikan fisika teoritis."
+            "context": "Buku kosmologi populer paling sukses dan laris sepanjang masa yang mendemokrasikan fisika teoritis.",
+            "category": "Sains & Fisika"
           },
           {
             "id": "m-107",
@@ -1612,7 +1718,8 @@ export const ROADMAP_DATA = [
               "Sains sebagai Alat Pembebasan: Metode ilmiah sebagai 'lilin di dalam kegelapan' yang membebaskan manusia dari takhayul dan ketakutan irasional.",
               "Kita Adalah Kosmos yang Berpikir: 'Kita adalah cara kosmos untuk memahami dirinya sendiri.'"
             ],
-            "context": "Buku sains puitis paling menggugah yang menginspirasi generasi manusia untuk mencintai sains dan menjaga planet bumi."
+            "context": "Buku sains puitis paling menggugah yang menginspirasi generasi manusia untuk mencintai sains dan menjaga planet bumi.",
+            "category": "Sains & Astronomi"
           },
           {
             "id": "m-108",
@@ -1627,7 +1734,8 @@ export const ROADMAP_DATA = [
               "Sains Normal vs Revolusi Sains: Komunitas ilmiah menghabiskan sebagian besar waktu mempertahankan paradigma yang ada sebelum runtuh oleh revolusi.",
               "Ketidakpaduan Paradigma (*Incommensurabilitas*): Dua paradigma sains sebelum dan sesudah revolusi tidak bisa saling mengukur dengan bahasa yang sama."
             ],
-            "context": "Teks filsafat sains paling berpengaruh abad ke-20 yang memopulerkan istilah *paradigm shift* dalam seluruh ilmu pengetahuan."
+            "context": "Teks filsafat sains paling berpengaruh abad ke-20 yang memopulerkan istilah *paradigm shift* dalam seluruh ilmu pengetahuan.",
+            "category": "Filsafat Sains"
           },
           {
             "id": "m-109",
@@ -1642,7 +1750,8 @@ export const ROADMAP_DATA = [
               "Perangkap Revolusi Pertanian: Pertanian meningkatkan jumlah populasi tetapi menurunkan kualitas hidup dan kesehatan nutrisi individu dibanding era berburu.",
               "Biologi Memungkinkan, Budaya Melarang: Sebagian besar norma moral dan sosial adalah konstruksi budaya, bukan batasan biologis alami."
             ],
-            "context": "Buku sejarah makro peradaban manusia paling populer abad ke-21 yang memberikan kerangka analisis lintas disiplin."
+            "context": "Buku sejarah makro peradaban manusia paling populer abad ke-21 yang memberikan kerangka analisis lintas disiplin.",
+            "category": "Sejarah Peradaban"
           },
           {
             "id": "m-110",
@@ -1657,7 +1766,8 @@ export const ROADMAP_DATA = [
               "Orientasi Axis Kontinental: Eurasia berbentuk horizontal (iklim dan panjang hari serupa), memudahkan penyebaran inovasi dibanding benua vertikal (Amerika/Afrika).",
               "Kekuatan Penyakit (*Germs*): Kekebalan terhadap penyakit menular dari hewan ternak menjadi senjata paling mematikan saat penaklukan kolonial."
             ],
-            "context": "Mahakarya analisis sejarah peradaban berbasis sains biogeografi yang membongkar mitos-mitos rasisme."
+            "context": "Mahakarya analisis sejarah peradaban berbasis sains biogeografi yang membongkar mitos-mitos rasisme.",
+            "category": "Sejarah & Geografi"
           },
           {
             "id": "m-111",
@@ -1672,7 +1782,8 @@ export const ROADMAP_DATA = [
               "Ideologi sebagai Penjelas Tunggal Realitas: Sistem ideologi total yang mengklaim memiliki kunci rahasia sejarah dan mengabaikan fakta empiris nyata.",
               "Teror sebagai Instrumen Pemerintahan: Penggunaan kamp konsentrasi untuk menelanjangi martabat manusia dan membuktikan mahakuasanya rezim."
             ],
-            "context": "Studi filsafat politik monumental tentang kehancuran ruang publik dan bahaya kediktatoran totaliter modern."
+            "context": "Studi filsafat politik monumental tentang kehancuran ruang publik dan bahaya kediktatoran totaliter modern.",
+            "category": "Sejarah Politik"
           },
           {
             "id": "m-112",
@@ -1687,7 +1798,8 @@ export const ROADMAP_DATA = [
               "Kekuatan Asosiasi Sipil: Benteng utama kebebasan demokrasi Amerika ada pada budaya warga membentuk klub, pers, dan asosiasi independen.",
               "Ketegangan Kesetaraan vs Kebebasan (*Equality vs Liberty*): Kecenderungan masyarakat demokratis mencintai kesetaraan begitu tinggi hingga rela mengorbankan kebebasan."
             ],
-            "context": "Analisis sosiologi dan filsafat politik paling akurat dan abadi tentang karakteristik, keunggulan, dan bahaya sistem demokrasi."
+            "context": "Analisis sosiologi dan filsafat politik paling akurat dan abadi tentang karakteristik, keunggulan, dan bahaya sistem demokrasi.",
+            "category": "Filsafat Politik"
           },
           {
             "id": "m-113",
@@ -1702,7 +1814,8 @@ export const ROADMAP_DATA = [
               "Jebakan Thucydides (*Thucydides Trap*): Perang terjadi ketika munculnya kekuatan baru (Athena) menimbulkan ketakutan pada kekuatan lama yang bertakhta (Sparta).",
               "Sifat Manusia & Kekuasaan: Dinamika politik internasional yang selalu didorong oleh tiga motivasi primal: Ketakutan (*Fear*), Kehormatan (*Honor*), dan Kepentingan (*Interest*)."
             ],
-            "context": "Buku fondasi ilmu Hubungan Internasional dan Realpolitik tertua yang analisisnya masih berlaku hingga abad ke-21."
+            "context": "Buku fondasi ilmu Hubungan Internasional dan Realpolitik tertua yang analisisnya masih berlaku hingga abad ke-21.",
+            "category": "Sejarah Klasik"
           },
           {
             "id": "m-114",
@@ -1717,7 +1830,8 @@ export const ROADMAP_DATA = [
               "Keragaman Budaya & Relativisme Adat: Pengamatan bahwa setiap bangsa menganggap adat istiadatnya sendiri sebagai yang terbaik di dunia.",
               "Bahaya Kesombongan Penguasa (*Hubris*): Pembalasan takdir terhadap penguasa yang melampaui batas batas alamiahnya (seperti Raja Xerxes membantai laut)."
             ],
-            "context": "Karya pionir sejarah naratif dan etnografi peradaban yang membuka tradisi pencatatan sejarah Barat."
+            "context": "Karya pionir sejarah naratif dan etnografi peradaban yang membuka tradisi pencatatan sejarah Barat.",
+            "category": "Sejarah Klasik"
           },
           {
             "id": "m-115",
@@ -1732,7 +1846,8 @@ export const ROADMAP_DATA = [
               "Kritik Historiografi Gibbon: Analisis kontroversial tentang peran agama Kristen yang mengalihkan fokus warganegara dari pengabdian negara ke keselamatan pribadi.",
               "Gaya Prosa Klasik Abad ke-18: Pencapaian gaya bahasa Inggris yang elegan, ironis, dan berwawasan luas."
             ],
-            "context": "Mahakarya historiografi klasik terbesar bahasa Inggris yang menetapkan standar penulisan sejarah peradaban."
+            "context": "Mahakarya historiografi klasik terbesar bahasa Inggris yang menetapkan standar penulisan sejarah peradaban.",
+            "category": "Sejarah Klasik"
           },
           {
             "id": "m-116",
@@ -1747,7 +1862,8 @@ export const ROADMAP_DATA = [
               "Tragedi Kekakuan Karakter Okonkwo: Ketakutan Okonkwo terlihat 'lemah' seperti ayahnya mendorongnya ke dalam tindakan kaku yang menghancurkan dirinya sendiri.",
               "Suara Sastra Afrika Pertama yang Mendunia: Achebe menceritakan sejarah Afrika dari kacamata orang Afrika sendiri, merespons pandangan stereotipik Eropa."
             ],
-            "context": "Novel Afrika paling seminal yang paling banyak dibaca dalam sastra dunia pasca-kolonial."
+            "context": "Novel Afrika paling seminal yang paling banyak dibaca dalam sastra dunia pasca-kolonial.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-117",
@@ -1762,7 +1878,8 @@ export const ROADMAP_DATA = [
               "Anak-anak Kemerdekaan sebagai Metafora Bangsa: 1.001 anak yang lahir di jam pertama kemerdekaan mewakili keragaman dan potensi India.",
               "Seni Narasi Lisan & Identitas Pasca-Kolonial: Kekayaan bahasa prosa Rushdie yang mencampur bahasa Inggris dengan ritme narasi lisan India."
             ],
-            "context": "Novel pemenang *Booker of Bookers* (novel terbaik selama 40 tahun sejarah Booker Prize) yang mendefinisikan sastra pasca-kolonial modern."
+            "context": "Novel pemenang *Booker of Bookers* (novel terbaik selama 40 tahun sejarah Booker Prize) yang mendefinisikan sastra pasca-kolonial modern.",
+            "category": "Realisme Magis"
           },
           {
             "id": "m-118",
@@ -1777,7 +1894,8 @@ export const ROADMAP_DATA = [
               "Kebutaan Politik Pengabdi Setia: Stevens bangga melayani Lord Darlington tanpa mau mempertanyakan fakta bahwa majikannya adalah simpatisan Nazi.",
               "Teknik *Unreliable Narrator* yang Puitis: Ishiguro memperlihatkan penyesalan dan duka mendalam Stevens di balik kesantunan bahasanya yang sangat formal."
             ],
-            "context": "Novel puitis pemenang Booker Prize karya Kazuo Ishiguro yang dipuji sebagai studi terdalam tentang penyesalan dan martabat palsu."
+            "context": "Novel puitis pemenang Booker Prize karya Kazuo Ishiguro yang dipuji sebagai studi terdalam tentang penyesalan dan martabat palsu.",
+            "category": "Realisme Sosial"
           },
           {
             "id": "m-119",
@@ -1792,7 +1910,8 @@ export const ROADMAP_DATA = [
               "Nilai Seni & Keabadian Memori: Pencarian para klon untuk membuktikan bahwa mereka memiliki 'jiwa' melalui karya seni yang diciptakan di sekolah.",
               "Metafora Finitud Hidup Manusia: Perjalanan singkat para klon adalah cerminan dari mortalitas manusia itu sendiri — waktu hidup yang terbatas dan bernilai."
             ],
-            "context": "Novel sci-fi distopia emosional tentang hakikat kemanusiaan, cinta, dan penerimaan mortalitas."
+            "context": "Novel sci-fi distopia emosional tentang hakikat kemanusiaan, cinta, dan penerimaan mortalitas.",
+            "category": "Fiksi Distopia"
           },
           {
             "id": "m-120",
@@ -1807,7 +1926,8 @@ export const ROADMAP_DATA = [
               "Konsep Zona Kelabu (*Grey Zone*): Kompleksitas moral di mana beberapa tahanan dipaksa menjadi komplotan minor demi bertahan hidup beberapa hari lebih lama.",
               "Kewajiban Mengingat demi Kemanusiaan: Puisi pembuka yang menuntut generasi mendatang untuk mengingat tragedi ini agar tidak berulang."
             ],
-            "context": "Kesaksian Holocaust paling jernih, mendalam, dan penting secara analisis psikologis dan kemanusiaan."
+            "context": "Kesaksian Holocaust paling jernih, mendalam, dan penting secara analisis psikologis dan kemanusiaan.",
+            "category": "Memoar Sejarah"
           },
           {
             "id": "m-121",
@@ -1822,7 +1942,8 @@ export const ROADMAP_DATA = [
               "Perkembangan Pemikiran & Kesadaran Diri: Pertumbuhan intelektual Anne dari anak-anak menjadi penulis muda yang reflektif.",
               "Kesaksian Manusiawi Korban Holocaust: Menghadirkan angka statistik korban perang dalam bentuk suara individu manusia sejati yang bernyawa."
             ],
-            "context": "Dokumen kesaksian pribadi paling terkenal dalam sejarah yang menjadi simbol abadi harapan kemanusiaan."
+            "context": "Dokumen kesaksian pribadi paling terkenal dalam sejarah yang menjadi simbol abadi harapan kemanusiaan.",
+            "category": "Memoar Sejarah"
           },
           {
             "id": "m-122",
@@ -1837,7 +1958,8 @@ export const ROADMAP_DATA = [
               "Repetisi & Komedi Konyol dalam Ketiadaan Makna: Penggunaan humor konyol dan perulangan dialog untuk mengisi kehampaan waktu hidup.",
               "Keterikatan Persahabatan: Meskipun sering bertengkar dan mengancam berpisah, Didi dan Gogo tetap tinggal bersama karena ketakutan akan kesepian mutlak."
             ],
-            "context": "Naskah drama eksperimental paling ikonik abad ke-20 yang mendefinisikan gerakan Teater Absurd."
+            "context": "Naskah drama eksperimental paling ikonik abad ke-20 yang mendefinisikan gerakan Teater Absurd.",
+            "category": "Drama Absurdis"
           },
           {
             "id": "m-123",
@@ -1852,7 +1974,8 @@ export const ROADMAP_DATA = [
               "Teorema Ketidaklengkapan Gödel: Pembuktian matematika bahwa dalam sistem formal yang cukup kuat, akan selalu ada pernyataan yang benar tetapi tidak dapat dibuktikan di dalam sistem itu.",
               "Sintesis Lintas Disiplin: Menghubungkan logika formal matematika, pola counterpoint musik Bach, dan ilusi perspektif visual Escher."
             ],
-            "context": "Mahakarya eksplorasi sains kognitif, logika, dan filsafat kesadaran paling kreatif abad ke-20."
+            "context": "Mahakarya eksplorasi sains kognitif, logika, dan filsafat kesadaran paling kreatif abad ke-20.",
+            "category": "Sains Kognitif & Logika"
           },
           {
             "id": "m-124",
@@ -1867,7 +1990,8 @@ export const ROADMAP_DATA = [
               "Tekni Penulisan *Iceberg Theory*: 90% makna cerita berada di bawah permukaan — ditulis lewat dialog singkat dan aksi tanpa penjelasan emosional berlebih.",
               "Kode Ketahanan & Maskulinitas (*Code Hero*): Penghormatan Hemingway pada keberanian adu banteng sebagai etika menghadapi penderitaan."
             ],
-            "context": "Novel pembuka ikonik yang mengangkat nama Hemingway dan mendefinisikan karakteristik *Lost Generation*."
+            "context": "Novel pembuka ikonik yang mengangkat nama Hemingway dan mendefinisikan karakteristik *Lost Generation*.",
+            "category": "Modernisme"
           },
           {
             "id": "m-125",
@@ -1882,7 +2006,8 @@ export const ROADMAP_DATA = [
               "Kekejaman Kedua Belah Pihak Perang: Hemingway tidak membuat propaganda murni — ia menggambarkan kekejaman gerilyawan republik maupun fasis secara jujur.",
               "Kepadatan Waktu Hidup: Bagaimana 3 hari yang dihidupi dengan kesadaran penuh dan kasih memiliki bobot nilai seumur hidup."
             ],
-            "context": "Novel sejarah Perang Saudara Spanyol paling epik karya Hemingway tentang ideologi, kewajiban, dan pengorbanan."
+            "context": "Novel sejarah Perang Saudara Spanyol paling epik karya Hemingway tentang ideologi, kewajiban, dan pengorbanan.",
+            "category": "Novel Perang"
           },
           {
             "id": "m-126",
@@ -1897,7 +2022,8 @@ export const ROADMAP_DATA = [
               "Penghormatan pada Alam & Musuh: Santiago mencintai dan menghormati marlin raksasa sebagai 'saudara' bahkan ketika ia harus membunuhnya.",
               "Iceberg Theory dalam Kesederhanaan: Perjuangan nelayan tua sebagai alegori perjuangan seniman dan ketahanan keberadaan manusia."
             ],
-            "context": "Novella pemenang Pulitzer Prize yang mengantarkan Hemingway meraih Nobel Prize Sastra."
+            "context": "Novella pemenang Pulitzer Prize yang mengantarkan Hemingway meraih Nobel Prize Sastra.",
+            "category": "Sastra Modern"
           },
           {
             "id": "m-127",
@@ -1912,7 +2038,8 @@ export const ROADMAP_DATA = [
               "Pelarian Cinta sebagai Benteng Terakhir: Perjuangan dua individu menciptakan ruang kedamaian di tengah dunia yang hancur oleh perang.",
               "Tragedi Nasib yang Tak Terelakkan: Kematian tragis Catherine saat melahirkan menunjukkan bahwa alam tidak peduli pada kebahagiaan manusia."
             ],
-            "context": "Novel anti-perang dan percintaan tragis paling terkenal Hemingway berdasarkan pengalaman pribadinya di perang Italia."
+            "context": "Novel anti-perang dan percintaan tragis paling terkenal Hemingway berdasarkan pengalaman pribadinya di perang Italia.",
+            "category": "Novel Perang"
           },
           {
             "id": "m-128",
@@ -1927,7 +2054,8 @@ export const ROADMAP_DATA = [
               "Tragedi Ketakutan Rasial: Ketakutan warga kulit putih memicu penindasan, dan penindasan memicu kejahatan kulit hitam dalam siklus tanpa akhir.",
               "Kasih & Pengampunan Antar-Ras: Hubungan luar biasa antara Kumalo dan James Jarvis (ayah dari korban yang dibunuh Absalom)."
             ],
-            "context": "Novel Protest sosial Afrika Selatan paling berpengaruh yang menerangi ketidakadilan sebelum berlakunya Apartheid resmi."
+            "context": "Novel Protest sosial Afrika Selatan paling berpengaruh yang menerangi ketidakadilan sebelum berlakunya Apartheid resmi.",
+            "category": "Realisme Sosial"
           },
           {
             "id": "m-129",
@@ -1942,7 +2070,8 @@ export const ROADMAP_DATA = [
               "Kerentanan & Keheningan Penebusan: Perjalanan Lurie dari kesombongan intelektual menuju kerendahan hati merawat anjing-anjing yang dieutanasia.",
               "Kompleksitas Kekerasan & Pengampunan: Penolakan Coetzee memberikan jawaban moral yang mudah atas tragedi kekerasan rasial dan historis."
             ],
-            "context": "Novel pemenang Booker Prize karya J.M. Coetzee yang membedah krisis identitas dan kekuasaan di Afrika Selatan pasca-Apartheid."
+            "context": "Novel pemenang Booker Prize karya J.M. Coetzee yang membedah krisis identitas dan kekuasaan di Afrika Selatan pasca-Apartheid.",
+            "category": "Fiksi Pascakolonial"
           },
           {
             "id": "m-130",
@@ -1957,7 +2086,8 @@ export const ROADMAP_DATA = [
               "Kebaikan Kecil Tanpa Namam (*Senseless Kindness*): Kebaikan spontan antar manusia biasa sebagai satu-satunya kekuatan yang tidak bisa ditaklukkan oleh rezim totalitarian.",
               "Stalingrad sebagai Titik Balik Kemanusiaan: Pertempuran fisik raksasa yang menentukan nasib peradaban Eropa."
             ],
-            "context": "Mahakarya novel sejarah abad ke-20 yang sempat disita KGB dan dianggap lebih berbahaya bagi Uni Soviet daripada bom atom."
+            "context": "Mahakarya novel sejarah abad ke-20 yang sempat disita KGB dan dianggap lebih berbahaya bagi Uni Soviet daripada bom atom.",
+            "category": "Novel Perang"
           },
           {
             "id": "m-131",
@@ -1972,7 +2102,8 @@ export const ROADMAP_DATA = [
               "Kemunduran Aristokrasi Tua: Transisi dari kelas Macan Tutul (*Leopards*) yang anggun menuju kelas Serigala (*Jackals*) borjuis yang pragmatis.",
               "Melankolisme & Waktu: Refleksi pangeran tua tentang penuaan, kematian, dan memudarnya kejayaan peradaban lama."
             ],
-            "context": "Novel sejarah Italia paling anggun, puitis, dan berpengaruh tentang pergeseran tatanan kelas sosial."
+            "context": "Novel sejarah Italia paling anggun, puitis, dan berpengaruh tentang pergeseran tatanan kelas sosial.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-132",
@@ -1987,7 +2118,8 @@ export const ROADMAP_DATA = [
               "Eksperimentasi Bentuk Pasca-Modern: Permainan struktur novel yang terdiri dari 10 bab pertama dari novel-novel yang tidak pernah selesai.",
               "Keinginan Tak Terpuaskan akan Cerita: Pembuktian bahwa kenikmatan membaca ada pada proses penjelajahan itu sendiri."
             ],
-            "context": "Mahakarya metafiksi pasca-modern eksperimental paling menghibur dan jenius karya Italo Calvino."
+            "context": "Mahakarya metafiksi pasca-modern eksperimental paling menghibur dan jenius karya Italo Calvino.",
+            "category": "Metafiksi"
           },
           {
             "id": "m-133",
@@ -2002,7 +2134,8 @@ export const ROADMAP_DATA = [
               "Dialog Penjelajah & Penguasa: Perbincangan antara Kublai Khan yang menguasai peta wilayah dengan Marco Polo yang memahami jiwa tempat-tempat tersebut.",
               "Arsitektur Imajinasi & Bahasa: Eksplorasi tentang bagaimana bahasa manusia berusaha menangkap keragaman realitas kota."
             ],
-            "context": "Karya meditasi arsitektur imajinasi dan bahasa paling puitis yang memengaruhi bidang sastra, arsitektur, dan sosiologi perkotaan."
+            "context": "Karya meditasi arsitektur imajinasi dan bahasa paling puitis yang memengaruhi bidang sastra, arsitektur, dan sosiologi perkotaan.",
+            "category": "Fiksi Filosofis"
           },
           {
             "id": "m-134",
@@ -2017,7 +2150,8 @@ export const ROADMAP_DATA = [
               "Bahaya Penindasan Kebenaran & Humor: Rahasia perpustakaan yang menyembunyikan komedi Aristotle yang hilang karena ketakutan bahwa tertawa akan menghancurkan rasa takut pada Tuhan.",
               "Konflik Teologi Abad Pertengahan: Perdebatan politik antara kemewahan Gereja Katolik lawan gerakan kemiskinan Fransiskan."
             ],
-            "context": "Novel misteri sejarah dan semiotika terpenting karya pakar semiotika Umberto Eco yang terjual puluhan juta eksemplar."
+            "context": "Novel misteri sejarah dan semiotika terpenting karya pakar semiotika Umberto Eco yang terjual puluhan juta eksemplar.",
+            "category": "Novel Sejarah & Semiotika"
           },
           {
             "id": "m-135",
@@ -2032,7 +2166,8 @@ export const ROADMAP_DATA = [
               "Satu-satunya Mata yang Melihat: Istri sang dokter — satu-satunya orang yang tidak buta — menanggung beban menyaksikan kekejaman dan menjadi pemandu moral kelompoknya.",
               "Alegori Kebutaan Moral: Saramago menunjukkan bahwa manusia sebenarnya 'tidak buta, kita adalah orang-orang yang melihat tetapi tidak mau melihat kejahatan di sekitar.'"
             ],
-            "context": "Alegori pemenang Nobel Prize karya José Saramago tentang keruntuhan tatanan sosial dan Kebutaan moral masyarakat modern."
+            "context": "Alegori pemenang Nobel Prize karya José Saramago tentang keruntuhan tatanan sosial dan Kebutaan moral masyarakat modern.",
+            "category": "Fiksi Alegoris"
           },
           {
             "id": "m-136",
@@ -2047,7 +2182,8 @@ export const ROADMAP_DATA = [
               "Drum Kaleng sebagai Suara Saksi Kritis: Tabuhan drum Oskar membongkar hipokrisi dan rasa bersalah Jerman pasca-Perang Dunia II.",
               "Gaya Realisme Grotesk: Penggabungan elemen dongeng ajaib dengan rincian sejarah kelam Holocaust dan pengeboman Danzig."
             ],
-            "context": "Novel paling berpengaruh Jerman pasca-Perang Dunia II yang menghantarkan Günter Grass meraih Nobel Prize Sastra."
+            "context": "Novel paling berpengaruh Jerman pasca-Perang Dunia II yang menghantarkan Günter Grass meraih Nobel Prize Sastra.",
+            "category": "Realisme Magis"
           },
           {
             "id": "m-137",
@@ -2062,7 +2198,8 @@ export const ROADMAP_DATA = [
               "Integrasi Foto Asli dalam Prosa Fiksi: Sebald menyelingi teksnya dengan foto-foto hitam-putih arsitektur, benda tua, dan wajah tanpa nama untuk memperkuat rasa duka sejarah.",
               "Arsitektur sebagai Saksi Bisung Sejarah: Stasiun kereta api, benteng, dan gedung raksasa Eropa sebagai monumen ingatan penderitaan manusia."
             ],
-            "context": "Mahakarya prosa memori, arsitektur kesadaran, dan trauma sejarah paling dipuji pada awal abad ke-21."
+            "context": "Mahakarya prosa memori, arsitektur kesadaran, dan trauma sejarah paling dipuji pada awal abad ke-21.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-138",
@@ -2077,7 +2214,8 @@ export const ROADMAP_DATA = [
               "Fenomena Mesianisme & Heresi: Bagaimana kerinduan rakyat akan pembebasan melahirkan pemimpin sekte yang meruntuhkan batasan ortodoksi agama.",
               "Prosa Epik Lintas Perspektif: Tokarczuk menceritakan sejarah dari kacamata puluhan tokoh — dari nenek tua Yente hingga pejabat istana."
             ],
-            "context": "Mahakarya epik sejarah kontemporer yang diakui sebagai puncak pencapaian pemenang Nobel Prize Olga Tokarczuk."
+            "context": "Mahakarya epik sejarah kontemporer yang diakui sebagai puncak pencapaian pemenang Nobel Prize Olga Tokarczuk.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-139",
@@ -2092,7 +2230,8 @@ export const ROADMAP_DATA = [
               "Pencegahan Kutukan & Pencarian Identitas: Perjalanan Kafka Tamura menelusuri perpustakaan di Takamatsu sebagai proses pendewasaan jiwa.",
               "Dunia Pararel & Ruang Bawah Sadar: Konsep 'batu pembuka' yang menghubungkan dunia nyata dengan dimensi arwah dan memori tersembunyi."
             ],
-            "context": "Novel realisme magis paling populer dan kompleks karya Haruki Murakami yang mendunia."
+            "context": "Novel realisme magis paling populer dan kompleks karya Haruki Murakami yang mendunia.",
+            "category": "Realisme Magis"
           },
           {
             "id": "m-140",
@@ -2107,7 +2246,8 @@ export const ROADMAP_DATA = [
               "Dualitas Tarikan Jiwa (Naoko vs Midori): Naoko mewakili keterikatan pada masa lalu dan duka kematian; Midori mewakili kehidupan, kehangatan masa kini, dan masa depan.",
               "Nostalgia & Musik: Lagu Beatles *Norwegian Wood* sebagai trigger memori puitis tentang masa muda yang hilang."
             ],
-            "context": "Novel realisme melankolis paling personal yang meledakkan popularitas Haruki Murakami di tingkat internasional."
+            "context": "Novel realisme melankolis paling personal yang meledakkan popularitas Haruki Murakami di tingkat internasional.",
+            "category": "Fiksi Psikologis"
           },
           {
             "id": "m-141",
@@ -2122,7 +2262,8 @@ export const ROADMAP_DATA = [
               "Dosa Sejarah & Kejahatan Politik (Noboru Wataya): Kakak Kumiko yang karismatis di media sebagai personifikasi kejahatan manipulatif politik Jepang.",
               "Labirin Memori & Penyelamatan Jiwa: Perjuangan individu biasa menembus kegelapan bawah sadar demi menyelamatkan jiwa orang yang dicintai."
             ],
-            "context": "Novel terbesar, paling ambisius, dan paling menyeluruh karya Haruki Murakami tentang sejarah dan psikologi bawah sadar."
+            "context": "Novel terbesar, paling ambisius, dan paling menyeluruh karya Haruki Murakami tentang sejarah dan psikologi bawah sadar.",
+            "category": "Realisme Magis"
           },
           {
             "id": "m-142",
@@ -2137,7 +2278,8 @@ export const ROADMAP_DATA = [
               "Transisi Era Meiji Jepang: Pergeseran nilai-nilai Jepang dari komitmen etika feodal kuno menuju individualisme dan keterasingan modern.",
               "Kesepian Manusia Modern (*Kokoro* / Hati): Ketidakmampuan manusia untuk saling membuka isi hati secara utuh bahkan kepada orang terdekat."
             ],
-            "context": "Novel klasik terbesar sastra Jepang modern yang membedah krisis eksistensial, kesepian, dan moralitas era Meiji."
+            "context": "Novel klasik terbesar sastra Jepang modern yang membedah krisis eksistensial, kesepian, dan moralitas era Meiji.",
+            "category": "Fiksi Psikologis"
           },
           {
             "id": "m-143",
@@ -2152,7 +2294,8 @@ export const ROADMAP_DATA = [
               "Hubungan Tanpa Kepastian & Kesia-siaan (*Wasted Effort*): Shimamura yang menyukai Komako tetapi menolak berkomitmen emosional murni secara nyata.",
               "Keindahan dalam Ketidakabadian: Puncak adegan kebakaran di akhir novel sebagai simbol keindahan tragis yang terbakar di langit malam."
             ],
-            "context": "Mahakarya estetika puitis karya peraih Nobel Prize Sastra pertama Jepang yang mendefinisikan jiwa kecantikan tradisional."
+            "context": "Mahakarya estetika puitis karya peraih Nobel Prize Sastra pertama Jepang yang mendefinisikan jiwa kecantikan tradisional.",
+            "category": "Sastra Jepang Klasik"
           },
           {
             "id": "m-144",
@@ -2167,7 +2310,8 @@ export const ROADMAP_DATA = [
               "Keputusasaan & Kehancuran Generasi Muda (Naoji): Kehilangan kompas moral dan kegagalan beradaptasi dengan dunia baru yang kasar.",
               "Keberanian Bertahan Hidup Kazuko: Penolakan untuk mati pasrah — Kazuko memilih menjadi 'revolusioner' dengan melahirkan kehidupan baru di tengah reruntuhan."
             ],
-            "context": "Potret paling jujur, puitis, dan menyentuh tentang krisis moral dan kemunduran tatanan masyarakat Jepang pasca-Perang Dunia II."
+            "context": "Potret paling jujur, puitis, dan menyentuh tentang krisis moral dan kemunduran tatanan masyarakat Jepang pasca-Perang Dunia II.",
+            "category": "Fiksi Eksistensial"
           },
           {
             "id": "m-145",
@@ -2182,7 +2326,8 @@ export const ROADMAP_DATA = [
               "Topeng Badut Sosial (*Piawaisme*): Penggunaan kepura-puraan lucu sebagai mekanisme pertahanan diri dari ketakutan akan penilaian orang lain.",
               "Kehancuran Jiwa & Kejujuran Radikal: Dazai merekam keputusasaan eksistensialnya sendiri beberapa bulan sebelum ia mengakhiri hidupnya."
             ],
-            "context": "Novel klasik Jepang kedua yang paling laris sepanjang masa dan menjadi teks manifes alienasi eksistensial pemuda."
+            "context": "Novel klasik Jepang kedua yang paling laris sepanjang masa dan menjadi teks manifes alienasi eksistensial pemuda.",
+            "category": "Fiksi Eksistensial"
           },
           {
             "id": "m-146",
@@ -2197,7 +2342,8 @@ export const ROADMAP_DATA = [
               "Dilema *Fumie* (Murtad Lahiriah): Rodrigues dipaksa menginjak gambar Kristus (*Fumie*) bukan demi menyelamatkan dirinya, tapi demi menghentikan siksaan tahanan lain.",
               "Kristus yang Mengabdi pada Penderitaan: Kesadaran baru bahwa Kristus mengizinkan Rodrigues menginjak gambarnya demi belas kasih menghentikan rasa sakit sesama."
             ],
-            "context": "Novel teologi, iman, dan penderitaan eksistensial terbaik dari Jepang karya sastrawan Katolik terkemuka Shūsaku Endō."
+            "context": "Novel teologi, iman, dan penderitaan eksistensial terbaik dari Jepang karya sastrawan Katolik terkemuka Shūsaku Endō.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-147",
@@ -2212,7 +2358,8 @@ export const ROADMAP_DATA = [
               "Struktur Cerita di Dalam Cerita (*Frame Narrative*): Konstruksi narasi melingkar yang kaya akan petualangan (Sinbad, Aladdin, Ali Baba), keajaiban, dan satire.",
               "Peta Sosiologis Zaman Keemasan Islam: Gambaran kaya tentang perdagangan, budaya perkotaan Baghdad dan Kairo, serta pandangan moralitas masyarakat."
             ],
-            "context": "Kumpulan cerita rakyat paling ikonik dan berpengaruh dalam sastra dunia yang menginspirasi teknik bercerita Barat dan Timur."
+            "context": "Kumpulan cerita rakyat paling ikonik dan berpengaruh dalam sastra dunia yang menginspirasi teknik bercerita Barat dan Timur.",
+            "category": "Fabel & Mitos"
           },
           {
             "id": "m-148",
@@ -2227,7 +2374,8 @@ export const ROADMAP_DATA = [
               "Dua Identitas Terbelah Pasca-Kolonial: Keterasingan intelektual yang tidak lagi bisa sepenuhnya kembali ke budaya desa asal dan tidak diterima di Barat.",
               "Tragedi Kekerasan Budaya: Kembalinya kegelapan dan tragedi pembunuhan di tepi Sungai Nil sebagai akibat benturan budaya."
             ],
-            "context": "Novel Arab terbaik abad ke-20 menurut Persatuan Penulis Arab yang membalikkan narasi kolonialisme Joseph Conrad."
+            "context": "Novel Arab terbaik abad ke-20 menurut Persatuan Penulis Arab yang membalikkan narasi kolonialisme Joseph Conrad.",
+            "category": "Fiksi Pascakolonial"
           },
           {
             "id": "m-149",
@@ -2242,7 +2390,8 @@ export const ROADMAP_DATA = [
               "Pencarian Spiritual & Kerendahan Hati: Clarence harus melepaskan seluruh kesombongan rasial dan prasangka Eropa untuk dapat merasakan kehadiran keagungan spiritual.",
               "Gaya Kafkaesque Afrika: Penggunaan atmosfer surealis, mimpi, dan labirin budaya untuk menceritakan pencarian pembersihan jiwa."
             ],
-            "context": "Novel alegori spiritual Afrika paling orisinal dan unik yang membalikkan seluruh tropus sastra kolonialisme Eropa."
+            "context": "Novel alegori spiritual Afrika paling orisinal dan unik yang membalikkan seluruh tropus sastra kolonialisme Eropa.",
+            "category": "Fiksi Pascakolonial"
           },
           {
             "id": "m-150",
@@ -2257,7 +2406,8 @@ export const ROADMAP_DATA = [
               "Kerentanan Kelas & Hak Istimewa: Bagaimana kekayaan dan pendidikan tinggi tidak mampu melindungi siapapun dari kekejaman perang murni.",
               "Kutukan Penulisan Sejarah Afrika: Pertanyaan tentang siapa yang berhak menceritakan tragedi Afrika — orang asing atau rakyat yang mengalaminya."
             ],
-            "context": "Novel sejarah Afrika kontemporer pemenang Orange Prize yang dipuji sebagai salah satu mahakarya sastra abad ke-21."
+            "context": "Novel sejarah Afrika kontemporer pemenang Orange Prize yang dipuji sebagai salah satu mahakarya sastra abad ke-21.",
+            "category": "Novel Sejarah"
           },
           {
             "id": "m-151",
@@ -2272,7 +2422,8 @@ export const ROADMAP_DATA = [
               "Kritik Konformitas Ideologi Rasial: Pembongkaran terhadap tokoh-tokoh hak sipil komersialis dan akademisi kulit hitam yang memanfaatkan isu ras demi keuntungan pribadi.",
               "Gaya Prosa Cerdas & Cepat: Keahlian Beatty mencampur komedi pop-culture, sosiologi, dan referensi sastra klasik dalam tempo tinggi."
             ],
-            "context": "Novel Amerika pertama yang memenangkan Man Booker Prize yang dipuji sebagai satire politik paling berani abad ke-21."
+            "context": "Novel Amerika pertama yang memenangkan Man Booker Prize yang dipuji sebagai satire politik paling berani abad ke-21.",
+            "category": "Satire Politik"
           }
         ]
       }

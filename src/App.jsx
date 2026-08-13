@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ROADMAP_DATA } from './data/roadmapData';
 import Header from './components/Header';
-import PhaseNav from './components/PhaseNav';
 import PhaseSection from './components/PhaseSection';
 import Footer from './components/Footer';
 import { ArrowUp, CheckCircle } from 'lucide-react';
@@ -113,7 +112,7 @@ export default function App() {
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(doneState, null, 2));
     const downloadAnchor = document.createElement('a');
     downloadAnchor.setAttribute("href", dataStr);
-    downloadAnchor.setAttribute("download", `peta-realitas-progress-${new Date().toISOString().slice(0, 10)}.json`);
+    downloadAnchor.setAttribute("download", `masterworks-progress-${new Date().toISOString().slice(0, 10)}.json`);
     document.body.appendChild(downloadAnchor);
     downloadAnchor.click();
     downloadAnchor.remove();
@@ -205,13 +204,6 @@ export default function App() {
         isAllExpanded={isAllExpanded}
         onToggleExpandAll={handleToggleExpandAll}
         onExport={handleExport}
-      />
-
-      <PhaseNav
-        phases={ROADMAP_DATA}
-        activePhaseId={activePhaseId}
-        onSelectPhase={handleSelectPhase}
-        phaseStats={phaseStats}
       />
 
       <main id="phaseContainer">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { BookOpen, Sparkles, Landmark } from 'lucide-react';
 
 export default function BookRow({
   book,
@@ -22,6 +23,16 @@ export default function BookRow({
         part
       )
     );
+  };
+
+  // Helper to format year (handles negative numbers like -800 to "800 SM")
+  const formatYear = (yearVal) => {
+    if (yearVal === null || yearVal === undefined) return '';
+    const num = Number(yearVal);
+    if (!isNaN(num) && num < 0) {
+      return `${Math.abs(num)} SM`;
+    }
+    return `${yearVal}`;
   };
 
   return (
@@ -55,13 +66,11 @@ export default function BookRow({
             <div className="book-meta">
               <span>{highlightText(book.author)}</span>
               <span className="dot">·</span>
-              <span>{book.year}</span>
+              <span>{formatYear(book.year)}</span>
               <span className="dot">·</span>
               <span>{book.pages} hlm</span>
               <span className="dot">·</span>
-              <span className={`type-text ${book.type || 'non-fiction'}`}>
-                {book.type === 'fiction' ? 'Fiksi' : 'Non-Fiksi'}
-              </span>
+              <span>{book.category || (book.type === 'fiction' ? 'Fiksi' : 'Non-Fiksi')}</span>
             </div>
           </div>
 
@@ -90,7 +99,7 @@ export default function BookRow({
             {/* Gagasan Utama */}
             <div className="desc-block">
               <div className="desc-label">
-                <span className="desc-icon">📖</span>
+                <BookOpen size={13} className="desc-icon" />
                 <span>Gagasan Utama & Sintesis</span>
               </div>
               <p className="desc-main-text">{highlightText(book.desc)}</p>
@@ -100,7 +109,7 @@ export default function BookRow({
             {book.takeaways && book.takeaways.length > 0 && (
               <div className="desc-block">
                 <div className="desc-label">
-                  <span className="desc-icon">✦</span>
+                  <Sparkles size={13} className="desc-icon" />
                   <span>Poin Kunci & Wawasan Filosofis</span>
                 </div>
                 <ul className="takeaways-list">
@@ -118,7 +127,7 @@ export default function BookRow({
             {book.context && (
               <div className="desc-block context-block">
                 <div className="desc-label">
-                  <span className="desc-icon">🏛️</span>
+                  <Landmark size={13} className="desc-icon" />
                   <span>Konteks Sejarah & Relevansi Intelektual</span>
                 </div>
                 <p className="desc-context-text">{highlightText(book.context)}</p>

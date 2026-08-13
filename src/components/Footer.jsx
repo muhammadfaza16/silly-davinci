@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <div className="foot">
-      <strong>Cara pakai:</strong> centang buku yang udah kelar dibaca — progress tersimpan otomatis di browser (localStorage). Fase 0 (Komunikasi) sengaja ditaruh di depan karena jadi alat buat mencerna & mentransfer 6 fase peta realitas berikutnya.
+      <strong>Cara pakai:</strong> centang buku yang sudah selesai dibaca — progress tersimpan otomatis di browser (localStorage). Jelajahi 150 mahakarya klasik dan filsafat dunia secara mandiri.
     </div>
   );
 }

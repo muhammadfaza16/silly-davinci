@@ -1552,6 +1552,7 @@ const roadmapData = [
         label: "Katalog 150 Karya Klasik Utama",
         books: masterBooks.map((b, idx) => ({
           id: `m-${idx + 1}`,
+          category: b.category,
           type: b.type,
           title: b.title,
           author: b.author,

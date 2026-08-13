@@ -16,12 +16,12 @@ export default function Header({
 
   return (
     <header>
-      <div className="eyebrow">Kurikulum Literasi Kognitif & Realitas</div>
+      <div className="eyebrow">Katalog Masterwork Sastra & Filsafat</div>
       <h1>
-        Peta Realitas & <em>Artikulasi Pikiran</em>
+        150 Masterworks & <em>Artikulasi Pikiran</em>
       </h1>
       <p className="sub">
-        Kurikulum membaca terstruktur untuk mengasah ketajaman berpikir, presisi bahasa, serta pemahaman komprehensif atas sains, peradaban, dan kondisi manusia.
+        Katalog kurasi 150 mahakarya klasik sastra, filsafat, dan pemikiran peradaban dunia untuk mengasah ketajaman intelektual, presisi bahasa, serta wawasan komprehensif.
       </p>
 
       {/* Progress summary */}
