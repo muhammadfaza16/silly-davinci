@@ -16,12 +16,12 @@ export default function Header({
 
   return (
     <header>
-      <div className="eyebrow">Katalog Masterwork Sastra & Filsafat</div>
+      <div className="eyebrow">Katalog Bacaan Esensial Peradaban</div>
       <h1>
-        150 Masterworks & <em>Artikulasi Pikiran</em>
+        150 Mahakarya <em>Dunia</em>
       </h1>
       <p className="sub">
-        Katalog kurasi 150 mahakarya klasik sastra, filsafat, dan pemikiran peradaban dunia untuk mengasah ketajaman intelektual, presisi bahasa, serta wawasan komprehensif.
+        Kurasi 150 karya paling berpengaruh dalam sejarah sastra, filsafat, sains, dan pemikiran peradaban manusia — dipilih tanpa batasan era, genre, maupun tradisi.
       </p>
 
       {/* Progress summary */}
