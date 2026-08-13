@@ -4,7 +4,7 @@ export const ROADMAP_DATA = [
     "tag": "150 MASTERWORKS",
     "tagClass": "comm",
     "title": "Katalog Masterwork Klasik & Filsafat",
-    "note": "Daftar Terbuka 150 Karya Utama Dunia Tanpa Limitasi Fase",
+    "note": "Daftar Terbuka 150 Karya Utama Peradaban Dunia",
     "sections": [
       {
         "label": "Katalog 150 Karya Klasik Utama",
