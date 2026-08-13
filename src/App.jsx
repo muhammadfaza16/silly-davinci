@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ROADMAP_DATA } from './data/roadmapData';
 import Header from './components/Header';
+import PhaseNav from './components/PhaseNav';
 import PhaseSection from './components/PhaseSection';
 import Footer from './components/Footer';
 import { ArrowUp, CheckCircle } from 'lucide-react';
@@ -204,6 +205,13 @@ export default function App() {
         isAllExpanded={isAllExpanded}
         onToggleExpandAll={handleToggleExpandAll}
         onExport={handleExport}
+      />
+
+      <PhaseNav
+        phases={ROADMAP_DATA}
+        activePhaseId={activePhaseId}
+        onSelectPhase={handleSelectPhase}
+        phaseStats={phaseStats}
       />
 
       <main id="phaseContainer">

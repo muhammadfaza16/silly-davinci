@@ -66,11 +66,11 @@ export default function BookRow({
             <div className="book-meta">
               <span>{highlightText(book.author)}</span>
               <span className="dot">·</span>
+              <span>{book.category || (book.type === 'fiction' ? 'Fiksi' : 'Non-Fiksi')}</span>
+              <span className="dot">·</span>
               <span>{formatYear(book.year)}</span>
               <span className="dot">·</span>
               <span>{book.pages} hlm</span>
-              <span className="dot">·</span>
-              <span>{book.category || (book.type === 'fiction' ? 'Fiksi' : 'Non-Fiksi')}</span>
             </div>
           </div>
 
